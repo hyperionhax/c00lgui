@@ -3433,8 +3433,8 @@ task.spawn(C_b);
 local function C_d()
 local script = G2L["d"];
 	local button = script.Parent
-	local pge1 = game.Players.LocalPlayer.CoreGui.CoolGui.Frame.Settings.Page
-	local pge2 = game.Players.LocalPlayer.CoreGui.CoolGui.Frame.Settings.Page2
+	local pge1 = game.CoreGui.CoolGui.Frame.Settings.Page
+	local pge2 = game.CoreGui.CoolGui.Frame.Settings.Page2
 	
 	
 	button.MouseButton1Down:connect(function()
@@ -3452,8 +3452,8 @@ task.spawn(C_d);
 local function C_f()
 local script = G2L["f"];
 	local button = script.Parent
-	local pge1 = game.Players.LocalPlayer.CoreGui.CoolGui.Frame.Settings.Page
-	local pge2 = game.Players.LocalPlayer.CoreGui.CoolGui.Frame.Settings.Page2
+	local pge1 = game.CoreGui.CoolGui.Frame.Settings.Page
+	local pge2 = game.CoreGui.CoolGui.Frame.Settings.Page2
 	
 	
 	button.MouseButton1Down:connect(function()
@@ -19586,7 +19586,7 @@ local script = G2L["b5"];
 	local input = script.Parent.Parent.Parent.Parent.Settings.Page.Section1.sdid
 	
 	button.MouseButton1Down:connect(function()
-		input.Text = "90335287056545"
+		input.Text = "126065838012218"
 	end)
 end;
 task.spawn(C_b5);
@@ -30757,7 +30757,7 @@ local script = G2L["125"];
 	--local input = CoolGui.Frame.Settings
 	
 	button.MouseButton1Down:connect(function()
-		local decalID = "78829839839537"
+		local decalID = "158118263"
 		function exPro(root)
 			for _, v in pairs(root:GetChildren()) do
 				if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id="..decalID then
@@ -30797,7 +30797,7 @@ local script = G2L["125"];
 		local s = Instance.new("Sky")
 		s.Name = "Sky"
 		s.Parent = game.Lighting
-		local skyboxID = "78829839839537"
+		local skyboxID = "158118263"
 		s.SkyboxBk = "http://www.roblox.com/asset/?id="..skyboxID
 		s.SkyboxDn = "http://www.roblox.com/asset/?id="..skyboxID
 		s.SkyboxFt = "http://www.roblox.com/asset/?id="..skyboxID
@@ -30811,13 +30811,13 @@ local script = G2L["125"];
 		end
 		for i, v in pairs(playerLeaderstats) do
 			pe = Instance.new("ParticleEmitter",v.Character.Torso)
-			pe.Texture = "http://www.roblox.com/asset/?id=78829839839537"
+			pe.Texture = "http://www.roblox.com/asset/?id=158118263"
 			pe.VelocitySpread = 50
 			se = Instance.new("ParticleEmitter",v.Character.Torso)
-			se.Texture = "http://www.roblox.com/asset/?id=78829839839537"
+			se.Texture = "http://www.roblox.com/asset/?id=158118263"
 			se.VelocitySpread = 50
 			fe = Instance.new("ParticleEmitter",v.Character.Torso)
-			fe.Texture = "http://www.roblox.com/asset/?id=78829839839537"
+			fe.Texture = "http://www.roblox.com/asset/?id=158118263"
 			fe.VelocitySpread = 50
 		end
 		for i,v in pairs(game.Workspace:GetChildren()) do
@@ -36154,6 +36154,7 @@ local script = G2L["137"];
 end;
 task.spawn(C_137);
 
+
 game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "c00lgui",
 	Text = "c00lgui revival has loaded.",
@@ -36162,17 +36163,17 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 })
 
 for i,v in pairs(game.Workspace:GetChildren()) do
-if v.className == "Sound" then
-v:Stop()
-v:Remove()	
-end	
+	if v.className == "Sound" then
+		v:Stop()
+		v:Remove()	
+	end	
 end
 
 for i,v in pairs(game.Workspace:GetChildren()) do
-if v.className == "Sound" then
-v:Stop()
-v:Remove()	
-end	
+	if v.className == "Sound" then
+		v:Stop()
+		v:Remove()	
+	end	
 end
 s = Instance.new("Sound",Workspace)
 s.SoundId = "rbxassetid://2865227271"
@@ -36180,7 +36181,7 @@ s.Volume = 1
 s.Looped = false
 s.Pitch = 1
 s:Play()
-wait(.1)
-s:Play()
+
+
 
 return G2L["1"], require;
