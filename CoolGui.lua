@@ -187,7 +187,7 @@ G2L["11"]["Name"] = [[Page]];
 G2L["12"] = Instance.new("TextLabel", G2L["11"]);
 G2L["12"]["ZIndex"] = 2;
 G2L["12"]["BorderSizePixel"] = 3;
-G2L["12"]["TextSize"] = 14;
+G2L["12"]["TextSize"] = 18;
 G2L["12"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["12"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["12"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
@@ -211,7 +211,6 @@ G2L["13"]["Name"] = [[Section2]];
 
 -- StarterGui.CoolGui.Frame.Settings.Page.Section2.vicid
 G2L["14"] = Instance.new("TextBox", G2L["13"]);
-G2L["14"]["CursorPosition"] = -1;
 G2L["14"]["Name"] = [[vicid]];
 G2L["14"]["BorderSizePixel"] = 3;
 G2L["14"]["TextSize"] = 14;
@@ -240,7 +239,6 @@ G2L["15"]["Text"] = [[1]];
 
 -- StarterGui.CoolGui.Frame.Settings.Page.Section2.bgid
 G2L["16"] = Instance.new("TextBox", G2L["13"]);
-G2L["16"]["CursorPosition"] = -1;
 G2L["16"]["Name"] = [[bgid]];
 G2L["16"]["BorderSizePixel"] = 3;
 G2L["16"]["TextSize"] = 14;
@@ -366,7 +364,6 @@ G2L["1f"]["Text"] = [[89243526849526]];
 
 -- StarterGui.CoolGui.Frame.Settings.Page.Section1.mid
 G2L["20"] = Instance.new("TextBox", G2L["1d"]);
-G2L["20"]["CursorPosition"] = -1;
 G2L["20"]["Name"] = [[mid]];
 G2L["20"]["BorderSizePixel"] = 3;
 G2L["20"]["TextSize"] = 14;
@@ -428,7 +425,6 @@ G2L["24"] = Instance.new("LocalScript", G2L["23"]);
 
 -- StarterGui.CoolGui.Frame.Settings.Page.Section1.reid
 G2L["25"] = Instance.new("TextBox", G2L["1d"]);
-G2L["25"]["CursorPosition"] = -1;
 G2L["25"]["Name"] = [[reid]];
 G2L["25"]["BorderSizePixel"] = 3;
 G2L["25"]["TextSize"] = 14;
@@ -486,7 +482,7 @@ G2L["28"]["Name"] = [[Page2]];
 G2L["29"] = Instance.new("TextLabel", G2L["28"]);
 G2L["29"]["ZIndex"] = 3;
 G2L["29"]["BorderSizePixel"] = 3;
-G2L["29"]["TextSize"] = 14;
+G2L["29"]["TextSize"] = 18;
 G2L["29"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["29"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["29"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
@@ -510,7 +506,6 @@ G2L["2a"]["Name"] = [[Section2]];
 
 -- StarterGui.CoolGui.Frame.Settings.Page2.Section2.nameid
 G2L["2b"] = Instance.new("TextBox", G2L["2a"]);
-G2L["2b"]["CursorPosition"] = -1;
 G2L["2b"]["Name"] = [[nameid]];
 G2L["2b"]["BorderSizePixel"] = 3;
 G2L["2b"]["TextSize"] = 14;
@@ -525,7 +520,6 @@ G2L["2b"]["Text"] = [[God]];
 
 -- StarterGui.CoolGui.Frame.Settings.Page2.Section2.spamid
 G2L["2c"] = Instance.new("TextBox", G2L["2a"]);
-G2L["2c"]["CursorPosition"] = -1;
 G2L["2c"]["Name"] = [[spamid]];
 G2L["2c"]["BorderSizePixel"] = 3;
 G2L["2c"]["TextSize"] = 14;
@@ -540,7 +534,6 @@ G2L["2c"]["Text"] = [[join team c00lkidd!]];
 
 -- StarterGui.CoolGui.Frame.Settings.Page2.Section2.jumpid
 G2L["2d"] = Instance.new("TextBox", G2L["2a"]);
-G2L["2d"]["CursorPosition"] = -1;
 G2L["2d"]["Name"] = [[jumpid]];
 G2L["2d"]["BorderSizePixel"] = 3;
 G2L["2d"]["TextSize"] = 14;
@@ -610,7 +603,6 @@ G2L["31"]["Position"] = UDim2.new(0, 0, 0.67347, 0);
 
 -- StarterGui.CoolGui.Frame.Settings.Page2.Section2.gravid
 G2L["32"] = Instance.new("TextBox", G2L["2a"]);
-G2L["32"]["CursorPosition"] = -1;
 G2L["32"]["Name"] = [[gravid]];
 G2L["32"]["BorderSizePixel"] = 3;
 G2L["32"]["TextSize"] = 14;
@@ -746,7 +738,6 @@ G2L["3b"]["Text"] = [[255]];
 
 -- StarterGui.CoolGui.Frame.Settings.Page2.Section1.bee
 G2L["3c"] = Instance.new("TextBox", G2L["33"]);
-G2L["3c"]["CursorPosition"] = -1;
 G2L["3c"]["Name"] = [[bee]];
 G2L["3c"]["BorderSizePixel"] = 3;
 G2L["3c"]["TextSize"] = 14;
@@ -790,7 +781,7 @@ G2L["3e"]["Name"] = [[Page2]];
 G2L["3f"] = Instance.new("TextLabel", G2L["3e"]);
 G2L["3f"]["ZIndex"] = 3;
 G2L["3f"]["BorderSizePixel"] = 3;
-G2L["3f"]["TextSize"] = 14;
+G2L["3f"]["TextSize"] = 18;
 G2L["3f"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["3f"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["3f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
@@ -951,7 +942,7 @@ G2L["4e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["4e"]["Size"] = UDim2.new(0.475, 0, 0, 30);
 G2L["4e"]["Name"] = [[Button]];
 G2L["4e"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["4e"]["Text"] = [[Draw3D]];
+G2L["4e"]["Text"] = [[Draw Tool]];
 G2L["4e"]["Position"] = UDim2.new(0, 0, 0, 132);
 
 
@@ -1289,7 +1280,7 @@ G2L["70"]["Name"] = [[Page3]];
 G2L["71"] = Instance.new("TextLabel", G2L["70"]);
 G2L["71"]["ZIndex"] = 3;
 G2L["71"]["BorderSizePixel"] = 3;
-G2L["71"]["TextSize"] = 14;
+G2L["71"]["TextSize"] = 18;
 G2L["71"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["71"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["71"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
@@ -1413,7 +1404,7 @@ G2L["7c"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["7c"]["Name"] = [[Button]];
 G2L["7c"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
 G2L["7c"]["Text"] = [[Bring Player (Client)]];
-G2L["7c"]["Position"] = UDim2.new(0, -1, 0, 99);
+G2L["7c"]["Position"] = UDim2.new(0, 0, 0, 99);
 
 
 -- StarterGui.CoolGui.Frame.Page3.Section2.Button.LocalScript
@@ -1495,8 +1486,8 @@ G2L["84"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["84"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["84"]["Name"] = [[Button]];
 G2L["84"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["84"]["Text"] = [[Disco Character]];
-G2L["84"]["Position"] = UDim2.new(0, 0, 0, 66);
+G2L["84"]["Text"] = [[Create Platform]];
+G2L["84"]["Position"] = UDim2.new(0, 0, 0, 99);
 
 
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button.LocalScript
@@ -1514,8 +1505,8 @@ G2L["86"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["86"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["86"]["Name"] = [[Button]];
 G2L["86"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["86"]["Text"] = [[Set Platform]];
-G2L["86"]["Position"] = UDim2.new(0, 0, 0, 99);
+G2L["86"]["Text"] = [[Floating Pad]];
+G2L["86"]["Position"] = UDim2.new(0, 0, 0, 132);
 
 
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button.LocalScript
@@ -1533,8 +1524,8 @@ G2L["88"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["88"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["88"]["Name"] = [[Button]];
 G2L["88"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["88"]["Text"] = [[Floating Pad]];
-G2L["88"]["Position"] = UDim2.new(0, 0, 0, 132);
+G2L["88"]["Text"] = [[Set Reach]];
+G2L["88"]["Position"] = UDim2.new(0, 0, 0, 165);
 
 
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button.LocalScript
@@ -1544,6 +1535,7 @@ G2L["89"] = Instance.new("LocalScript", G2L["88"]);
 
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button
 G2L["8a"] = Instance.new("TextButton", G2L["80"]);
+G2L["8a"]["TextWrapped"] = true;
 G2L["8a"]["BorderSizePixel"] = 3;
 G2L["8a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["8a"]["TextSize"] = 14;
@@ -1552,8 +1544,8 @@ G2L["8a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["8a"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["8a"]["Name"] = [[Button]];
 G2L["8a"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["8a"]["Text"] = [[Set Reach]];
-G2L["8a"]["Position"] = UDim2.new(0, 0, 0, 165);
+G2L["8a"]["Text"] = [[Play Animation]];
+G2L["8a"]["Position"] = UDim2.new(0, 0, 0, 198);
 
 
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button.LocalScript
@@ -1563,7 +1555,6 @@ G2L["8b"] = Instance.new("LocalScript", G2L["8a"]);
 
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button
 G2L["8c"] = Instance.new("TextButton", G2L["80"]);
-G2L["8c"]["TextWrapped"] = true;
 G2L["8c"]["BorderSizePixel"] = 3;
 G2L["8c"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["8c"]["TextSize"] = 14;
@@ -1572,8 +1563,8 @@ G2L["8c"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["8c"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["8c"]["Name"] = [[Button]];
 G2L["8c"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["8c"]["Text"] = [[Play Animation]];
-G2L["8c"]["Position"] = UDim2.new(0, 0, 0, 198);
+G2L["8c"]["Text"] = [[Chicken Arms]];
+G2L["8c"]["Position"] = UDim2.new(0, 73, 0, 66);
 
 
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button.LocalScript
@@ -1583,6 +1574,7 @@ G2L["8d"] = Instance.new("LocalScript", G2L["8c"]);
 
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button
 G2L["8e"] = Instance.new("TextButton", G2L["80"]);
+G2L["8e"]["TextWrapped"] = true;
 G2L["8e"]["BorderSizePixel"] = 3;
 G2L["8e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["8e"]["TextSize"] = 14;
@@ -1591,8 +1583,8 @@ G2L["8e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["8e"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["8e"]["Name"] = [[Button]];
 G2L["8e"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["8e"]["Text"] = [[Chicken Arms]];
-G2L["8e"]["Position"] = UDim2.new(0, 73, 0, 66);
+G2L["8e"]["Text"] = [[Set JumpPower]];
+G2L["8e"]["Position"] = UDim2.new(0, 73, 0, 99);
 
 
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button.LocalScript
@@ -1602,7 +1594,6 @@ G2L["8f"] = Instance.new("LocalScript", G2L["8e"]);
 
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button
 G2L["90"] = Instance.new("TextButton", G2L["80"]);
-G2L["90"]["TextWrapped"] = true;
 G2L["90"]["BorderSizePixel"] = 3;
 G2L["90"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["90"]["TextSize"] = 14;
@@ -1611,8 +1602,8 @@ G2L["90"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["90"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["90"]["Name"] = [[Button]];
 G2L["90"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["90"]["Text"] = [[Set JumpPower]];
-G2L["90"]["Position"] = UDim2.new(0, 73, 0, 99);
+G2L["90"]["Text"] = [[Set Walkspeed]];
+G2L["90"]["Position"] = UDim2.new(0, 73, 0, 165);
 
 
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button.LocalScript
@@ -1630,8 +1621,8 @@ G2L["92"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["92"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["92"]["Name"] = [[Button]];
 G2L["92"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["92"]["Text"] = [[Set Walkspeed]];
-G2L["92"]["Position"] = UDim2.new(0, 73, 0, 165);
+G2L["92"]["Text"] = [[Spam Text]];
+G2L["92"]["Position"] = UDim2.new(0, 73, 0, 198);
 
 
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button.LocalScript
@@ -1649,8 +1640,8 @@ G2L["94"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["94"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["94"]["Name"] = [[Button]];
 G2L["94"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["94"]["Text"] = [[Spam Text]];
-G2L["94"]["Position"] = UDim2.new(0, 73, 0, 198);
+G2L["94"]["Text"] = [[Head Shake]];
+G2L["94"]["Position"] = UDim2.new(0, 73, 0, 132);
 
 
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button.LocalScript
@@ -1665,11 +1656,11 @@ G2L["96"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["96"]["TextSize"] = 14;
 G2L["96"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["96"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["96"]["Size"] = UDim2.new(0.5, 0, 0, 30);
+G2L["96"]["Size"] = UDim2.new(0.475, 0, 0, 30);
 G2L["96"]["Name"] = [[Button]];
 G2L["96"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["96"]["Text"] = [[Head Shake]];
-G2L["96"]["Position"] = UDim2.new(0, 73, 0, 132);
+G2L["96"]["Text"] = [[Set Gravity]];
+G2L["96"]["Position"] = UDim2.new(0, 0, 0, 66);
 
 
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button.LocalScript
@@ -1684,11 +1675,11 @@ G2L["98"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["98"]["TextSize"] = 14;
 G2L["98"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["98"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["98"]["Size"] = UDim2.new(0.475, 0, 0, 30);
+G2L["98"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["98"]["Name"] = [[Button]];
 G2L["98"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["98"]["Text"] = [[Set Gravity]];
-G2L["98"]["Position"] = UDim2.new(0, 0, 0, 231);
+G2L["98"]["Text"] = [[Change Name]];
+G2L["98"]["Position"] = UDim2.new(0, 73, 0, 33);
 
 
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button.LocalScript
@@ -1696,79 +1687,79 @@ G2L["99"] = Instance.new("LocalScript", G2L["98"]);
 
 
 
--- StarterGui.CoolGui.Frame.Page3.Section1.Button
-G2L["9a"] = Instance.new("TextButton", G2L["80"]);
-G2L["9a"]["BorderSizePixel"] = 3;
-G2L["9a"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["9a"]["TextSize"] = 14;
-G2L["9a"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["9a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["9a"]["Size"] = UDim2.new(0.5, 0, 0, 30);
-G2L["9a"]["Name"] = [[Button]];
-G2L["9a"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["9a"]["Text"] = [[Change Name]];
-G2L["9a"]["Position"] = UDim2.new(0, 73, 0, 33);
-
-
--- StarterGui.CoolGui.Frame.Page3.Section1.Button.LocalScript
-G2L["9b"] = Instance.new("LocalScript", G2L["9a"]);
-
-
-
 -- StarterGui.CoolGui.Frame.Page4
-G2L["9c"] = Instance.new("Frame", G2L["2"]);
-G2L["9c"]["Visible"] = false;
-G2L["9c"]["ZIndex"] = 2;
-G2L["9c"]["BorderSizePixel"] = 3;
-G2L["9c"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["9c"]["Size"] = UDim2.new(1, 0, 1, -106);
-G2L["9c"]["Position"] = UDim2.new(0, 0, 0, 83);
-G2L["9c"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
-G2L["9c"]["Name"] = [[Page4]];
+G2L["9a"] = Instance.new("Frame", G2L["2"]);
+G2L["9a"]["Visible"] = false;
+G2L["9a"]["ZIndex"] = 2;
+G2L["9a"]["BorderSizePixel"] = 3;
+G2L["9a"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9a"]["Size"] = UDim2.new(1, 0, 1, -106);
+G2L["9a"]["Position"] = UDim2.new(0, 0, 0, 83);
+G2L["9a"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["9a"]["Name"] = [[Page4]];
 
 
 -- StarterGui.CoolGui.Frame.Page4.PageLabel
-G2L["9d"] = Instance.new("TextLabel", G2L["9c"]);
-G2L["9d"]["ZIndex"] = 3;
-G2L["9d"]["BorderSizePixel"] = 3;
-G2L["9d"]["TextSize"] = 14;
-G2L["9d"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["9d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["9d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["9d"]["Size"] = UDim2.new(1, 0, 0, 30);
-G2L["9d"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
-G2L["9d"]["Text"] = [[Page 4]];
-G2L["9d"]["Name"] = [[PageLabel]];
-G2L["9d"]["Position"] = UDim2.new(0, 0, 1, -30);
+G2L["9b"] = Instance.new("TextLabel", G2L["9a"]);
+G2L["9b"]["ZIndex"] = 3;
+G2L["9b"]["BorderSizePixel"] = 3;
+G2L["9b"]["TextSize"] = 18;
+G2L["9b"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9b"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["9b"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["9b"]["Size"] = UDim2.new(1, 0, 0, 30);
+G2L["9b"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["9b"]["Text"] = [[Page 4]];
+G2L["9b"]["Name"] = [[PageLabel]];
+G2L["9b"]["Position"] = UDim2.new(0, 0, 1, -30);
 
 
 -- StarterGui.CoolGui.Frame.Page4.Section2
-G2L["9e"] = Instance.new("Frame", G2L["9c"]);
-G2L["9e"]["Active"] = true;
-G2L["9e"]["ZIndex"] = 2;
-G2L["9e"]["BorderSizePixel"] = 3;
-G2L["9e"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["9e"]["Size"] = UDim2.new(0.5, 0, 1, 0);
-G2L["9e"]["Position"] = UDim2.new(0.49, 3, 0, 0);
-G2L["9e"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
-G2L["9e"]["Name"] = [[Section2]];
+G2L["9c"] = Instance.new("Frame", G2L["9a"]);
+G2L["9c"]["Active"] = true;
+G2L["9c"]["ZIndex"] = 2;
+G2L["9c"]["BorderSizePixel"] = 3;
+G2L["9c"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9c"]["Size"] = UDim2.new(0.5, 0, 1, 0);
+G2L["9c"]["Position"] = UDim2.new(0.49, 3, 0, 0);
+G2L["9c"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["9c"]["Name"] = [[Section2]];
 
 
 -- StarterGui.CoolGui.Frame.Page4.Section2.SectionTitle
-G2L["9f"] = Instance.new("TextLabel", G2L["9e"]);
-G2L["9f"]["BorderSizePixel"] = 3;
-G2L["9f"]["TextSize"] = 14;
-G2L["9f"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["9f"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["9f"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["9f"]["Size"] = UDim2.new(1, 0, 0, 30);
-G2L["9f"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["9f"]["Text"] = [[Preset Music IDs]];
-G2L["9f"]["Name"] = [[SectionTitle]];
+G2L["9d"] = Instance.new("TextLabel", G2L["9c"]);
+G2L["9d"]["BorderSizePixel"] = 3;
+G2L["9d"]["TextSize"] = 14;
+G2L["9d"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["9d"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["9d"]["Size"] = UDim2.new(1, 0, 0, 30);
+G2L["9d"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
+G2L["9d"]["Text"] = [[Preset Music IDs]];
+G2L["9d"]["Name"] = [[SectionTitle]];
 
 
 -- StarterGui.CoolGui.Frame.Page4.Section2.Button
-G2L["a0"] = Instance.new("TextButton", G2L["9e"]);
+G2L["9e"] = Instance.new("TextButton", G2L["9c"]);
+G2L["9e"]["BorderSizePixel"] = 3;
+G2L["9e"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["9e"]["TextSize"] = 14;
+G2L["9e"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["9e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["9e"]["Size"] = UDim2.new(0.5, 0, 0, 30);
+G2L["9e"]["Name"] = [[Button]];
+G2L["9e"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
+G2L["9e"]["Text"] = [[Elctro Sp00k]];
+G2L["9e"]["Position"] = UDim2.new(0, 0, 0, 33);
+
+
+-- StarterGui.CoolGui.Frame.Page4.Section2.Button.LocalScript
+G2L["9f"] = Instance.new("LocalScript", G2L["9e"]);
+
+
+
+-- StarterGui.CoolGui.Frame.Page4.Section2.Button
+G2L["a0"] = Instance.new("TextButton", G2L["9c"]);
 G2L["a0"]["BorderSizePixel"] = 3;
 G2L["a0"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["a0"]["TextSize"] = 14;
@@ -1777,8 +1768,8 @@ G2L["a0"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["a0"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["a0"]["Name"] = [[Button]];
 G2L["a0"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["a0"]["Text"] = [[Elctro Sp00k]];
-G2L["a0"]["Position"] = UDim2.new(0, 0, 0, 33);
+G2L["a0"]["Text"] = [[Chop Suey]];
+G2L["a0"]["Position"] = UDim2.new(0, 0, 0, 66);
 
 
 -- StarterGui.CoolGui.Frame.Page4.Section2.Button.LocalScript
@@ -1787,17 +1778,17 @@ G2L["a1"] = Instance.new("LocalScript", G2L["a0"]);
 
 
 -- StarterGui.CoolGui.Frame.Page4.Section2.Button
-G2L["a2"] = Instance.new("TextButton", G2L["9e"]);
+G2L["a2"] = Instance.new("TextButton", G2L["9c"]);
 G2L["a2"]["BorderSizePixel"] = 3;
 G2L["a2"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["a2"]["TextSize"] = 14;
 G2L["a2"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["a2"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["a2"]["Size"] = UDim2.new(0.5, 0, 0, 30);
+G2L["a2"]["Size"] = UDim2.new(0.5, 1, 0, 30);
 G2L["a2"]["Name"] = [[Button]];
 G2L["a2"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["a2"]["Text"] = [[Chop Suey]];
-G2L["a2"]["Position"] = UDim2.new(0, 0, 0, 66);
+G2L["a2"]["Text"] = [[Scream]];
+G2L["a2"]["Position"] = UDim2.new(0, 73, 0, 66);
 
 
 -- StarterGui.CoolGui.Frame.Page4.Section2.Button.LocalScript
@@ -1806,7 +1797,7 @@ G2L["a3"] = Instance.new("LocalScript", G2L["a2"]);
 
 
 -- StarterGui.CoolGui.Frame.Page4.Section2.Button
-G2L["a4"] = Instance.new("TextButton", G2L["9e"]);
+G2L["a4"] = Instance.new("TextButton", G2L["9c"]);
 G2L["a4"]["BorderSizePixel"] = 3;
 G2L["a4"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["a4"]["TextSize"] = 14;
@@ -1815,8 +1806,8 @@ G2L["a4"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["a4"]["Size"] = UDim2.new(0.5, 1, 0, 30);
 G2L["a4"]["Name"] = [[Button]];
 G2L["a4"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["a4"]["Text"] = [[Scream]];
-G2L["a4"]["Position"] = UDim2.new(0, 73, 0, 66);
+G2L["a4"]["Text"] = [[Raining Tacos]];
+G2L["a4"]["Position"] = UDim2.new(0, 73, 0, 33);
 
 
 -- StarterGui.CoolGui.Frame.Page4.Section2.Button.LocalScript
@@ -1824,52 +1815,52 @@ G2L["a5"] = Instance.new("LocalScript", G2L["a4"]);
 
 
 
--- StarterGui.CoolGui.Frame.Page4.Section2.Button
-G2L["a6"] = Instance.new("TextButton", G2L["9e"]);
-G2L["a6"]["BorderSizePixel"] = 3;
-G2L["a6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a6"]["TextSize"] = 14;
-G2L["a6"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["a6"]["Size"] = UDim2.new(0.5, 1, 0, 30);
-G2L["a6"]["Name"] = [[Button]];
-G2L["a6"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["a6"]["Text"] = [[Raining Tacos]];
-G2L["a6"]["Position"] = UDim2.new(0, 73, 0, 33);
-
-
--- StarterGui.CoolGui.Frame.Page4.Section2.Button.LocalScript
-G2L["a7"] = Instance.new("LocalScript", G2L["a6"]);
-
-
-
 -- StarterGui.CoolGui.Frame.Page4.Section1
-G2L["a8"] = Instance.new("Frame", G2L["9c"]);
-G2L["a8"]["Active"] = true;
-G2L["a8"]["BorderSizePixel"] = 3;
-G2L["a8"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a8"]["Size"] = UDim2.new(0.5, -3, 1, 0);
-G2L["a8"]["Position"] = UDim2.new(0, 1, 0, 0);
-G2L["a8"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
-G2L["a8"]["Name"] = [[Section1]];
+G2L["a6"] = Instance.new("Frame", G2L["9a"]);
+G2L["a6"]["Active"] = true;
+G2L["a6"]["BorderSizePixel"] = 3;
+G2L["a6"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a6"]["Size"] = UDim2.new(0.5, -3, 1, 0);
+G2L["a6"]["Position"] = UDim2.new(0, 1, 0, 0);
+G2L["a6"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["a6"]["Name"] = [[Section1]];
 
 
 -- StarterGui.CoolGui.Frame.Page4.Section1.SectionTitle
-G2L["a9"] = Instance.new("TextLabel", G2L["a8"]);
-G2L["a9"]["BorderSizePixel"] = 3;
-G2L["a9"]["TextSize"] = 14;
-G2L["a9"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["a9"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["a9"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["a9"]["Size"] = UDim2.new(1, 0, 0, 30);
-G2L["a9"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["a9"]["Text"] = [[Preset Skybox/Decal IDs]];
-G2L["a9"]["Name"] = [[SectionTitle]];
+G2L["a7"] = Instance.new("TextLabel", G2L["a6"]);
+G2L["a7"]["BorderSizePixel"] = 3;
+G2L["a7"]["TextSize"] = 14;
+G2L["a7"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a7"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["a7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a7"]["Size"] = UDim2.new(1, 0, 0, 30);
+G2L["a7"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
+G2L["a7"]["Text"] = [[Preset Skybox/Decal IDs]];
+G2L["a7"]["Name"] = [[SectionTitle]];
 
 
 -- StarterGui.CoolGui.Frame.Page4.Section1.Button
-G2L["aa"] = Instance.new("TextButton", G2L["a8"]);
-G2L["aa"]["TextWrapped"] = true;
+G2L["a8"] = Instance.new("TextButton", G2L["a6"]);
+G2L["a8"]["TextWrapped"] = true;
+G2L["a8"]["BorderSizePixel"] = 3;
+G2L["a8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["a8"]["TextSize"] = 14;
+G2L["a8"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["a8"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["a8"]["Size"] = UDim2.new(0.5, 0, 0, 30);
+G2L["a8"]["Name"] = [[Button]];
+G2L["a8"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
+G2L["a8"]["Text"] = [[team c00lkidd Logo 1]];
+G2L["a8"]["Position"] = UDim2.new(0, 0, 0, 33);
+
+
+-- StarterGui.CoolGui.Frame.Page4.Section1.Button.LocalScript
+G2L["a9"] = Instance.new("LocalScript", G2L["a8"]);
+
+
+
+-- StarterGui.CoolGui.Frame.Page4.Section1.Button
+G2L["aa"] = Instance.new("TextButton", G2L["a6"]);
 G2L["aa"]["BorderSizePixel"] = 3;
 G2L["aa"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["aa"]["TextSize"] = 14;
@@ -1878,8 +1869,8 @@ G2L["aa"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["aa"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["aa"]["Name"] = [[Button]];
 G2L["aa"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["aa"]["Text"] = [[team c00lkidd Logo 1]];
-G2L["aa"]["Position"] = UDim2.new(0, 0, 0, 33);
+G2L["aa"]["Text"] = [[Thomas]];
+G2L["aa"]["Position"] = UDim2.new(0, 0, 0, 66);
 
 
 -- StarterGui.CoolGui.Frame.Page4.Section1.Button.LocalScript
@@ -1888,7 +1879,8 @@ G2L["ab"] = Instance.new("LocalScript", G2L["aa"]);
 
 
 -- StarterGui.CoolGui.Frame.Page4.Section1.Button
-G2L["ac"] = Instance.new("TextButton", G2L["a8"]);
+G2L["ac"] = Instance.new("TextButton", G2L["a6"]);
+G2L["ac"]["TextWrapped"] = true;
 G2L["ac"]["BorderSizePixel"] = 3;
 G2L["ac"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["ac"]["TextSize"] = 14;
@@ -1897,8 +1889,8 @@ G2L["ac"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["ac"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["ac"]["Name"] = [[Button]];
 G2L["ac"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["ac"]["Text"] = [[Thomas]];
-G2L["ac"]["Position"] = UDim2.new(0, 0, 0, 66);
+G2L["ac"]["Text"] = [[team skrubl0rd]];
+G2L["ac"]["Position"] = UDim2.new(0, 0, 0, 99);
 
 
 -- StarterGui.CoolGui.Frame.Page4.Section1.Button.LocalScript
@@ -1907,7 +1899,7 @@ G2L["ad"] = Instance.new("LocalScript", G2L["ac"]);
 
 
 -- StarterGui.CoolGui.Frame.Page4.Section1.Button
-G2L["ae"] = Instance.new("TextButton", G2L["a8"]);
+G2L["ae"] = Instance.new("TextButton", G2L["a6"]);
 G2L["ae"]["TextWrapped"] = true;
 G2L["ae"]["BorderSizePixel"] = 3;
 G2L["ae"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
@@ -1917,8 +1909,8 @@ G2L["ae"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["ae"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["ae"]["Name"] = [[Button]];
 G2L["ae"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["ae"]["Text"] = [[team skrubl0rd]];
-G2L["ae"]["Position"] = UDim2.new(0, 0, 0, 99);
+G2L["ae"]["Text"] = [[team starp4tch]];
+G2L["ae"]["Position"] = UDim2.new(0, 0, 0, 132);
 
 
 -- StarterGui.CoolGui.Frame.Page4.Section1.Button.LocalScript
@@ -1927,8 +1919,7 @@ G2L["af"] = Instance.new("LocalScript", G2L["ae"]);
 
 
 -- StarterGui.CoolGui.Frame.Page4.Section1.Button
-G2L["b0"] = Instance.new("TextButton", G2L["a8"]);
-G2L["b0"]["TextWrapped"] = true;
+G2L["b0"] = Instance.new("TextButton", G2L["a6"]);
 G2L["b0"]["BorderSizePixel"] = 3;
 G2L["b0"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["b0"]["TextSize"] = 14;
@@ -1937,8 +1928,8 @@ G2L["b0"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["b0"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["b0"]["Name"] = [[Button]];
 G2L["b0"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["b0"]["Text"] = [[team starp4tch]];
-G2L["b0"]["Position"] = UDim2.new(0, 0, 0, 132);
+G2L["b0"]["Text"] = [[c00lkidd]];
+G2L["b0"]["Position"] = UDim2.new(0, 73, 0, 66);
 
 
 -- StarterGui.CoolGui.Frame.Page4.Section1.Button.LocalScript
@@ -1947,7 +1938,8 @@ G2L["b1"] = Instance.new("LocalScript", G2L["b0"]);
 
 
 -- StarterGui.CoolGui.Frame.Page4.Section1.Button
-G2L["b2"] = Instance.new("TextButton", G2L["a8"]);
+G2L["b2"] = Instance.new("TextButton", G2L["a6"]);
+G2L["b2"]["TextWrapped"] = true;
 G2L["b2"]["BorderSizePixel"] = 3;
 G2L["b2"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["b2"]["TextSize"] = 14;
@@ -1956,8 +1948,8 @@ G2L["b2"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["b2"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["b2"]["Name"] = [[Button]];
 G2L["b2"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["b2"]["Text"] = [[c00lkidd]];
-G2L["b2"]["Position"] = UDim2.new(0, 73, 0, 66);
+G2L["b2"]["Text"] = [[team 1x3x5x6]];
+G2L["b2"]["Position"] = UDim2.new(0, 73, 0, 99);
 
 
 -- StarterGui.CoolGui.Frame.Page4.Section1.Button.LocalScript
@@ -1966,8 +1958,7 @@ G2L["b3"] = Instance.new("LocalScript", G2L["b2"]);
 
 
 -- StarterGui.CoolGui.Frame.Page4.Section1.Button
-G2L["b4"] = Instance.new("TextButton", G2L["a8"]);
-G2L["b4"]["TextWrapped"] = true;
+G2L["b4"] = Instance.new("TextButton", G2L["a6"]);
 G2L["b4"]["BorderSizePixel"] = 3;
 G2L["b4"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["b4"]["TextSize"] = 14;
@@ -1976,8 +1967,8 @@ G2L["b4"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["b4"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["b4"]["Name"] = [[Button]];
 G2L["b4"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["b4"]["Text"] = [[team 1x3x5x6]];
-G2L["b4"]["Position"] = UDim2.new(0, 73, 0, 99);
+G2L["b4"]["Text"] = [[ExPro]];
+G2L["b4"]["Position"] = UDim2.new(0, 73, 0, 132);
 
 
 -- StarterGui.CoolGui.Frame.Page4.Section1.Button.LocalScript
@@ -1986,7 +1977,8 @@ G2L["b5"] = Instance.new("LocalScript", G2L["b4"]);
 
 
 -- StarterGui.CoolGui.Frame.Page4.Section1.Button
-G2L["b6"] = Instance.new("TextButton", G2L["a8"]);
+G2L["b6"] = Instance.new("TextButton", G2L["a6"]);
+G2L["b6"]["TextWrapped"] = true;
 G2L["b6"]["BorderSizePixel"] = 3;
 G2L["b6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["b6"]["TextSize"] = 14;
@@ -1995,8 +1987,8 @@ G2L["b6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["b6"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["b6"]["Name"] = [[Button]];
 G2L["b6"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["b6"]["Text"] = [[ExPro]];
-G2L["b6"]["Position"] = UDim2.new(0, 73, 0, 132);
+G2L["b6"]["Text"] = [[team c00lkidd Logo 2]];
+G2L["b6"]["Position"] = UDim2.new(0, 73, 0, 33);
 
 
 -- StarterGui.CoolGui.Frame.Page4.Section1.Button.LocalScript
@@ -2004,81 +1996,81 @@ G2L["b7"] = Instance.new("LocalScript", G2L["b6"]);
 
 
 
--- StarterGui.CoolGui.Frame.Page4.Section1.Button
-G2L["b8"] = Instance.new("TextButton", G2L["a8"]);
-G2L["b8"]["TextWrapped"] = true;
-G2L["b8"]["BorderSizePixel"] = 3;
-G2L["b8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["b8"]["TextSize"] = 14;
-G2L["b8"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["b8"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["b8"]["Size"] = UDim2.new(0.5, 0, 0, 30);
-G2L["b8"]["Name"] = [[Button]];
-G2L["b8"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["b8"]["Text"] = [[team c00lkidd Logo 2]];
-G2L["b8"]["Position"] = UDim2.new(0, 73, 0, 33);
-
-
--- StarterGui.CoolGui.Frame.Page4.Section1.Button.LocalScript
-G2L["b9"] = Instance.new("LocalScript", G2L["b8"]);
-
-
-
 -- StarterGui.CoolGui.Frame.Page5
-G2L["ba"] = Instance.new("Frame", G2L["2"]);
-G2L["ba"]["Visible"] = false;
-G2L["ba"]["ZIndex"] = 2;
-G2L["ba"]["BorderSizePixel"] = 3;
-G2L["ba"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["ba"]["Size"] = UDim2.new(1, 0, 1, -106);
-G2L["ba"]["Position"] = UDim2.new(0, 0, 0, 83);
-G2L["ba"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
-G2L["ba"]["Name"] = [[Page5]];
+G2L["b8"] = Instance.new("Frame", G2L["2"]);
+G2L["b8"]["Visible"] = false;
+G2L["b8"]["ZIndex"] = 2;
+G2L["b8"]["BorderSizePixel"] = 3;
+G2L["b8"]["AutoLocalize"] = false;
+G2L["b8"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["b8"]["Size"] = UDim2.new(1, 0, 1, -106);
+G2L["b8"]["Position"] = UDim2.new(0, 0, 0, 83);
+G2L["b8"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["b8"]["Name"] = [[Page5]];
 
 
 -- StarterGui.CoolGui.Frame.Page5.PageLabel
-G2L["bb"] = Instance.new("TextLabel", G2L["ba"]);
-G2L["bb"]["ZIndex"] = 3;
-G2L["bb"]["BorderSizePixel"] = 3;
-G2L["bb"]["TextSize"] = 14;
-G2L["bb"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["bb"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["bb"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["bb"]["Size"] = UDim2.new(1, 0, 0, 30);
-G2L["bb"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
-G2L["bb"]["Text"] = [[Page 5]];
-G2L["bb"]["Name"] = [[PageLabel]];
-G2L["bb"]["Position"] = UDim2.new(0, 0, 1, -30);
+G2L["b9"] = Instance.new("TextLabel", G2L["b8"]);
+G2L["b9"]["ZIndex"] = 3;
+G2L["b9"]["BorderSizePixel"] = 3;
+G2L["b9"]["TextSize"] = 18;
+G2L["b9"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["b9"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["b9"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["b9"]["Size"] = UDim2.new(1, 0, 0, 30);
+G2L["b9"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["b9"]["Text"] = [[Page 5]];
+G2L["b9"]["Name"] = [[PageLabel]];
+G2L["b9"]["Position"] = UDim2.new(0, 0, 1, -30);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section2
-G2L["bc"] = Instance.new("Frame", G2L["ba"]);
-G2L["bc"]["Active"] = true;
-G2L["bc"]["ZIndex"] = 2;
-G2L["bc"]["BorderSizePixel"] = 3;
-G2L["bc"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["bc"]["Size"] = UDim2.new(0.5, 0, 1, 0);
-G2L["bc"]["Position"] = UDim2.new(0.5, 0, 0, 0);
-G2L["bc"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
-G2L["bc"]["Name"] = [[Section2]];
+G2L["ba"] = Instance.new("Frame", G2L["b8"]);
+G2L["ba"]["Active"] = true;
+G2L["ba"]["ZIndex"] = 2;
+G2L["ba"]["BorderSizePixel"] = 3;
+G2L["ba"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ba"]["Size"] = UDim2.new(0.5, 0, 1, 0);
+G2L["ba"]["Position"] = UDim2.new(0.5, 0, 0, 0);
+G2L["ba"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["ba"]["Name"] = [[Section2]];
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section2.SectionTitle
-G2L["bd"] = Instance.new("TextLabel", G2L["bc"]);
-G2L["bd"]["BorderSizePixel"] = 3;
-G2L["bd"]["TextSize"] = 14;
-G2L["bd"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["bd"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["bd"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["bd"]["Size"] = UDim2.new(1, 0, 0, 30);
-G2L["bd"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["bd"]["Text"] = [[FE Scripts]];
-G2L["bd"]["Name"] = [[SectionTitle]];
+G2L["bb"] = Instance.new("TextLabel", G2L["ba"]);
+G2L["bb"]["BorderSizePixel"] = 3;
+G2L["bb"]["TextSize"] = 14;
+G2L["bb"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["bb"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["bb"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["bb"]["Size"] = UDim2.new(1, 0, 0, 30);
+G2L["bb"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
+G2L["bb"]["Text"] = [[FE Scripts]];
+G2L["bb"]["Name"] = [[SectionTitle]];
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button
-G2L["be"] = Instance.new("TextButton", G2L["bc"]);
-G2L["be"]["TextWrapped"] = true;
+G2L["bc"] = Instance.new("TextButton", G2L["ba"]);
+G2L["bc"]["TextWrapped"] = true;
+G2L["bc"]["BorderSizePixel"] = 3;
+G2L["bc"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["bc"]["TextSize"] = 14;
+G2L["bc"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["bc"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["bc"]["Size"] = UDim2.new(0.5, 0, 0, 30);
+G2L["bc"]["Name"] = [[Button]];
+G2L["bc"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
+G2L["bc"]["Text"] = [[Sound Glitcher]];
+G2L["bc"]["Position"] = UDim2.new(0, 0, 0, 33);
+
+
+-- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
+G2L["bd"] = Instance.new("LocalScript", G2L["bc"]);
+
+
+
+-- StarterGui.CoolGui.Frame.Page5.Section2.Button
+G2L["be"] = Instance.new("TextButton", G2L["ba"]);
 G2L["be"]["BorderSizePixel"] = 3;
 G2L["be"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["be"]["TextSize"] = 14;
@@ -2087,8 +2079,8 @@ G2L["be"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["be"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["be"]["Name"] = [[Button]];
 G2L["be"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["be"]["Text"] = [[Sound Glitcher]];
-G2L["be"]["Position"] = UDim2.new(0, 0, 0, 33);
+G2L["be"]["Text"] = [[Blackhole]];
+G2L["be"]["Position"] = UDim2.new(0, 0, 0, 66);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
@@ -2097,7 +2089,7 @@ G2L["bf"] = Instance.new("LocalScript", G2L["be"]);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button
-G2L["c0"] = Instance.new("TextButton", G2L["bc"]);
+G2L["c0"] = Instance.new("TextButton", G2L["ba"]);
 G2L["c0"]["BorderSizePixel"] = 3;
 G2L["c0"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["c0"]["TextSize"] = 14;
@@ -2106,8 +2098,8 @@ G2L["c0"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["c0"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["c0"]["Name"] = [[Button]];
 G2L["c0"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["c0"]["Text"] = [[Blackhole]];
-G2L["c0"]["Position"] = UDim2.new(0, 0, 0, 66);
+G2L["c0"]["Text"] = [[FE Flip]];
+G2L["c0"]["Position"] = UDim2.new(0, 0, 0, 99);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
@@ -2116,7 +2108,8 @@ G2L["c1"] = Instance.new("LocalScript", G2L["c0"]);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button
-G2L["c2"] = Instance.new("TextButton", G2L["bc"]);
+G2L["c2"] = Instance.new("TextButton", G2L["ba"]);
+G2L["c2"]["TextWrapped"] = true;
 G2L["c2"]["BorderSizePixel"] = 3;
 G2L["c2"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["c2"]["TextSize"] = 14;
@@ -2125,8 +2118,8 @@ G2L["c2"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["c2"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["c2"]["Name"] = [[Button]];
 G2L["c2"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["c2"]["Text"] = [[FE Flip]];
-G2L["c2"]["Position"] = UDim2.new(0, 0, 0, 99);
+G2L["c2"]["Text"] = [[Hamster Ball]];
+G2L["c2"]["Position"] = UDim2.new(0, 0, 0, 132);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
@@ -2135,8 +2128,7 @@ G2L["c3"] = Instance.new("LocalScript", G2L["c2"]);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button
-G2L["c4"] = Instance.new("TextButton", G2L["bc"]);
-G2L["c4"]["TextWrapped"] = true;
+G2L["c4"] = Instance.new("TextButton", G2L["ba"]);
 G2L["c4"]["BorderSizePixel"] = 3;
 G2L["c4"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["c4"]["TextSize"] = 14;
@@ -2145,8 +2137,8 @@ G2L["c4"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["c4"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["c4"]["Name"] = [[Button]];
 G2L["c4"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["c4"]["Text"] = [[Hamster Ball]];
-G2L["c4"]["Position"] = UDim2.new(0, 0, 0, 132);
+G2L["c4"]["Text"] = [[Rickroll Chat]];
+G2L["c4"]["Position"] = UDim2.new(0, 0, 0, 165);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
@@ -2155,7 +2147,7 @@ G2L["c5"] = Instance.new("LocalScript", G2L["c4"]);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button
-G2L["c6"] = Instance.new("TextButton", G2L["bc"]);
+G2L["c6"] = Instance.new("TextButton", G2L["ba"]);
 G2L["c6"]["BorderSizePixel"] = 3;
 G2L["c6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["c6"]["TextSize"] = 14;
@@ -2164,8 +2156,8 @@ G2L["c6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["c6"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["c6"]["Name"] = [[Button]];
 G2L["c6"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["c6"]["Text"] = [[Rickroll Chat]];
-G2L["c6"]["Position"] = UDim2.new(0, 0, 0, 165);
+G2L["c6"]["Text"] = [[Nazi Salute]];
+G2L["c6"]["Position"] = UDim2.new(0, 0, 0, 198);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
@@ -2174,17 +2166,18 @@ G2L["c7"] = Instance.new("LocalScript", G2L["c6"]);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button
-G2L["c8"] = Instance.new("TextButton", G2L["bc"]);
+G2L["c8"] = Instance.new("TextButton", G2L["ba"]);
+G2L["c8"]["TextWrapped"] = true;
 G2L["c8"]["BorderSizePixel"] = 3;
 G2L["c8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["c8"]["TextSize"] = 14;
 G2L["c8"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["c8"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["c8"]["Size"] = UDim2.new(0.5, 0, 0, 30);
+G2L["c8"]["Size"] = UDim2.new(0.5, 1, 0, 30);
 G2L["c8"]["Name"] = [[Button]];
 G2L["c8"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["c8"]["Text"] = [[Nazi Salute]];
-G2L["c8"]["Position"] = UDim2.new(0, 0, 0, 198);
+G2L["c8"]["Text"] = [[sing c00lkidd anthem]];
+G2L["c8"]["Position"] = UDim2.new(0, 73, 0, 66);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
@@ -2193,8 +2186,7 @@ G2L["c9"] = Instance.new("LocalScript", G2L["c8"]);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button
-G2L["ca"] = Instance.new("TextButton", G2L["bc"]);
-G2L["ca"]["TextWrapped"] = true;
+G2L["ca"] = Instance.new("TextButton", G2L["ba"]);
 G2L["ca"]["BorderSizePixel"] = 3;
 G2L["ca"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["ca"]["TextSize"] = 14;
@@ -2203,8 +2195,8 @@ G2L["ca"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["ca"]["Size"] = UDim2.new(0.5, 1, 0, 30);
 G2L["ca"]["Name"] = [[Button]];
 G2L["ca"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["ca"]["Text"] = [[sing c00lkidd anthem]];
-G2L["ca"]["Position"] = UDim2.new(0, 73, 0, 66);
+G2L["ca"]["Text"] = [[commit oof]];
+G2L["ca"]["Position"] = UDim2.new(0, 73, 0, 99);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
@@ -2213,7 +2205,7 @@ G2L["cb"] = Instance.new("LocalScript", G2L["ca"]);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button
-G2L["cc"] = Instance.new("TextButton", G2L["bc"]);
+G2L["cc"] = Instance.new("TextButton", G2L["ba"]);
 G2L["cc"]["BorderSizePixel"] = 3;
 G2L["cc"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["cc"]["TextSize"] = 14;
@@ -2222,8 +2214,8 @@ G2L["cc"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["cc"]["Size"] = UDim2.new(0.5, 1, 0, 30);
 G2L["cc"]["Name"] = [[Button]];
 G2L["cc"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["cc"]["Text"] = [[commit oof]];
-G2L["cc"]["Position"] = UDim2.new(0, 73, 0, 99);
+G2L["cc"]["Text"] = [[Chat Troll]];
+G2L["cc"]["Position"] = UDim2.new(0, 73, 0, 132);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
@@ -2232,7 +2224,7 @@ G2L["cd"] = Instance.new("LocalScript", G2L["cc"]);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button
-G2L["ce"] = Instance.new("TextButton", G2L["bc"]);
+G2L["ce"] = Instance.new("TextButton", G2L["ba"]);
 G2L["ce"]["BorderSizePixel"] = 3;
 G2L["ce"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["ce"]["TextSize"] = 14;
@@ -2241,8 +2233,8 @@ G2L["ce"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["ce"]["Size"] = UDim2.new(0.5, 1, 0, 30);
 G2L["ce"]["Name"] = [[Button]];
 G2L["ce"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["ce"]["Text"] = [[Chat Troll]];
-G2L["ce"]["Position"] = UDim2.new(0, 73, 0, 132);
+G2L["ce"]["Text"] = [[Break Chat]];
+G2L["ce"]["Position"] = UDim2.new(0, 73, 0, 165);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
@@ -2251,7 +2243,7 @@ G2L["cf"] = Instance.new("LocalScript", G2L["ce"]);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button
-G2L["d0"] = Instance.new("TextButton", G2L["bc"]);
+G2L["d0"] = Instance.new("TextButton", G2L["ba"]);
 G2L["d0"]["BorderSizePixel"] = 3;
 G2L["d0"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["d0"]["TextSize"] = 14;
@@ -2260,8 +2252,8 @@ G2L["d0"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["d0"]["Size"] = UDim2.new(0.5, 1, 0, 30);
 G2L["d0"]["Name"] = [[Button]];
 G2L["d0"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["d0"]["Text"] = [[Break Chat]];
-G2L["d0"]["Position"] = UDim2.new(0, 73, 0, 165);
+G2L["d0"]["Text"] = [[OG Anims]];
+G2L["d0"]["Position"] = UDim2.new(0, 73, 0, 198);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
@@ -2270,7 +2262,7 @@ G2L["d1"] = Instance.new("LocalScript", G2L["d0"]);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button
-G2L["d2"] = Instance.new("TextButton", G2L["bc"]);
+G2L["d2"] = Instance.new("TextButton", G2L["ba"]);
 G2L["d2"]["BorderSizePixel"] = 3;
 G2L["d2"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["d2"]["TextSize"] = 14;
@@ -2279,8 +2271,8 @@ G2L["d2"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["d2"]["Size"] = UDim2.new(0.5, 1, 0, 30);
 G2L["d2"]["Name"] = [[Button]];
 G2L["d2"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["d2"]["Text"] = [[OG Anims]];
-G2L["d2"]["Position"] = UDim2.new(0, 73, 0, 198);
+G2L["d2"]["Text"] = [[FE Car]];
+G2L["d2"]["Position"] = UDim2.new(0, 73, 0, 33);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
@@ -2288,50 +2280,50 @@ G2L["d3"] = Instance.new("LocalScript", G2L["d2"]);
 
 
 
--- StarterGui.CoolGui.Frame.Page5.Section2.Button
-G2L["d4"] = Instance.new("TextButton", G2L["bc"]);
-G2L["d4"]["BorderSizePixel"] = 3;
-G2L["d4"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d4"]["TextSize"] = 14;
-G2L["d4"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d4"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["d4"]["Size"] = UDim2.new(0.5, 1, 0, 30);
-G2L["d4"]["Name"] = [[Button]];
-G2L["d4"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["d4"]["Text"] = [[FE Car]];
-G2L["d4"]["Position"] = UDim2.new(0, 73, 0, 33);
-
-
--- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
-G2L["d5"] = Instance.new("LocalScript", G2L["d4"]);
-
-
-
 -- StarterGui.CoolGui.Frame.Page5.Section1
-G2L["d6"] = Instance.new("Frame", G2L["ba"]);
-G2L["d6"]["Active"] = true;
-G2L["d6"]["BorderSizePixel"] = 3;
-G2L["d6"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d6"]["Size"] = UDim2.new(0.5, -3, 1, 0);
-G2L["d6"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
-G2L["d6"]["Name"] = [[Section1]];
+G2L["d4"] = Instance.new("Frame", G2L["b8"]);
+G2L["d4"]["Active"] = true;
+G2L["d4"]["BorderSizePixel"] = 3;
+G2L["d4"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d4"]["Size"] = UDim2.new(0.5, -3, 1, 0);
+G2L["d4"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["d4"]["Name"] = [[Section1]];
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section1.SectionTitle
-G2L["d7"] = Instance.new("TextLabel", G2L["d6"]);
-G2L["d7"]["BorderSizePixel"] = 3;
-G2L["d7"]["TextSize"] = 14;
-G2L["d7"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["d7"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["d7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["d7"]["Size"] = UDim2.new(1, 0, 0, 30);
-G2L["d7"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["d7"]["Text"] = [[F3X Scripts]];
-G2L["d7"]["Name"] = [[SectionTitle]];
+G2L["d5"] = Instance.new("TextLabel", G2L["d4"]);
+G2L["d5"]["BorderSizePixel"] = 3;
+G2L["d5"]["TextSize"] = 14;
+G2L["d5"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d5"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["d5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d5"]["Size"] = UDim2.new(1, 0, 0, 30);
+G2L["d5"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
+G2L["d5"]["Text"] = [[F3X Scripts]];
+G2L["d5"]["Name"] = [[SectionTitle]];
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button
-G2L["d8"] = Instance.new("TextButton", G2L["d6"]);
+G2L["d6"] = Instance.new("TextButton", G2L["d4"]);
+G2L["d6"]["BorderSizePixel"] = 3;
+G2L["d6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["d6"]["TextSize"] = 14;
+G2L["d6"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["d6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["d6"]["Size"] = UDim2.new(0.5, 0, 0, 30);
+G2L["d6"]["Name"] = [[Button]];
+G2L["d6"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
+G2L["d6"]["Text"] = [[Set Skybox]];
+G2L["d6"]["Position"] = UDim2.new(0, 0, 0, 33);
+
+
+-- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
+G2L["d7"] = Instance.new("LocalScript", G2L["d6"]);
+
+
+
+-- StarterGui.CoolGui.Frame.Page5.Section1.Button
+G2L["d8"] = Instance.new("TextButton", G2L["d4"]);
 G2L["d8"]["BorderSizePixel"] = 3;
 G2L["d8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["d8"]["TextSize"] = 14;
@@ -2340,8 +2332,8 @@ G2L["d8"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["d8"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["d8"]["Name"] = [[Button]];
 G2L["d8"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["d8"]["Text"] = [[Set Skybox]];
-G2L["d8"]["Position"] = UDim2.new(0, 0, 0, 33);
+G2L["d8"]["Text"] = [[Fire Parts]];
+G2L["d8"]["Position"] = UDim2.new(0, 0, 0, 66);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
@@ -2350,7 +2342,7 @@ G2L["d9"] = Instance.new("LocalScript", G2L["d8"]);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button
-G2L["da"] = Instance.new("TextButton", G2L["d6"]);
+G2L["da"] = Instance.new("TextButton", G2L["d4"]);
 G2L["da"]["BorderSizePixel"] = 3;
 G2L["da"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["da"]["TextSize"] = 14;
@@ -2359,8 +2351,8 @@ G2L["da"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["da"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["da"]["Name"] = [[Button]];
 G2L["da"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["da"]["Text"] = [[Fire Parts]];
-G2L["da"]["Position"] = UDim2.new(0, 0, 0, 66);
+G2L["da"]["Text"] = [[Raining Toads]];
+G2L["da"]["Position"] = UDim2.new(0, 0, 0, 99);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
@@ -2369,7 +2361,8 @@ G2L["db"] = Instance.new("LocalScript", G2L["da"]);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button
-G2L["dc"] = Instance.new("TextButton", G2L["d6"]);
+G2L["dc"] = Instance.new("TextButton", G2L["d4"]);
+G2L["dc"]["TextWrapped"] = true;
 G2L["dc"]["BorderSizePixel"] = 3;
 G2L["dc"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["dc"]["TextSize"] = 14;
@@ -2378,8 +2371,8 @@ G2L["dc"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["dc"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["dc"]["Name"] = [[Button]];
 G2L["dc"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["dc"]["Text"] = [[Raining Toads]];
-G2L["dc"]["Position"] = UDim2.new(0, 0, 0, 99);
+G2L["dc"]["Text"] = [[Create Baseplate]];
+G2L["dc"]["Position"] = UDim2.new(0, 0, 0, 132);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
@@ -2388,7 +2381,7 @@ G2L["dd"] = Instance.new("LocalScript", G2L["dc"]);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button
-G2L["de"] = Instance.new("TextButton", G2L["d6"]);
+G2L["de"] = Instance.new("TextButton", G2L["d4"]);
 G2L["de"]["BorderSizePixel"] = 3;
 G2L["de"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["de"]["TextSize"] = 14;
@@ -2397,8 +2390,8 @@ G2L["de"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["de"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["de"]["Name"] = [[Button]];
 G2L["de"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["de"]["Text"] = [[Baseplate]];
-G2L["de"]["Position"] = UDim2.new(0, 0, 0, 132);
+G2L["de"]["Text"] = [[Unanchor All]];
+G2L["de"]["Position"] = UDim2.new(0, 0, 0, 165);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
@@ -2407,7 +2400,7 @@ G2L["df"] = Instance.new("LocalScript", G2L["de"]);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button
-G2L["e0"] = Instance.new("TextButton", G2L["d6"]);
+G2L["e0"] = Instance.new("TextButton", G2L["d4"]);
 G2L["e0"]["BorderSizePixel"] = 3;
 G2L["e0"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["e0"]["TextSize"] = 14;
@@ -2416,8 +2409,8 @@ G2L["e0"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["e0"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["e0"]["Name"] = [[Button]];
 G2L["e0"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["e0"]["Text"] = [[Unanchor All]];
-G2L["e0"]["Position"] = UDim2.new(0, 0, 0, 165);
+G2L["e0"]["Text"] = [[Raining Luigis]];
+G2L["e0"]["Position"] = UDim2.new(0, 0, 0, 198);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
@@ -2426,7 +2419,7 @@ G2L["e1"] = Instance.new("LocalScript", G2L["e0"]);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button
-G2L["e2"] = Instance.new("TextButton", G2L["d6"]);
+G2L["e2"] = Instance.new("TextButton", G2L["d4"]);
 G2L["e2"]["BorderSizePixel"] = 3;
 G2L["e2"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["e2"]["TextSize"] = 14;
@@ -2435,8 +2428,8 @@ G2L["e2"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["e2"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["e2"]["Name"] = [[Button]];
 G2L["e2"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["e2"]["Text"] = [[Raining Luigis]];
-G2L["e2"]["Position"] = UDim2.new(0, 0, 0, 198);
+G2L["e2"]["Text"] = [[Burn All]];
+G2L["e2"]["Position"] = UDim2.new(0, 73, 0, 66);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
@@ -2445,7 +2438,7 @@ G2L["e3"] = Instance.new("LocalScript", G2L["e2"]);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button
-G2L["e4"] = Instance.new("TextButton", G2L["d6"]);
+G2L["e4"] = Instance.new("TextButton", G2L["d4"]);
 G2L["e4"]["BorderSizePixel"] = 3;
 G2L["e4"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["e4"]["TextSize"] = 14;
@@ -2454,8 +2447,8 @@ G2L["e4"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["e4"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["e4"]["Name"] = [[Button]];
 G2L["e4"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["e4"]["Text"] = [[Burn All]];
-G2L["e4"]["Position"] = UDim2.new(0, 73, 0, 66);
+G2L["e4"]["Text"] = [[Kill All]];
+G2L["e4"]["Position"] = UDim2.new(0, 73, 0, 99);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
@@ -2464,7 +2457,7 @@ G2L["e5"] = Instance.new("LocalScript", G2L["e4"]);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button
-G2L["e6"] = Instance.new("TextButton", G2L["d6"]);
+G2L["e6"] = Instance.new("TextButton", G2L["d4"]);
 G2L["e6"]["BorderSizePixel"] = 3;
 G2L["e6"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["e6"]["TextSize"] = 14;
@@ -2473,8 +2466,8 @@ G2L["e6"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["e6"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["e6"]["Name"] = [[Button]];
 G2L["e6"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["e6"]["Text"] = [[Kill All]];
-G2L["e6"]["Position"] = UDim2.new(0, 73, 0, 99);
+G2L["e6"]["Text"] = [[Headless All]];
+G2L["e6"]["Position"] = UDim2.new(0, 73, 0, 132);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
@@ -2483,7 +2476,7 @@ G2L["e7"] = Instance.new("LocalScript", G2L["e6"]);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button
-G2L["e8"] = Instance.new("TextButton", G2L["d6"]);
+G2L["e8"] = Instance.new("TextButton", G2L["d4"]);
 G2L["e8"]["BorderSizePixel"] = 3;
 G2L["e8"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["e8"]["TextSize"] = 14;
@@ -2492,8 +2485,8 @@ G2L["e8"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["e8"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["e8"]["Name"] = [[Button]];
 G2L["e8"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["e8"]["Text"] = [[Bighead All]];
-G2L["e8"]["Position"] = UDim2.new(0, 73, 0, 132);
+G2L["e8"]["Text"] = [[Disco]];
+G2L["e8"]["Position"] = UDim2.new(0, 73, 0, 165);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
@@ -2502,7 +2495,7 @@ G2L["e9"] = Instance.new("LocalScript", G2L["e8"]);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button
-G2L["ea"] = Instance.new("TextButton", G2L["d6"]);
+G2L["ea"] = Instance.new("TextButton", G2L["d4"]);
 G2L["ea"]["BorderSizePixel"] = 3;
 G2L["ea"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["ea"]["TextSize"] = 14;
@@ -2511,8 +2504,8 @@ G2L["ea"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["ea"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["ea"]["Name"] = [[Button]];
 G2L["ea"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["ea"]["Text"] = [[Disco]];
-G2L["ea"]["Position"] = UDim2.new(0, 73, 0, 165);
+G2L["ea"]["Text"] = [[Penis All]];
+G2L["ea"]["Position"] = UDim2.new(0, 73, 0, 198);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
@@ -2521,7 +2514,7 @@ G2L["eb"] = Instance.new("LocalScript", G2L["ea"]);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button
-G2L["ec"] = Instance.new("TextButton", G2L["d6"]);
+G2L["ec"] = Instance.new("TextButton", G2L["d4"]);
 G2L["ec"]["BorderSizePixel"] = 3;
 G2L["ec"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["ec"]["TextSize"] = 14;
@@ -2530,8 +2523,8 @@ G2L["ec"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["ec"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["ec"]["Name"] = [[Button]];
 G2L["ec"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["ec"]["Text"] = [[Penis All]];
-G2L["ec"]["Position"] = UDim2.new(0, 73, 0, 198);
+G2L["ec"]["Text"] = [[Decal Spam]];
+G2L["ec"]["Position"] = UDim2.new(0, 73, 0, 33);
 
 
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
@@ -2539,61 +2532,42 @@ G2L["ed"] = Instance.new("LocalScript", G2L["ec"]);
 
 
 
--- StarterGui.CoolGui.Frame.Page5.Section1.Button
-G2L["ee"] = Instance.new("TextButton", G2L["d6"]);
-G2L["ee"]["BorderSizePixel"] = 3;
-G2L["ee"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["ee"]["TextSize"] = 14;
-G2L["ee"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["ee"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["ee"]["Size"] = UDim2.new(0.5, 0, 0, 30);
-G2L["ee"]["Name"] = [[Button]];
-G2L["ee"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["ee"]["Text"] = [[Decal Spam]];
-G2L["ee"]["Position"] = UDim2.new(0, 73, 0, 33);
-
-
--- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
-G2L["ef"] = Instance.new("LocalScript", G2L["ee"]);
-
-
-
 -- StarterGui.CoolGui.Frame.Page6
-G2L["f0"] = Instance.new("Frame", G2L["2"]);
-G2L["f0"]["Visible"] = false;
-G2L["f0"]["ZIndex"] = 2;
-G2L["f0"]["BorderSizePixel"] = 3;
-G2L["f0"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f0"]["Size"] = UDim2.new(1, 0, 1, -106);
-G2L["f0"]["Position"] = UDim2.new(0, 0, 0, 83);
-G2L["f0"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
-G2L["f0"]["Name"] = [[Page6]];
+G2L["ee"] = Instance.new("Frame", G2L["2"]);
+G2L["ee"]["Visible"] = false;
+G2L["ee"]["ZIndex"] = 2;
+G2L["ee"]["BorderSizePixel"] = 3;
+G2L["ee"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ee"]["Size"] = UDim2.new(1, 0, 1, -106);
+G2L["ee"]["Position"] = UDim2.new(0, 0, 0, 83);
+G2L["ee"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["ee"]["Name"] = [[Page6]];
 
 
 -- StarterGui.CoolGui.Frame.Page6.Section2
-G2L["f1"] = Instance.new("Frame", G2L["f0"]);
-G2L["f1"]["Active"] = true;
-G2L["f1"]["BorderSizePixel"] = 3;
-G2L["f1"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f1"]["Size"] = UDim2.new(0.5, -3, 1, 0);
-G2L["f1"]["Position"] = UDim2.new(0.5, 3, 0, 0);
-G2L["f1"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
-G2L["f1"]["Name"] = [[Section2]];
+G2L["ef"] = Instance.new("Frame", G2L["ee"]);
+G2L["ef"]["Active"] = true;
+G2L["ef"]["BorderSizePixel"] = 3;
+G2L["ef"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["ef"]["Size"] = UDim2.new(0.5, -3, 1, 0);
+G2L["ef"]["Position"] = UDim2.new(0.5, 3, 0, 0);
+G2L["ef"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["ef"]["Name"] = [[Section2]];
 
 
 -- StarterGui.CoolGui.Frame.Page6.Section2.Credits
-G2L["f2"] = Instance.new("TextLabel", G2L["f1"]);
-G2L["f2"]["TextWrapped"] = true;
-G2L["f2"]["ZIndex"] = 2;
-G2L["f2"]["BorderSizePixel"] = 3;
-G2L["f2"]["TextSize"] = 14;
-G2L["f2"]["TextYAlignment"] = Enum.TextYAlignment.Top;
-G2L["f2"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f2"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["f2"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["f2"]["Size"] = UDim2.new(1, 3, 1, 0);
-G2L["f2"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["f2"]["Text"] = [[Thank you for using c00lgui revival!
+G2L["f0"] = Instance.new("TextLabel", G2L["ef"]);
+G2L["f0"]["TextWrapped"] = true;
+G2L["f0"]["ZIndex"] = 2;
+G2L["f0"]["BorderSizePixel"] = 3;
+G2L["f0"]["TextSize"] = 14;
+G2L["f0"]["TextYAlignment"] = Enum.TextYAlignment.Top;
+G2L["f0"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f0"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["f0"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f0"]["Size"] = UDim2.new(1, 3, 1, 0);
+G2L["f0"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
+G2L["f0"]["Text"] = [[Thank you for using c00lgui revival!
 
 Want to give suggestions? DM Hyperion!
 Discord Username: hyperionhax
@@ -2608,36 +2582,55 @@ Temokhalid
 Hyperion1
 Hyperion2
 Hyperion3]];
-G2L["f2"]["Name"] = [[Credits]];
-G2L["f2"]["Position"] = UDim2.new(-0.047, 3, 0, 0);
+G2L["f0"]["Name"] = [[Credits]];
+G2L["f0"]["Position"] = UDim2.new(-0.047, 3, 0, 0);
 
 
 -- StarterGui.CoolGui.Frame.Page6.Section1
-G2L["f3"] = Instance.new("Frame", G2L["f0"]);
-G2L["f3"]["Active"] = true;
-G2L["f3"]["BorderSizePixel"] = 3;
-G2L["f3"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f3"]["Size"] = UDim2.new(0.5, -3, 1, 0);
-G2L["f3"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
-G2L["f3"]["Name"] = [[Section1]];
+G2L["f1"] = Instance.new("Frame", G2L["ee"]);
+G2L["f1"]["Active"] = true;
+G2L["f1"]["BorderSizePixel"] = 3;
+G2L["f1"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f1"]["Size"] = UDim2.new(0.5, -3, 1, 0);
+G2L["f1"]["BorderColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["f1"]["Name"] = [[Section1]];
 
 
 -- StarterGui.CoolGui.Frame.Page6.Section1.SectionTitle
-G2L["f4"] = Instance.new("TextLabel", G2L["f3"]);
-G2L["f4"]["BorderSizePixel"] = 3;
-G2L["f4"]["TextSize"] = 14;
-G2L["f4"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["f4"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
-G2L["f4"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["f4"]["Size"] = UDim2.new(1, 0, 0, 30);
-G2L["f4"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["f4"]["Text"] = [[Remotes]];
-G2L["f4"]["Name"] = [[SectionTitle]];
+G2L["f2"] = Instance.new("TextLabel", G2L["f1"]);
+G2L["f2"]["BorderSizePixel"] = 3;
+G2L["f2"]["TextSize"] = 14;
+G2L["f2"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f2"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
+G2L["f2"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f2"]["Size"] = UDim2.new(1, 0, 0, 30);
+G2L["f2"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
+G2L["f2"]["Text"] = [[Remotes]];
+G2L["f2"]["Name"] = [[SectionTitle]];
 
 
 -- StarterGui.CoolGui.Frame.Page6.Section1.Button
-G2L["f5"] = Instance.new("TextButton", G2L["f3"]);
-G2L["f5"]["TextWrapped"] = true;
+G2L["f3"] = Instance.new("TextButton", G2L["f1"]);
+G2L["f3"]["TextWrapped"] = true;
+G2L["f3"]["BorderSizePixel"] = 3;
+G2L["f3"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f3"]["TextSize"] = 14;
+G2L["f3"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f3"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["f3"]["Size"] = UDim2.new(0.5, 0, 0, 30);
+G2L["f3"]["Name"] = [[Button]];
+G2L["f3"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
+G2L["f3"]["Text"] = [[FraktureSS]];
+G2L["f3"]["Position"] = UDim2.new(0, 0, 0, 33);
+
+
+-- StarterGui.CoolGui.Frame.Page6.Section1.Button.LocalScript
+G2L["f4"] = Instance.new("LocalScript", G2L["f3"]);
+
+
+
+-- StarterGui.CoolGui.Frame.Page6.Section1.Button
+G2L["f5"] = Instance.new("TextButton", G2L["f1"]);
 G2L["f5"]["BorderSizePixel"] = 3;
 G2L["f5"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["f5"]["TextSize"] = 14;
@@ -2646,8 +2639,8 @@ G2L["f5"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["f5"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["f5"]["Name"] = [[Button]];
 G2L["f5"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["f5"]["Text"] = [[FraktureSS]];
-G2L["f5"]["Position"] = UDim2.new(0, 0, 0, 33);
+G2L["f5"]["Text"] = [[Harked Reborn]];
+G2L["f5"]["Position"] = UDim2.new(0, 0, 0, 66);
 
 
 -- StarterGui.CoolGui.Frame.Page6.Section1.Button.LocalScript
@@ -2656,7 +2649,7 @@ G2L["f6"] = Instance.new("LocalScript", G2L["f5"]);
 
 
 -- StarterGui.CoolGui.Frame.Page6.Section1.Button
-G2L["f7"] = Instance.new("TextButton", G2L["f3"]);
+G2L["f7"] = Instance.new("TextButton", G2L["f1"]);
 G2L["f7"]["BorderSizePixel"] = 3;
 G2L["f7"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["f7"]["TextSize"] = 14;
@@ -2665,8 +2658,8 @@ G2L["f7"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["f7"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["f7"]["Name"] = [[Button]];
 G2L["f7"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["f7"]["Text"] = [[Harked Reborn]];
-G2L["f7"]["Position"] = UDim2.new(0, 0, 0, 66);
+G2L["f7"]["Text"] = [[Fire Remotes]];
+G2L["f7"]["Position"] = UDim2.new(0, 0, 0, 99);
 
 
 -- StarterGui.CoolGui.Frame.Page6.Section1.Button.LocalScript
@@ -2675,17 +2668,18 @@ G2L["f8"] = Instance.new("LocalScript", G2L["f7"]);
 
 
 -- StarterGui.CoolGui.Frame.Page6.Section1.Button
-G2L["f9"] = Instance.new("TextButton", G2L["f3"]);
+G2L["f9"] = Instance.new("TextButton", G2L["f1"]);
+G2L["f9"]["TextWrapped"] = true;
 G2L["f9"]["BorderSizePixel"] = 3;
 G2L["f9"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["f9"]["TextSize"] = 14;
 G2L["f9"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["f9"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["f9"]["Size"] = UDim2.new(0.5, 0, 0, 30);
+G2L["f9"]["Size"] = UDim2.new(0.475, 0, 0, 30);
 G2L["f9"]["Name"] = [[Button]];
 G2L["f9"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["f9"]["Text"] = [[Fire Remotes]];
-G2L["f9"]["Position"] = UDim2.new(0, 0, 0, 99);
+G2L["f9"]["Text"] = [[Backdoor.exe]];
+G2L["f9"]["Position"] = UDim2.new(0, 0, 0, 132);
 
 
 -- StarterGui.CoolGui.Frame.Page6.Section1.Button.LocalScript
@@ -2694,18 +2688,17 @@ G2L["fa"] = Instance.new("LocalScript", G2L["f9"]);
 
 
 -- StarterGui.CoolGui.Frame.Page6.Section1.Button
-G2L["fb"] = Instance.new("TextButton", G2L["f3"]);
-G2L["fb"]["TextWrapped"] = true;
+G2L["fb"] = Instance.new("TextButton", G2L["f1"]);
 G2L["fb"]["BorderSizePixel"] = 3;
 G2L["fb"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["fb"]["TextSize"] = 14;
 G2L["fb"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["fb"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["fb"]["Size"] = UDim2.new(0.475, 0, 0, 30);
+G2L["fb"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["fb"]["Name"] = [[Button]];
 G2L["fb"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["fb"]["Text"] = [[Backdoor.exe]];
-G2L["fb"]["Position"] = UDim2.new(0, 0, 0, 132);
+G2L["fb"]["Text"] = [[Comet]];
+G2L["fb"]["Position"] = UDim2.new(0, 73, 0, 66);
 
 
 -- StarterGui.CoolGui.Frame.Page6.Section1.Button.LocalScript
@@ -2714,7 +2707,8 @@ G2L["fc"] = Instance.new("LocalScript", G2L["fb"]);
 
 
 -- StarterGui.CoolGui.Frame.Page6.Section1.Button
-G2L["fd"] = Instance.new("TextButton", G2L["f3"]);
+G2L["fd"] = Instance.new("TextButton", G2L["f1"]);
+G2L["fd"]["TextWrapped"] = true;
 G2L["fd"]["BorderSizePixel"] = 3;
 G2L["fd"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["fd"]["TextSize"] = 14;
@@ -2723,8 +2717,8 @@ G2L["fd"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["fd"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["fd"]["Name"] = [[Button]];
 G2L["fd"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["fd"]["Text"] = [[Comet]];
-G2L["fd"]["Position"] = UDim2.new(0, 73, 0, 66);
+G2L["fd"]["Text"] = [[LALOL Backdoor Scanner]];
+G2L["fd"]["Position"] = UDim2.new(0, 73, 0, 99);
 
 
 -- StarterGui.CoolGui.Frame.Page6.Section1.Button.LocalScript
@@ -2733,7 +2727,7 @@ G2L["fe"] = Instance.new("LocalScript", G2L["fd"]);
 
 
 -- StarterGui.CoolGui.Frame.Page6.Section1.Button
-G2L["ff"] = Instance.new("TextButton", G2L["f3"]);
+G2L["ff"] = Instance.new("TextButton", G2L["f1"]);
 G2L["ff"]["TextWrapped"] = true;
 G2L["ff"]["BorderSizePixel"] = 3;
 G2L["ff"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
@@ -2743,8 +2737,8 @@ G2L["ff"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["ff"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["ff"]["Name"] = [[Button]];
 G2L["ff"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["ff"]["Text"] = [[LALOL Backdoor Scanner]];
-G2L["ff"]["Position"] = UDim2.new(0, 73, 0, 99);
+G2L["ff"]["Text"] = [[QuirkyCMD]];
+G2L["ff"]["Position"] = UDim2.new(0, 73, 0, 33);
 
 
 -- StarterGui.CoolGui.Frame.Page6.Section1.Button.LocalScript
@@ -2753,7 +2747,7 @@ G2L["100"] = Instance.new("LocalScript", G2L["ff"]);
 
 
 -- StarterGui.CoolGui.Frame.Page6.Section1.Button
-G2L["101"] = Instance.new("TextButton", G2L["f3"]);
+G2L["101"] = Instance.new("TextButton", G2L["f1"]);
 G2L["101"]["TextWrapped"] = true;
 G2L["101"]["BorderSizePixel"] = 3;
 G2L["101"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
@@ -2763,8 +2757,8 @@ G2L["101"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json
 G2L["101"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["101"]["Name"] = [[Button]];
 G2L["101"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["101"]["Text"] = [[QuirkyCMD]];
-G2L["101"]["Position"] = UDim2.new(0, 73, 0, 33);
+G2L["101"]["Text"] = [[beckdeer skenner]];
+G2L["101"]["Position"] = UDim2.new(0, 73, 0, 132);
 
 
 -- StarterGui.CoolGui.Frame.Page6.Section1.Button.LocalScript
@@ -2773,10 +2767,10 @@ G2L["102"] = Instance.new("LocalScript", G2L["101"]);
 
 
 -- StarterGui.CoolGui.Frame.Page6.PageLabel
-G2L["103"] = Instance.new("TextLabel", G2L["f0"]);
+G2L["103"] = Instance.new("TextLabel", G2L["ee"]);
 G2L["103"]["ZIndex"] = 3;
 G2L["103"]["BorderSizePixel"] = 3;
-G2L["103"]["TextSize"] = 14;
+G2L["103"]["TextSize"] = 18;
 G2L["103"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["103"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["103"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
@@ -2792,6 +2786,7 @@ G2L["104"] = Instance.new("Frame", G2L["2"]);
 G2L["104"]["Active"] = true;
 G2L["104"]["ZIndex"] = 2;
 G2L["104"]["BorderSizePixel"] = 3;
+G2L["104"]["AutoLocalize"] = false;
 G2L["104"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["104"]["Size"] = UDim2.new(1, 0, 1, -106);
 G2L["104"]["Position"] = UDim2.new(0, 0, 0, 83);
@@ -2803,7 +2798,7 @@ G2L["104"]["Name"] = [[Page1]];
 G2L["105"] = Instance.new("TextLabel", G2L["104"]);
 G2L["105"]["ZIndex"] = 2;
 G2L["105"]["BorderSizePixel"] = 3;
-G2L["105"]["TextSize"] = 14;
+G2L["105"]["TextSize"] = 18;
 G2L["105"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["105"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
 G2L["105"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
@@ -3103,7 +3098,7 @@ G2L["122"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json
 G2L["122"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["122"]["Name"] = [[Button]];
 G2L["122"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["122"]["Text"] = [[c00lgui (pre-reborn)]];
+G2L["122"]["Text"] = [[classic c00lgui]];
 G2L["122"]["Position"] = UDim2.new(0, 0, 0, 33);
 
 
@@ -3133,6 +3128,7 @@ G2L["125"] = Instance.new("LocalScript", G2L["124"]);
 
 -- StarterGui.CoolGui.Frame.Page1.svd.Button
 G2L["126"] = Instance.new("TextButton", G2L["120"]);
+G2L["126"]["TextWrapped"] = true;
 G2L["126"]["BorderSizePixel"] = 3;
 G2L["126"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["126"]["TextSize"] = 14;
@@ -3141,7 +3137,7 @@ G2L["126"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json
 G2L["126"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["126"]["Name"] = [[Button]];
 G2L["126"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["126"]["Text"] = [[YourMom Gui]];
+G2L["126"]["Text"] = [[Skeleton Sky (g00byd0lan)]];
 G2L["126"]["Position"] = UDim2.new(0, 0, 0, 99);
 
 
@@ -3160,7 +3156,7 @@ G2L["128"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json
 G2L["128"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["128"]["Name"] = [[Button]];
 G2L["128"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["128"]["Text"] = [[T0PK3K FD]];
+G2L["128"]["Text"] = [[Disco Fog]];
 G2L["128"]["Position"] = UDim2.new(0, 0, 0, 132);
 
 
@@ -3217,7 +3213,7 @@ G2L["12e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json
 G2L["12e"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["12e"]["Name"] = [[Button]];
 G2L["12e"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["12e"]["Text"] = [[Infinite Yield FD]];
+G2L["12e"]["Text"] = [[MLG Particles]];
 G2L["12e"]["Position"] = UDim2.new(0, 73, 0, 99);
 
 
@@ -3236,7 +3232,7 @@ G2L["130"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json
 G2L["130"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["130"]["Name"] = [[Button]];
 G2L["130"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["130"]["Text"] = [[Lazor Mouth]];
+G2L["130"]["Text"] = [[Suicide Vest]];
 G2L["130"]["Position"] = UDim2.new(0, 73, 0, 132);
 
 
@@ -3838,26 +3834,26 @@ local script = G2L["4b"];
 		SwordSlash1.Volume = 1
 	
 		local SwordSlash2 = Instance.new("Sound", k)
-		SwordSlash2.SoundId = "http://www.roblox.com/asset/?id=12222216" -- Unique sound
+		SwordSlash2.SoundId = "http://www.roblox.com/asset/?id=12222216" 
 		SwordSlash2.Volume = 1
 		SwordSlash2.Pitch = 1.5
 	
 		local OverheadLunge = Instance.new("Sound", k)
-		OverheadLunge.SoundId = "http://www.roblox.com/asset/?id=12222208" -- Unique sound
+		OverheadLunge.SoundId = "http://www.roblox.com/asset/?id=12222208" 
 		OverheadLunge.Volume = 1
 	
 		local EquipAnim = Instance.new("Animation", tool)
-		EquipAnim.AnimationId = "rbxassetid://94160581" -- Replace with actual equip animation ID
+		EquipAnim.AnimationId = "rbxassetid://94160581" 
 		local EquipTrack = humanoid:LoadAnimation(EquipAnim)
 	
 		local IdleAnim = Instance.new("Animation", tool)
-		IdleAnim.AnimationId = "rbxassetid://94108418" -- Replace with actual idle animation ID
+		IdleAnim.AnimationId = "rbxassetid://94108418" 
 		local IdleTrack = humanoid:LoadAnimation(IdleAnim)
 	
 		local AttackAnims = {
-			"rbxassetid://94161088",  -- Slash 1
-			"rbxassetid://94161333",  -- Slash 2
-			"rbxassetid://94160738"   -- Overhead Lunge
+			"rbxassetid://94161088",  
+			"rbxassetid://94161333",  
+			"rbxassetid://94160738"  
 		}
 	
 		local AnimTracks = {}
@@ -3942,617 +3938,291 @@ local script = G2L["4f"];
 	--local input = CoolGui.Frame.Settings
 	
 	button.MouseButton1Down:connect(function()
-		-- Toggle : [=]        (enable / disable drawing)
-		-- Undo : [Z]          (remove last drawn line in canvas)
-		-- Draw : [Left Click] (draw)
-		-- Clear : [F]         (clear canvas)
-		-- Rainbow : [R]       (toggle rainbow color drawings)
-		-- Neon Glow : [X]     (toggle glowing drawings)
-		-- Other in GUI
-		-- Toxicity : [Q]      (toggle toxicity aka kills people)
+		local Players = game:GetService("Players")
+		local TweenService = game:GetService("TweenService")
 	
-		local plr = game:GetService("Players").LocalPlayer
-		char = plr.Character
-		mouse = plr:GetMouse()
+		-- Initializing variables
+		local user = Players.LocalPlayer
+		local uname = user.Name
+		local guis = user.PlayerGui
+		local pack = user.Backpack
 	
-		function tween(object,style,direction,t,goal)
-			local tweenservice = game:GetService("TweenService")
-			local tweenInfo = TweenInfo.new(t,Enum.EasingStyle[style],Enum.EasingDirection[direction])
-			local tween = tweenservice:Create(object,tweenInfo,goal)
-			tween:Play()
-			return tween
+		local keyDowns = {}
+		local freeKeys = {}
+		local shortcuts = {}
+	
+		_G.mine = _G.mine or {}
+	
+		local name = 'Draw3D'
+		local url = 'http://www.roblox.com/asset/?id=%d'
+	
+		local iconNormal = url:format(96578285)
+		local iconOnDown = url:format(96584484)
+	
+		local ver = 0
+		local drawPixel = 0.10
+		_G.drawLimit = _G.drawLimit or 1000
+		_G.drawColor = _G.drawColor or Color3.new()
+	
+		-- Utility functions
+		local destroy = game.Destroy
+		local find = game.FindFirstChild
+		local new = Instance.new
+	
+		local with = function(c)
+			return function(p)
+				local o = type(c) == 'string' and new(c) or c
+				local x = p.Parent
+				p.Parent = nil
+				for i, v in next, p do
+					o[i] = v
+				end
+				if x then
+					o.Parent = x
+				end
+				return o
+			end
 		end
 	
-		enabled = true
-	
-		local pgui = game.Players.LocalPlayer:WaitForChild("PlayerGui")
-	
-		GUI = Instance.new("ScreenGui")
-		GUI.ResetOnSpawn = false
-		Frame1 = Instance.new("Frame")
-		TextLabel2 = Instance.new("TextLabel")
-		Frame3 = Instance.new("Frame")
-		Frame4 = Instance.new("Frame")
-		Frame5 = Instance.new("Frame")
-		Frame6 = Instance.new("Frame")
-		TextLabel7 = Instance.new("TextLabel")
-		TextLabel8 = Instance.new("TextLabel")
-		TextLabel9 = Instance.new("TextLabel")
-		TextLabel10 = Instance.new("TextLabel")
-		Frame11 = Instance.new("Frame")
-		Frame12 = Instance.new("Frame")
-		Frame13 = Instance.new("Frame")
-		Frame14 = Instance.new("Frame")
-		Frame15 = Instance.new("Frame")
-		Frame16 = Instance.new("Frame")
-		ImageButton17 = Instance.new("ImageButton")
-		TextLabel18 = Instance.new("TextLabel")
-		ImageButton19 = Instance.new("ImageButton")
-		LocalScript20 = Instance.new("LocalScript")
-		Color3Value21 = Instance.new("Color3Value")
-		TextLabel22 = Instance.new("TextLabel")
-		TextLabel23 = Instance.new("TextLabel")
-		TextLabel24 = Instance.new("TextLabel")
-		TextLabel25 = Instance.new("TextLabel")
-		GUI.Parent = pgui
-		Frame1.Name = "Settings"
-		Frame1.Parent = GUI
-		Frame1.Transparency = 0.80000001192093
-		Frame1.Size = UDim2.new(0, 191, 0, 130)
-		Frame1.Position = UDim2.new(0, 266, 0, 130)
-		Frame1.Active = true
-		Frame1.BackgroundColor3 = Color3.new(0.0470588, 0.0509804, 0.0588235)
-		Frame1.BackgroundTransparency = 0.80000001192093
-		Frame1.BorderColor3 = Color3.new(1, 1, 1)
-		Frame1.BorderSizePixel = 0
-		Frame1.Draggable = true
-		TextLabel2.Parent = Frame1
-		TextLabel2.Size = UDim2.new(0, 191, 0, 15)
-		TextLabel2.Text = "Neodymn's Draw Tool"
-		TextLabel2.Position = UDim2.new(0, 0, 0, 5)
-		TextLabel2.BackgroundColor3 = Color3.new(1, 1, 1)
-		TextLabel2.BackgroundTransparency = 1
-		TextLabel2.Font = Enum.Font.SourceSansBold
-		TextLabel2.TextSize = 22
-		TextLabel2.TextColor3 = Color3.new(1, 1, 1)
-		TextLabel2.TextStrokeColor3 = Color3.new(1, 1, 1)
-		TextLabel2.TextWrapped = false
-		Frame3.Parent = Frame1
-		Frame3.Size = UDim2.new(0, 3, 1, 0)
-		Frame3.Position = UDim2.new(0, -3, 0, 0)
-		Frame3.BackgroundColor3 = Color3.new(1, 1, 1)
-		Frame3.BorderSizePixel = 0
-		Frame4.Parent = Frame1
-		Frame4.Size = UDim2.new(0, 3, 1, 0)
-		Frame4.Position = UDim2.new(1, 0, 0, 0)
-		Frame4.BackgroundColor3 = Color3.new(1, 1, 1)
-		Frame4.BorderSizePixel = 0
-		Frame5.Parent = Frame1
-		Frame5.Size = UDim2.new(1, 0, 0, 3)
-		Frame5.Position = UDim2.new(0, 0, 0, -3)
-		Frame5.BackgroundColor3 = Color3.new(1, 1, 1)
-		Frame5.BorderSizePixel = 0
-		Frame6.Parent = Frame1
-		Frame6.Size = UDim2.new(1, 0, 0, 3)
-		Frame6.Position = UDim2.new(0, 0, 1, 0)
-		Frame6.BackgroundColor3 = Color3.new(1, 1, 1)
-		Frame6.BorderSizePixel = 0
-		TextLabel7.Parent = Frame1
-		TextLabel7.Size = UDim2.new(0, 95, 0, 25)
-		TextLabel7.Text = "Thickness (m/n)"
-		TextLabel7.Position = UDim2.new(0, 5, 0, 25)
-		TextLabel7.BackgroundColor3 = Color3.new(1, 1, 1)
-		TextLabel7.BackgroundTransparency = 1
-		TextLabel7.Font = Enum.Font.SourceSansBold
-		TextLabel7.TextSize = 20
-		TextLabel7.TextColor3 = Color3.new(1, 1, 1)
-		TextLabel7.TextStrokeColor3 = Color3.new(1, 1, 1)
-		TextLabel7.TextXAlignment = Enum.TextXAlignment.Left
-		TextLabel8.Parent = Frame1
-		TextLabel8.Size = UDim2.new(0, 95, 0, 25)
-		TextLabel8.Text = "Can Collide (c)"
-		TextLabel8.Position = UDim2.new(0, 5, 0, 50)
-		TextLabel8.BackgroundColor3 = Color3.new(1, 1, 1)
-		TextLabel8.BackgroundTransparency = 1
-		TextLabel8.Font = Enum.Font.SourceSansBold
-		TextLabel8.TextSize = 20
-		TextLabel8.TextColor3 = Color3.new(1, 1, 1)
-		TextLabel8.TextStrokeColor3 = Color3.new(1, 1, 1)
-		TextLabel8.TextXAlignment = Enum.TextXAlignment.Left
-		TextLabel9.Parent = Frame1
-		TextLabel9.Size = UDim2.new(0, 95, 0, 25)
-		TextLabel9.Text = "Opacity (b/v)"
-		TextLabel9.Position = UDim2.new(0, 5, 0, 75)
-		TextLabel9.BackgroundColor3 = Color3.new(1, 1, 1)
-		TextLabel9.BackgroundTransparency = 1
-		TextLabel9.Font = Enum.Font.SourceSansBold
-		TextLabel9.TextSize = 20
-		TextLabel9.TextColor3 = Color3.new(1, 1, 1)
-		TextLabel9.TextStrokeColor3 = Color3.new(1, 1, 1)
-		TextLabel9.TextXAlignment = Enum.TextXAlignment.Left
-		TextLabel10.Parent = Frame1
-		TextLabel10.Size = UDim2.new(0, 95, 0, 25)
-		TextLabel10.Text = "Color (r)"
-		TextLabel10.Position = UDim2.new(0, 5, 0, 100)
-		TextLabel10.BackgroundColor3 = Color3.new(1, 1, 1)
-		TextLabel10.BackgroundTransparency = 1
-		TextLabel10.Font = Enum.Font.SourceSansBold
-		TextLabel10.TextSize = 20
-		TextLabel10.TextColor3 = Color3.new(1, 1, 1)
-		TextLabel10.TextStrokeColor3 = Color3.new(1, 1, 1)
-		TextLabel10.TextXAlignment = Enum.TextXAlignment.Left
-		Frame11.Name = "Color"
-		Frame11.Parent = Frame1
-		Frame11.Transparency = 0.80000001192093
-		Frame11.Size = UDim2.new(0, 121, 0, 115)
-		Frame11.Position = UDim2.new(0, 201, 0, 15)
-		Frame11.BackgroundColor3 = Color3.new(0.0470588, 0.0509804, 0.0588235)
-		Frame11.BackgroundTransparency = 0.80000001192093
-		Frame11.BorderColor3 = Color3.new(1, 1, 1)
-		Frame11.BorderSizePixel = 0
-		Frame11.Draggable = true
-		Frame12.Parent = Frame11
-		Frame12.Size = UDim2.new(0, 3, 1, 0)
-		Frame12.Position = UDim2.new(1, 0, 0, 0)
-		Frame12.BackgroundColor3 = Color3.new(1, 1, 1)
-		Frame12.BorderSizePixel = 0
-		Frame13.Parent = Frame11
-		Frame13.Size = UDim2.new(1, 0, 0, 3)
-		Frame13.Position = UDim2.new(0, 0, 0, -3)
-		Frame13.BackgroundColor3 = Color3.new(1, 1, 1)
-		Frame13.BorderSizePixel = 0
-		Frame14.Parent = Frame11
-		Frame14.Size = UDim2.new(1, 0, 0, 3)
-		Frame14.Position = UDim2.new(0, 0, 1, 0)
-		Frame14.BackgroundColor3 = Color3.new(1, 1, 1)
-		Frame14.BorderSizePixel = 0
-		Frame15.Parent = Frame11
-		Frame15.Size = UDim2.new(0, 3, 1, 0)
-		Frame15.Position = UDim2.new(0, -3, 0, 0)
-		Frame15.BackgroundColor3 = Color3.new(1, 1, 1)
-		Frame15.BorderSizePixel = 0
-		Frame16.Name = "Picker"
-		Frame16.Parent = Frame11
-		Frame16.Transparency = 1
-		Frame16.Size = UDim2.new(0, 286, 0, 255)
-		Frame16.Position = UDim2.new(0, -372, 0, -55)
-		Frame16.BackgroundColor3 = Color3.new(0.498039, 0.247059, 0.247059)
-		Frame16.BackgroundTransparency = 1
-		Frame16.BorderColor3 = Color3.new(0, 0, 0)
-		ImageButton17.Name = "SV"
-		ImageButton17.Parent = Frame16
-		ImageButton17.Size = UDim2.new(0, 101, 0, 105)
-		ImageButton17.Position = UDim2.new(0, 377, 0, 60)
-		ImageButton17.BackgroundColor3 = Color3.new(1, 0, 0)
-		ImageButton17.BorderColor3 = Color3.new(0, 0, 0)
-		ImageButton17.BorderSizePixel = 0
-		ImageButton17.AutoButtonColor = false
-		ImageButton17.Image = "http://www.roblox.com/asset/?id=42462986"
-		TextLabel18.Name = "Locator"
-		TextLabel18.Parent = ImageButton17
-		TextLabel18.Text = "o"
-		TextLabel18.Position = UDim2.new(0.5, 0, 0.5, 0)
-		TextLabel18.BorderColor3 = Color3.new(0, 0, 0)
-		TextLabel18.FontSize = Enum.FontSize.Size12
-		TextLabel18.TextColor3 = Color3.new(1, 1, 1)
-		ImageButton19.Name = "H"
-		ImageButton19.Parent = Frame16
-		ImageButton19.Size = UDim2.new(0, 10, 0, 105)
-		ImageButton19.Position = UDim2.new(0, 477, 0, 60)
-		ImageButton19.BorderColor3 = Color3.new(0, 0, 0)
-		ImageButton19.BorderSizePixel = 0
-		ImageButton19.AutoButtonColor = false
-		ImageButton19.Image = "http://www.roblox.com/asset/?id=42463044"
-		LocalScript20.Parent = Frame16
-		Color3Value21.Name = "Col"
-		Color3Value21.Parent = Frame11
-		TextLabel22.Name = "ColorT"
-		TextLabel22.Parent = Frame1
-		TextLabel22.Size = UDim2.new(0, 65, 0, 25)
-		TextLabel22.Text = "0, 0, 0"
-		TextLabel22.Position = UDim2.new(0, 126, 0, 100)
-		TextLabel22.BackgroundColor3 = Color3.new(1, 1, 1)
-		TextLabel22.BackgroundTransparency = 1
-		TextLabel22.Font = Enum.Font.SourceSansBold
-		TextLabel22.TextSize = 20
-		TextLabel22.TextColor3 = Color3.new(1, 1, 1)
-		TextLabel22.TextScaled = true
-		TextLabel22.TextStrokeColor3 = Color3.new(1, 1, 1)
-		TextLabel22.TextWrapped = true
-		TextLabel23.Name = "Transparent"
-		TextLabel23.Parent = Frame1
-		TextLabel23.Size = UDim2.new(0, 25, 0, 25)
-		TextLabel23.Text = "0"
-		TextLabel23.Position = UDim2.new(0, 146, 0, 75)
-		TextLabel23.BackgroundColor3 = Color3.new(1, 1, 1)
-		TextLabel23.BackgroundTransparency = 1
-		TextLabel23.Font = Enum.Font.SourceSansBold
-		TextLabel23.TextSize = 20
-		TextLabel23.TextColor3 = Color3.new(1, 1, 1)
-		TextLabel23.TextStrokeColor3 = Color3.new(1, 1, 1)
-		TextLabel23.TextWrapped = true
-		TextLabel24.Name = "CanCollide"
-		TextLabel24.Parent = Frame1
-		TextLabel24.Size = UDim2.new(0, 55, 0, 25)
-		TextLabel24.Text = "false"
-		TextLabel24.Position = UDim2.new(0, 131, 0, 50)
-		TextLabel24.BackgroundColor3 = Color3.new(1, 1, 1)
-		TextLabel24.BackgroundTransparency = 1
-		TextLabel24.Font = Enum.Font.SourceSansBold
-		TextLabel24.TextSize = 20
-		TextLabel24.TextColor3 = Color3.new(1, 1, 1)
-		TextLabel24.TextStrokeColor3 = Color3.new(1, 1, 1)
-		TextLabel24.TextWrapped = true
-		TextLabel25.Name = "Thickness"
-		TextLabel25.Parent = Frame1
-		TextLabel25.Size = UDim2.new(0, 25, 0, 25)
-		TextLabel25.Text = "1"
-		TextLabel25.Position = UDim2.new(0, 146, 0, 25)
-		TextLabel25.BackgroundColor3 = Color3.new(1, 1, 1)
-		TextLabel25.BackgroundTransparency = 1
-		TextLabel25.Font = Enum.Font.SourceSansBold
-		TextLabel25.TextSize = 20
-		TextLabel25.TextColor3 = Color3.new(1, 1, 1)
-		TextLabel25.TextStrokeColor3 = Color3.new(1, 1, 1)
-		TextLabel25.TextWrapped = true
-	
-		presets = GUI.Settings
-		colors = presets.Color
-	
-		function round(num, numDecimalPlaces)
-			local mult = 10^(numDecimalPlaces or 0)
-			return tostring(math.floor(num * mult + 0.5) / mult)
+		-- Get place for drawing
+		local getPlace = function()
+			if find(workspace, 'draw') == nil then
+				new('Model', workspace).Name = 'draw'
+			end
+			if find(workspace.draw, uname) == nil then
+				new('Model', workspace.draw).Name = uname
+			end
+			return workspace.draw[uname]
 		end
 	
-		spawn(function()
-			local frame = colors.Picker
-			local sv = frame.SV
-			local h = frame.H
-			local locator = sv.Locator
+		-- Draw line function
+		local drawLine = function(start, target)
+			local gui = with('BlockMesh') {
+				Parent = with('Part') {
+					CFrame = CFrame.new(start, target) * CFrame.new(0, 0, -(start - target).Magnitude / 2),
+					Size = Vector3.new(drawPixel, drawPixel, (start - target).Magnitude + 0.325 * drawPixel),
+					Parent = getPlace(),
+					Color = _G.drawColor,
+					BottomSurface = 0,
+					Anchored = true,
+					TopSurface = 0,
+					FormFactor = 3,
+					Name = name
+				}
+			}.Parent
+			table.insert(_G.mine, gui)
+			return gui
+		end
 	
-			local hue = 0
-			local saturation = 0.5
-			local value = 0.5
+		-- Mouse event functions
+		local drawing = false
 	
-			local changingHue = false
-			local changingSv = false
+		local onDown = function()
+			if drawing then return nil end
+			if selectGui.Adornee then
+				destroy(selectGui.Adornee)
+			end
 	
-			function getRGBfromHue()
-				local r,g,b = 0,0,0
-				if hue>=120 and hue<=240 then r = 0
-				elseif hue>=300 or hue<=60 then r = 1
-				elseif hue>60 and hue<120 then r = 1-(hue-60)/60
-				elseif hue>240 and hue<300 then r = (hue-240)/60
+			drawing = true
+			mouse.Icon = iconOnDown
+			ver = ver + 1
+	
+			local cVer, start, target = ver, mouse.Hit.p
+	
+			local group = {}
+			repeat
+				wait(0.02)
+	
+				if mouse.Target and mouse.Target.Name ~= name and mouse.Hit.p ~= start then
+					target = mouse.Hit.p
+					table.insert(group, drawLine(start, target))
+					start = target
 				end
+			until ver ~= cVer
+			drawing = false
 	
-				if hue>=240 and hue<=360 then g = 0
-				elseif hue>=60 and hue<=180 then g = 1
-				elseif hue>180 and hue<240 then g = 1-(hue-180)/60
-				elseif hue<60 then g = hue/60
+			local groupM = new('Model', getPlace())
+			for _, v in next, group do
+				if v:IsDescendantOf(workspace) then
+					v.Parent = groupM
 				end
+			end
+			if next(groupM:GetChildren()) == nil then
+				destroy(groupM)
+			end
+		end
 	
-				if hue<=120 then b = 0
-				elseif hue>=180 and hue<=300 then b = 1
-				elseif hue>120 and hue<180 then b = (hue-120)/60
-				elseif hue>300 and hue<360 then b = 1-(hue-300)/60
-				end
-				return r,g,b
+		local onUp = function()
+			mouse.Icon = iconNormal
+			ver = ver + 1
+		end
+	
+		local onKeyDown = function(k)
+			if freeKeys[k] == false then
+				return false
+			end
+			freeKeys[k] = false
+			wait(0.01)
+			if keyDowns[k] then
+				keyDowns[k]()
+			elseif shortcuts[k] then
+				shortcuts[k]()
+			end
+		end
+	
+		local onKeyUp = function(k)
+			freeKeys[k] = true
+		end
+	
+		local onMove = function()
+			-- Mouse move behavior can be added here
+		end
+	
+		-- Selecting and Deselecting tool
+		local onSelect = function(lmouse)
+			frame.Visible = true
+			mouse = lmouse
+			mouse.Icon = iconNormal
+			mouse.Button1Down:Connect(onDown)
+			mouse.KeyDown:Connect(onKeyDown)
+			mouse.Button1Up:Connect(onUp)
+			mouse.KeyUp:Connect(onKeyUp)
+			mouse.Move:Connect(onMove)
+		end
+	
+		local onDeselect = function()
+			ver = ver + 1
+			frame.Visible = false
+			selectGui.Adornee = nil
+			mouse.Icon = iconNormal
+			for i, v in next, freeKeys do
+				freeKeys[i] = true
+			end
+		end
+	
+		-- Add buttons
+		local addButton = function(title, shortcut, fun)
+			with('TextButton') {
+				Text = string.format(' %s (%s)', title, shortcut),
+				TextXAlignment = 0,
+				Parent = frame
+			}.MouseButton1Up:Connect(fun)
+	
+			shortcuts[shortcut] = fun
+	
+			local c = #frame:GetChildren()
+			for i, v in next, frame:GetChildren() do
+				v.Position = UDim2.new(0, 0, 0, 20 * (i - 1))
+				v.Size = UDim2.new(1, 0, 0, 20)
 			end
 	
-			function changeHue(x,y)
-				if not changingHue then return end
-				hue = 360*(1-(y-h.AbsolutePosition.y)/h.AbsoluteSize.y)+85
+			frame.Position = UDim2.new(1, -152, 0.5, -c * 10)
+			frame.Size = UDim2.new(0, 150, 0, c * 20)
+		end
 	
-				local r,g,b = getRGBfromHue()
+		-- Cleanup previous instances
+		for _, v in next, {guis, pack} do
+			pcall(function()
+				repeat until destroy(v[name])
+			end)
+		end
 	
-				sv.BackgroundColor3 = Color3.new(r,g,b)
-				toRGB()
+		-- Tool setup
+		local tool = with('HopperBin') {
+			Parent = pack,
+			Name = name
+		}
+		tool.Deselected:Connect(onDeselect)
+		tool.Selected:Connect(onSelect)
+	
+		-- GUI Setup
+		local screen = with('ScreenGui') {
+			Parent = guis,
+			Name = name
+		}
+		frame = with('Frame') {
+			Parent = screen,
+			Visible = false
+		}
+		clframe = with('Frame') {
+			Position = UDim2.new(0.5, -50, 0.5, -50),
+			Size = UDim2.new(0, 100, 0, 100),
+			Visible = false,
+			Parent = screen
+		}
+		selectGui = with('SelectionBox') {
+			Parent = screen
+		}
+	
+		-- Color picker setup
+		local c = 0
+		for y = 0, 7 do
+			for x = 0, 7 do
+				local color = BrickColor.Palette(c).Color
+				with('ImageButton') {
+					Position = UDim2.new(0.125 * x, 0, 0.125 * y, 0),
+					Size = UDim2.new(0.125, 0, 0.125, 0),
+					BackgroundColor3 = color,
+					Parent = clframe
+				}.MouseButton1Up:Connect(function()
+					clframe.Visible = false
+					_G.drawColor = color
+				end)
+				c = c + 1
 			end
+		end
 	
-			function changeSv(x,y)
-				if not changingSv then return end
-				local x,y = x-sv.AbsolutePosition.x,y-sv.AbsolutePosition.y-35
-				locator.Position = UDim2.new(0,x,0,y)
-				if y>=(sv.AbsoluteSize.y)/2 then locator.TextColor3 = Color3.new(1,1,1) else locator.TextColor3 = Color3.new(0,0,0) end
-				saturation,value = 1-(x/sv.AbsoluteSize.x), 1-(y/sv.AbsoluteSize.y)
-				toRGB()
-			end
-	
-			function toRGB()
-				local r,g,b = getRGBfromHue()
-	
-				local max = math.max(r,g,b)
-				r,g,b = value*(r+saturation*(max-r)),value*(g+saturation*(max-g)),value*(b+saturation*(max-b))
-	
-	
-				colors.Col.Value = Color3.new(r,g,b)
-			end
-	
-			h.MouseButton1Down:connect(function(x,y) changingHue = true changeHue(x,y) end)
-			h.MouseButton1Up:connect(function() changingHue = false end)
-			h.MouseMoved:connect(changeHue)
-	
-			sv.MouseButton1Down:connect(function(x,y) changingSv = true changeSv(x,y) end)
-			sv.MouseButton1Up:connect(function() changingSv = false end)
-			sv.MouseMoved:connect(changeSv)
+		-- Add buttons to GUI
+		addButton('Color', 'c', function()
+			clframe.Visible = true
 		end)
 	
-		spawn(function()
-			while wait() do
-				if transparency < 0 then transparency = 0 end
-				if transparency > 1 then transparency = 0 end
-				color = colors.Col.Value
-				local c = color
-				if c.r < 0 then
-					c = Color3.new(0,c.g,c.b)
-				end
-				if c.g < 0 then
-					c = Color3.new(c.r,0,c.b)
-				end
-				if c.b < 0 then
-					c = Color3.new(c.r,c.g,0)
-				end
-				if c.r > 1 then
-					c = Color3.new(1,c.g,c.b)
-				end
-				if c.g > 1 then
-					c = Color3.new(c.r,1,c.b)
-				end
-				if c.b > 1 then
-					c = Color3.new(c.r,c.g,1)
-				end
-				color = c
-				colors.Col.Value = c
-				presets.ColorT.Text = round(color.r,1)..", "..round(color.g,1)..", "..round(color.b,1)
-				presets.Transparent.Text = tostring(transparency)
-				local th = tostring(thickness)
-				if thickness < 0.15 then
-					th = '0.1'
-				end
-				presets.Thickness.Text = tostring(th)
-				presets.CanCollide.Text = tostring(canCollide)
-			end
+		addButton('Remove your draws', 'r', function()
+			repeat
+				destroy(_G.mine[1])
+				table.remove(_G.mine, 1)
+				wait(0.01)
+			until nil
 		end)
 	
-		local UIS = game:GetService("UserInputService")
-		UIS.InputEnded:connect(function(k,g)
-			if k.KeyCode == Enum.KeyCode.Equals and not g then
-				enabled = not enabled
-			end
-		end)
-	
-		drawings = Instance.new("Model",workspace)
-		drawings.Name = "Drawings"
-	
-		lastd = nil
-	
-		spawn(function()
-			while wait() do
-				mouse = plr:GetMouse()
-				if drawings == nil then
-					drawings = Instance.new("Model",workspace)
-					drawings.Name = "Drawings"
-				end
-				if drawings.Parent ~= workspace then
-					drawings.Parent = workspace
-				end
-			end
-		end)
-	
-		canCollide = false
-		canStack = false
-		thickness = 1
-		color = Color3.new(1,0,0)
-		transparency = 0
-		interval = 0.1
-		rainbow = false
-	
-	
-		lastm = nil
-	
-		drawing = false
-	
-		neon = false
-	
-	
-		local zDown = false
-	
-		mdown = false
-		ndown = false
-		bdown = false
-		vdown = false
-	
-		spawn(function()
-			while wait() do
-				if ndown == true then
-					if not (thickness < 0.2) then
-						thickness = thickness - 0.2
-					end
-				end
-				if mdown == true then
-					if (thickness < 20) then
-						thickness = thickness + 0.2
-					end
-				end
-				if bdown == true then
-					if (transparency < 0.9) then
-						transparency = transparency + 0.1
-						wait(0.1)
-					end
-				end
-				if vdown == true then
-					if (transparency > 0) then
-						transparency = transparency - 0.1
-					end
-					if string.sub(tostring(transparency),1,3) == "2.7" then transparency = 0 end
-					wait(0.1)
-				end
-			end
-		end)
-		killer = false
-		mouse.KeyDown:connect(function(k)
-			if enabled == false then return end
-			local key = k:lower()
-			if key == "m" then
-				mdown = true
-			end
-			if key == "q" then
-				killer = not killer
-			end
-			if key == "n" then
-				ndown = true
-			end
-			if key == "x" then
-				neon = not neon
-			end
-			if key == "b" then
-				bdown = true
-			end
-			if key == "v" then
-				vdown = true
-			end
-			if key == "z" then
-				zDown = true
-				local draw = drawings[#drawings:GetChildren()]
-				if not draw then return end
-				draw:Destroy()
-			end
-			if key == "f" then
-				drawings:ClearAllChildren()
-			end
-			if key == "r" then
-				rainbow = not rainbow
-			end
-			if key == "c" then
-				canCollide = not canCollide
+		addButton('Remove global draws', 'k', function()
+			destroy(workspace.draw)
+			while _G.mine[1] do
+				destroy(_G.mine[1])
+				table.remove(_G.mine, 1)
 			end
 		end)
 	
-		mouse.KeyUp:connect(function(k)
-			local key = k:lower()
-			if key == "m" then
-				mdown = false
-			end
-			if key == "n" then
-				ndown = false
-			end
-			if key == "b" then
-				bdown = false
-			end
-			if key == "v" then
-				vdown = false
-			end
-			if key == "z" then
-				zDown = false
-			end
-		end)
-	
-		local uis = game:GetService("UserInputService")
-		uis.InputBegan:connect(function(k,g)
-			if g then return end
-			if k.UserInputType == Enum.UserInputType.MouseButton1 then
-				drawing = true
-			end
-		end)
-		uis.InputEnded:connect(function(k,g)
-			if k.UserInputType == Enum.UserInputType.MouseButton1 then
-				drawing = false
-			end
-		end)
-	
-		spawn(function()
-			while wait() do
-				if zDown == true then
-					local zWasUp = false
-					local n = 0
-					repeat wait() if zDown == false then zWasUp = true end n = n + 0.5 until n >= 10
-					if zDown == true and zWasUp == false then
-						repeat 
-							game:GetService("RunService").RenderStepped:Wait()
-							pcall(function() 
-								local draw = drawings[#drawings:GetChildren()]
-								draw:Destroy()
-							end)
-						until zDown == false
-					end
-				end
-			end
-		end)
-	
-		mouse.TargetFilter = drawings
-		ldraw = nil
-		game:GetService("RunService").RenderStepped:connect(function()
-			if drawing == false then
-				lastm = mouse.Hit.p
-				ldraw = nil
-			end
-			print(drawing)
-			if drawing == true and (lastm ~= mouse.Hit.p) and enabled then
-				local mp = mouse.Hit.p
-				local mh = mouse.Hit
-				local mt = mouse.Target
-				if not ldraw then lastm = mp end
-				if true then
-					if (mp - lastm).magnitude < thickness*1.5 and ldraw then return end
-					local draw = Instance.new("Part",drawings)
-					draw.Name = #drawings:GetChildren()
-					draw.Anchored = true
-					draw.CanCollide = canCollide
-					if neon then
-						draw.Material = "Neon"
+		addButton('Remove selected', 'x', function()
+			repeat
+				if find(workspace, 'draw') then
+					local dt = mouse.Target
+					if dt and dt:IsDescendantOf(workspace.draw) then
+						selectGui.Adornee = dt.Parent
 					else
-						draw.Material = "SmoothPlastic"
+						selectGui.Adornee = nil
 					end
-					draw.Transparency = transparency
-					draw.CFrame = CFrame.new((lastm + mouse.Hit.p)/2,lastm) 
-	
-					draw.Size = Vector3.new(0,0,(lastm - mp).magnitude)
-					tween(draw, "Sine", "Out", 0.1, {
-						Size = Vector3.new(thickness,thickness,(lastm - mp).magnitude)
-					})
-					local orr = draw.Size
-	
-					if killer then
-						coroutine.resume(coroutine.create(function()
-							local oz = Vector3.new(thickness,thickness,(lastm - mp).magnitude)
-							while draw and draw.Parent == drawings do
-								local t = tween(draw, "Sine", "InOut", 0.5, {
-									Size = oz * 1.2 + Vector3.new(0.25,0.25,0)
-								})
-								t.Completed:Wait(0)
-								local t = tween(draw, "Sine", "InOut", 0.5, {
-									Size = oz
-								})
-								t.Completed:Wait(0)
-							end
-						end))
-					end
-	
-					if rainbow == false then
-						draw.Color = color
-					else
-						local start = 0
-						spawn(function()
-							local rs = 1
-							while game:GetService("RunService").RenderStepped:Wait() do
-								game:GetService("RunService").RenderStepped:Wait()
-								game:GetService("RunService").RenderStepped:Wait()
-								if draw == nil or draw.Parent == nil then break end
-								rs = rs + 0.2
-								local r = (math.sin(start/2)/2)+0.5
-								local g = (math.sin(start)/2)+0.5
-								local b = (math.sin(start*1.5)/2)+0.5
-								local color3 = Color3.new(r, g, b)
-								draw.Color = color3
-								start = start + interval + math.abs(math.sin(rs))/10
-							end
-						end)
-					end
-					ldraw = draw
+				else
+					selectGui.Adornee = nil
 				end
-			end
-			lastm = mouse.Hit.p
+				wait(0.01)
+			until freeKeys.x
+			selectGui.Adornee = nil
 		end)
+	
+		-- Cleanup process
+		repeat
+			wait(0.01)
+			if next(_G.mine) and #_G.mine > _G.drawLimit then
+				destroy(_G.mine[1])
+				table.remove(_G.mine, 1)
+			end
+		until script.Parent == nil or tool.Parent == nil
+	
+		script.Disabled = true
+		destroy(screen)
+	
+		-- Dresmor Alakazard --
 	
 	end)
 end;
@@ -22185,8 +21855,8 @@ local script = G2L["77"];
 		local Admins = game.Players.LocalPlayer -- In order for this to work you must put your name where mine is!
 		local Speed = "0.05" -- Set the speed of the orb's rotation. This is recommended.
 		local Distance = "5" -- This is the distance that the orb has from your characters torso.
-		local Prefix = ":"
-		local Players = Game:GetService('Players')
+		local Prefix = ">"
+		local Players = game:GetService('Players')
 		local Banned = {} -- Leave this be!
 	
 		wait()
@@ -22274,6 +21944,70 @@ local script = G2L["77"];
 				end
 			end
 		end)
+		
+		Admins.Chatted:connect(function(msg)
+			if msg:lower() == Prefix .. "console show" then
+				sg = Instance.new('ScreenGui', Admins.PlayerGui)
+				fm = Instance.new('Frame', sg)
+				fm.Selectable = true
+				fm.Size = UDim2.new(0,400,0,300)
+				fm.BackgroundColor3 = Color3.new(0,0,0)
+				fm.BorderSizePixel = 4
+				fm.BorderColor3 = Color3.new(255,255,255)
+				fm.Position = UDim2.new(0.395,0,0.3,0)
+				txt = Instance.new('TextLabel', fm)
+				txt.Size = UDim2.new(0,400,0,25)
+				txt.Text = "~Game Console~"
+				txt.FontSize = Enum.FontSize.Size18
+				txt.TextColor3 = Color3.new(255,255,255)
+				txt.BackgroundColor3 = Color3.new(0,0,0)
+				txt.BorderSizePixel = 4
+				txt.BorderColor3 = Color3.new(255,255,255)
+				box = Instance.new('TextBox', fm)
+				box.Position = UDim2.new(0,50,0,50)
+				box.Size = UDim2.new(0,300,0,200)
+				box.BackgroundColor3 = Color3.new(0,0,0)
+				box.BorderSizePixel = 4
+				box.BorderColor3 = Color3.new(255,255,255)
+				box.TextColor3 = Color3.new(255,255,255)
+				box.ClearTextOnFocus = false
+				box.MultiLine = true
+				box.TextXAlignment = 'Left'
+				box.TextWrapped = true
+				box.TextYAlignment = 'Top'
+				box.Text = 'Click clear to clear the text or remove me by holding backspace!'
+				load1 = Instance.new('TextButton', box)
+				load1.Size = UDim2.new(0,200,0,25)
+				load1.Position = UDim2.new(0,50,0,213)
+				load1.BackgroundColor3 = Color3.new(0, 170, 0)
+				load1.TextColor3 = Color3.new(0,0,0)
+				load1.BorderSizePixel = 4
+				load1.BorderColor3 = Color3.new(255,255,255)
+				load1.Text = "Execute!"
+				load1.MouseButton1Click:connect(function()
+					loadstring(box.Text)()
+				end)
+				clr = Instance.new('TextButton', box)
+				clr.Size = UDim2.new(0,50,0,25)
+				clr.Position = UDim2.new(0,275,0,213)
+				clr.BackgroundColor3 = Color3.new(170,0,0)
+				clr.TextColor3 = Color3.new(0,0,0)
+				clr.BorderSizePixel = 4
+				clr.BorderColor3 = Color3.new(255,255,255)
+				clr.Text = "Clear!"
+				clr.MouseButton1Click:connect(function()
+					box.Text = ''
+					box:CaptureFocus()
+				end)
+			end
+		end)
+		
+		Admins.Chatted:connect(function(msg)
+			if msg:lower() == Prefix .. "console hide" then
+				fm:Destroy()
+			end
+		end)
+	
 	
 	end)
 end;
@@ -22307,10 +22041,10 @@ task.spawn(C_7b);
 local function C_7d()
 local script = G2L["7d"];
 	local button = script.Parent
-	local input = script.Parent.Parent.Parent.Parent.Settings.Page.Section2.vicid
+	local input = script.Parent.Parent.Parent.Parent.Settings.Page.Section2.vicid.Text
 	
 	button.MouseButton1Down:connect(function()
-		local target = input.Text
+		local target = input
 	
 		local bringc = game:GetService("RunService").RenderStepped:Connect(function()
 			if target.Character and target.Character:FindFirstChild("HumanoidRootPart") then
@@ -22379,26 +22113,6 @@ local script = G2L["85"];
 	--local input = CoolGui.Frame.Settings
 	
 	button.MouseButton1Down:connect(function()
-		presets = {"Bright red","Bright yellow","Bright orange","Bright violet","Bright blue","Bright bluish green","Bright green"}
-		while true do
-			wait(0.5)
-			ye = game.Workspace[game.Players.LocalPlayer.Name]:GetChildren()
-			for i,v in pairs(ye) do
-				if v.className == "Part" then
-					v.BrickColor = BrickColor.new(presets[math.random(1,#presets)])
-				end
-			end
-		end
-	end)
-end;
-task.spawn(C_85);
--- StarterGui.CoolGui.Frame.Page3.Section1.Button.LocalScript
-local function C_87()
-local script = G2L["87"];
-	local button = script.Parent
-	--local input = CoolGui.Frame.Settings
-	
-	button.MouseButton1Down:connect(function()
 		local platform = Instance.new("Part")
 		platform.Size = Vector3.new(16, 1, 16)
 		platform.Transparency = 0.5
@@ -22410,37 +22124,48 @@ local script = G2L["87"];
 	
 	end)
 end;
-task.spawn(C_87);
+task.spawn(C_85);
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button.LocalScript
-local function C_89()
-local script = G2L["89"];
-	local button = script.Parent
-	--local input = CoolGui.Frame.Settings
+local function C_87()
+local script = G2L["87"];
+	local TweenService = game:GetService("TweenService")
+	local Players = game:GetService("Players")
 	
-	button.MouseButton1Down:connect(function()
-		local name = game.Players.LocalPlayer.Name
+	local button = script.Parent
+	
+	button.MouseButton1Down:Connect(function()
+		local player = Players.LocalPlayer
+		local character = player.Character or player.CharacterAdded:Wait()
+		local torso = character:WaitForChild("Torso") 
 	
 		local p = Instance.new("Part")
 		p.Parent = workspace
 		p.Locked = true
-		p.BrickColor = BrickColor.new("White")
 		p.BrickColor = BrickColor.new(104)
 		p.Size = Vector3.new(8, 1.2, 8)
 		p.Anchored = true
 		p.Transparency = 0.5
+	
 		local m = Instance.new("CylinderMesh")
 		m.Scale = Vector3.new(1, 0.5, 1)
 		m.Parent = p
-		while true do
-			p.CFrame = CFrame.new(game.Players:findFirstChild(name).Character.Torso.CFrame.x, game.Players:findFirstChild(name).Character.Torso.CFrame.y - 4, game.Players:findFirstChild(name).Character.Torso.CFrame.z)
+	
+		local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out) 
+	
+	
+		while character and character.Parent do
+			local targetCFrame = CFrame.new(torso.Position.X, torso.Position.Y - 4, torso.Position.Z)
+			local tween = TweenService:Create(p, tweenInfo, {CFrame = targetCFrame})
+			tween:Play()
 			wait()
 		end
 	end)
+	
 end;
-task.spawn(C_89);
+task.spawn(C_87);
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button.LocalScript
-local function C_8b()
-local script = G2L["8b"];
+local function C_89()
+local script = G2L["89"];
 	local button = script.Parent
 	local input = script.Parent.Parent.Parent.Parent.Settings.Page.Section1.reid
 	
@@ -22463,10 +22188,10 @@ local script = G2L["8b"];
 		Tool.Handle.Size = Vector3.new(Tool.Handle.Size.X,Tool.Handle.Size.Y,reachsize)
 	end)
 end;
-task.spawn(C_8b);
+task.spawn(C_89);
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button.LocalScript
-local function C_8d()
-local script = G2L["8d"];
+local function C_8b()
+local script = G2L["8b"];
 	local button = script.Parent
 	local input = script.Parent.Parent.Parent.Parent.Settings.Page2.Section1.animid
 	local input2 = script.Parent.Parent.Parent.Parent.Settings.Page2.Section1.asid
@@ -22480,10 +22205,10 @@ local script = G2L["8d"];
 	
 	end)
 end;
-task.spawn(C_8d);
+task.spawn(C_8b);
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button.LocalScript
-local function C_8f()
-local script = G2L["8f"];
+local function C_8d()
+local script = G2L["8d"];
 	local button = script.Parent
 	--local input = CoolGui.Frame.Settings
 	
@@ -22495,10 +22220,10 @@ local script = G2L["8f"];
 		game.Workspace[Chicken].Torso["Right Shoulder"].C1 = CFrame.new(0, 0.5, 0)
 	end)
 end;
-task.spawn(C_8f);
+task.spawn(C_8d);
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button.LocalScript
-local function C_91()
-local script = G2L["91"];
+local function C_8f()
+local script = G2L["8f"];
 	local button = script.Parent
 	local input = script.Parent.Parent.Parent.Parent.Settings.Page2.Section2.jumpid
 	
@@ -22507,10 +22232,10 @@ local script = G2L["91"];
 	
 	end)
 end;
-task.spawn(C_91);
+task.spawn(C_8f);
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button.LocalScript
-local function C_93()
-local script = G2L["93"];
+local function C_91()
+local script = G2L["91"];
 	local button = script.Parent
 	local input = script.Parent.Parent.Parent.Parent.Settings.Page2.Section1.walkid
 	
@@ -22519,10 +22244,10 @@ local script = G2L["93"];
 		game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = input.Text
 	end)
 end;
-task.spawn(C_93);
+task.spawn(C_91);
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button.LocalScript
-local function C_95()
-local script = G2L["95"];
+local function C_93()
+local script = G2L["93"];
 	local button = script.Parent
 	local input = script.Parent.Parent.Parent.Parent.Settings.Page2.Section2.spamid
 	local TextChatService = game:GetService("TextChatService")
@@ -22541,10 +22266,10 @@ local script = G2L["95"];
 	end)
 	
 end;
-task.spawn(C_95);
+task.spawn(C_93);
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button.LocalScript
-local function C_97()
-local script = G2L["97"];
+local function C_95()
+local script = G2L["95"];
 	local button = script.Parent
 	
 	
@@ -22568,10 +22293,10 @@ local script = G2L["97"];
 	
 	end)
 end;
-task.spawn(C_97);
+task.spawn(C_95);
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button.LocalScript
-local function C_99()
-local script = G2L["99"];
+local function C_97()
+local script = G2L["97"];
 	local button = script.Parent
 	local input = script.Parent.Parent.Parent.Parent.Settings.Page2.Section2.gravid
 	
@@ -22579,10 +22304,10 @@ local script = G2L["99"];
 	 game.Workspace.Gravity = input.Text
 	end)
 end;
-task.spawn(C_99);
+task.spawn(C_97);
 -- StarterGui.CoolGui.Frame.Page3.Section1.Button.LocalScript
-local function C_9b()
-local script = G2L["9b"];
+local function C_99()
+local script = G2L["99"];
 	local button = script.Parent
 	local input = script.Parent.Parent.Parent.Parent.Settings.Page2.Section2.nameid
 	
@@ -22609,7 +22334,20 @@ local script = G2L["9b"];
 		char.Head.Transparency = 1
 	end)
 end;
-task.spawn(C_9b);
+task.spawn(C_99);
+-- StarterGui.CoolGui.Frame.Page4.Section2.Button.LocalScript
+local function C_9f()
+local script = G2L["9f"];
+	local button = script.Parent
+	local input = script.Parent.Parent.Parent.Parent.Settings.Page.Section1.mid
+	
+	
+	button.MouseButton1Down:connect(function()
+		input.Text = "99986264226275"
+	end)
+	
+end;
+task.spawn(C_9f);
 -- StarterGui.CoolGui.Frame.Page4.Section2.Button.LocalScript
 local function C_a1()
 local script = G2L["a1"];
@@ -22618,7 +22356,7 @@ local script = G2L["a1"];
 	
 	
 	button.MouseButton1Down:connect(function()
-		input.Text = "99986264226275"
+		input.Text = "5718908296"
 	end)
 	
 end;
@@ -22631,7 +22369,7 @@ local script = G2L["a3"];
 	
 	
 	button.MouseButton1Down:connect(function()
-		input.Text = "5718908296"
+		input.Text = "146563959"
 	end)
 	
 end;
@@ -22644,27 +22382,14 @@ local script = G2L["a5"];
 	
 	
 	button.MouseButton1Down:connect(function()
-		input.Text = "146563959"
-	end)
-	
-end;
-task.spawn(C_a5);
--- StarterGui.CoolGui.Frame.Page4.Section2.Button.LocalScript
-local function C_a7()
-local script = G2L["a7"];
-	local button = script.Parent
-	local input = script.Parent.Parent.Parent.Parent.Settings.Page.Section1.mid
-	
-	
-	button.MouseButton1Down:connect(function()
 		input.Text = "142376088"
 	end)
 	
 end;
-task.spawn(C_a7);
+task.spawn(C_a5);
 -- StarterGui.CoolGui.Frame.Page4.Section1.Button.LocalScript
-local function C_ab()
-local script = G2L["ab"];
+local function C_a9()
+local script = G2L["a9"];
 	local button = script.Parent
 	local input = script.Parent.Parent.Parent.Parent.Settings.Page.Section1.sdid
 		
@@ -22672,10 +22397,10 @@ local script = G2L["ab"];
 		input.Text = "89243526849526"
 	end)
 end;
-task.spawn(C_ab);
+task.spawn(C_a9);
 -- StarterGui.CoolGui.Frame.Page4.Section1.Button.LocalScript
-local function C_ad()
-local script = G2L["ad"];
+local function C_ab()
+local script = G2L["ab"];
 	local button = script.Parent
 	local input = script.Parent.Parent.Parent.Parent.Settings.Page.Section1.sdid
 	
@@ -22683,10 +22408,10 @@ local script = G2L["ad"];
 		input.Text = "160456772"
 	end)
 end;
-task.spawn(C_ad);
+task.spawn(C_ab);
 -- StarterGui.CoolGui.Frame.Page4.Section1.Button.LocalScript
-local function C_af()
-local script = G2L["af"];
+local function C_ad()
+local script = G2L["ad"];
 	
 		local button = script.Parent
 		local input = script.Parent.Parent.Parent.Parent.Settings.Page.Section1.sdid
@@ -22696,10 +22421,10 @@ local script = G2L["af"];
 		end)
 	
 end;
-task.spawn(C_af);
+task.spawn(C_ad);
 -- StarterGui.CoolGui.Frame.Page4.Section1.Button.LocalScript
-local function C_b1()
-local script = G2L["b1"];
+local function C_af()
+local script = G2L["af"];
 	local button = script.Parent
 	local input = script.Parent.Parent.Parent.Parent.Settings.Page.Section1.sdid
 	
@@ -22709,6 +22434,17 @@ local script = G2L["b1"];
 	end)
 	
 end;
+task.spawn(C_af);
+-- StarterGui.CoolGui.Frame.Page4.Section1.Button.LocalScript
+local function C_b1()
+local script = G2L["b1"];
+	local button = script.Parent
+	local input = script.Parent.Parent.Parent.Parent.Settings.Page.Section1.sdid
+	
+	button.MouseButton1Down:connect(function()
+		input.Text = "92836561458826"
+	end)
+end;
 task.spawn(C_b1);
 -- StarterGui.CoolGui.Frame.Page4.Section1.Button.LocalScript
 local function C_b3()
@@ -22716,9 +22452,11 @@ local script = G2L["b3"];
 	local button = script.Parent
 	local input = script.Parent.Parent.Parent.Parent.Settings.Page.Section1.sdid
 	
+	
 	button.MouseButton1Down:connect(function()
-		input.Text = "92836561458826"
+	input.Text = "891289659"
 	end)
+	
 end;
 task.spawn(C_b3);
 -- StarterGui.CoolGui.Frame.Page4.Section1.Button.LocalScript
@@ -22729,7 +22467,7 @@ local script = G2L["b5"];
 	
 	
 	button.MouseButton1Down:connect(function()
-	input.Text = "891289659"
+		input.Text = "18682840631"
 	end)
 	
 end;
@@ -22740,27 +22478,14 @@ local script = G2L["b7"];
 	local button = script.Parent
 	local input = script.Parent.Parent.Parent.Parent.Settings.Page.Section1.sdid
 	
-	
-	button.MouseButton1Down:connect(function()
-		input.Text = "18682840631"
-	end)
-	
-end;
-task.spawn(C_b7);
--- StarterGui.CoolGui.Frame.Page4.Section1.Button.LocalScript
-local function C_b9()
-local script = G2L["b9"];
-	local button = script.Parent
-	local input = script.Parent.Parent.Parent.Parent.Settings.Page.Section1.sdid
-	
 	button.MouseButton1Down:connect(function()
 		input.Text = "72454632890085"
 	end)
 end;
-task.spawn(C_b9);
+task.spawn(C_b7);
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
-local function C_bf()
-local script = G2L["bf"];
+local function C_bd()
+local script = G2L["bd"];
 	local button = script.Parent
 	--local input = CoolGui.Frame.Settings
 	
@@ -22799,10 +22524,10 @@ local script = G2L["bf"];
 	
 	end)
 end;
-task.spawn(C_bf);
+task.spawn(C_bd);
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
-local function C_c1()
-local script = G2L["c1"];
+local function C_bf()
+local script = G2L["bf"];
 	local button = script.Parent
 	--local input = CoolGui.Frame.Settings
 	
@@ -22879,10 +22604,10 @@ local script = G2L["c1"];
 	
 	end)
 end;
-task.spawn(C_c1);
+task.spawn(C_bf);
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
-local function C_c3()
-local script = G2L["c3"];
+local function C_c1()
+local script = G2L["c1"];
 	local button = script.Parent
 	--local input = CoolGui.Frame.Settings
 	
@@ -22975,10 +22700,10 @@ local script = G2L["c3"];
 	
 	end)
 end;
-task.spawn(C_c3);
+task.spawn(C_c1);
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
-local function C_c5()
-local script = G2L["c5"];
+local function C_c3()
+local script = G2L["c3"];
 	local button = script.Parent
 	--local input = CoolGui.Frame.Settings
 	
@@ -23063,10 +22788,10 @@ local script = G2L["c5"];
 	
 	end)
 end;
-task.spawn(C_c5);
+task.spawn(C_c3);
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
-local function C_c7()
-local script = G2L["c7"];
+local function C_c5()
+local script = G2L["c5"];
 	local button = script.Parent
 	--local input = CoolGui.Frame.Settings
 	
@@ -23192,10 +22917,10 @@ local script = G2L["c7"];
 	
 	end)
 end;
-task.spawn(C_c7);
+task.spawn(C_c5);
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
-local function C_c9()
-local script = G2L["c9"];
+local function C_c7()
+local script = G2L["c7"];
 	local button = script.Parent
 	--local input = CoolGui.Frame.Settings
 	
@@ -23257,10 +22982,10 @@ local script = G2L["c9"];
 	
 	end)
 end;
-task.spawn(C_c9);
+task.spawn(C_c7);
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
-local function C_cb()
-local script = G2L["cb"];
+local function C_c9()
+local script = G2L["c9"];
 	local button = script.Parent
 	
 	-- Lyrics
@@ -23317,10 +23042,10 @@ local script = G2L["cb"];
 	end)
 	
 end;
-task.spawn(C_cb);
+task.spawn(C_c9);
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
-local function C_cd()
-local script = G2L["cd"];
+local function C_cb()
+local script = G2L["cb"];
 	local button = script.Parent
 	--local input = CoolGui.Frame.Settings
 	
@@ -23416,10 +23141,10 @@ local script = G2L["cd"];
 	
 	end)
 end;
-task.spawn(C_cd);
+task.spawn(C_cb);
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
-local function C_cf()
-local script = G2L["cf"];
+local function C_cd()
+local script = G2L["cd"];
 	local button = script.Parent
 	--local input = CoolGui.Frame.Settings
 	
@@ -23433,10 +23158,10 @@ local script = G2L["cf"];
 	
 	end)
 end;
-task.spawn(C_cf);
+task.spawn(C_cd);
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
-local function C_d1()
-local script = G2L["d1"];
+local function C_cf()
+local script = G2L["cf"];
 	local button = script.Parent
 	--local input = CoolGui.Frame.Settings
 	
@@ -23456,10 +23181,10 @@ local script = G2L["d1"];
 	
 	end)
 end;
-task.spawn(C_d1);
+task.spawn(C_cf);
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
-local function C_d3()
-local script = G2L["d3"];
+local function C_d1()
+local script = G2L["d1"];
 	local button = script.Parent
 	--local input = CoolGui.Frame.Settings
 	
@@ -23748,10 +23473,10 @@ local script = G2L["d3"];
 	
 	end)
 end;
-task.spawn(C_d3);
+task.spawn(C_d1);
 -- StarterGui.CoolGui.Frame.Page5.Section2.Button.LocalScript
-local function C_d5()
-local script = G2L["d5"];
+local function C_d3()
+local script = G2L["d3"];
 	local button = script.Parent
 	--local input = CoolGui.Frame.Settings
 	
@@ -23760,10 +23485,10 @@ local script = G2L["d5"];
 	
 	end)
 end;
-task.spawn(C_d5);
+task.spawn(C_d3);
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
-local function C_d9()
-local script = G2L["d9"];
+local function C_d7()
+local script = G2L["d7"];
 	local button = script.Parent
 	local input = script.Parent.Parent.Parent.Parent.Settings.Page.Section1.sdid
 	
@@ -24037,10 +23762,10 @@ local script = G2L["d9"];
 		Sky(input.Text)
 	end)
 end;
-task.spawn(C_d9);
+task.spawn(C_d7);
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
-local function C_db()
-local script = G2L["db"];
+local function C_d9()
+local script = G2L["d9"];
 	local button = script.Parent
 	--local input = CoolGui.Frame.Settings
 	
@@ -24273,10 +23998,10 @@ local script = G2L["db"];
 	
 	end)
 end;
-task.spawn(C_db);
+task.spawn(C_d9);
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
-local function C_dd()
-local script = G2L["dd"];
+local function C_db()
+local script = G2L["db"];
 	local button = script.Parent
 	--local input = CoolGui.Frame.Settings
 	
@@ -24455,10 +24180,10 @@ local script = G2L["dd"];
 	
 	end)
 end;
-task.spawn(C_dd);
+task.spawn(C_db);
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
-local function C_df()
-local script = G2L["df"];
+local function C_dd()
+local script = G2L["dd"];
 	local button = script.Parent
 	--local input = CoolGui.Frame.Settings
 	
@@ -24701,9 +24426,9 @@ local script = G2L["df"];
 			for i,v in game.Workspace:GetChildren() do
 				if v:IsA("BasePart") and v.CFrame.y == hrpy - 20 and v.CFrame.x == hrpx then
 					spawn(function()
-						Resize(v,Vector3.new(1000,2,1000),CFrame.new(hrpx,hrpy-20,hrpz))
-						Material(v,Enum.Material.Grass)
-						Color(v,Color3.fromRGB(25,100,25))
+						Resize(v,Vector3.new(1000,1,1000),CFrame.new(hrpx,hrpy-20,hrpz))
+						Material(v,Enum.Material.Plastic)
+						Color(v,BrickColor.new("Silver"))
 						while wait(1) do
 							pcall(function()SetLocked(v,true)end)
 						end
@@ -24715,10 +24440,10 @@ local script = G2L["df"];
 	
 	end)
 end;
-task.spawn(C_df);
+task.spawn(C_dd);
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
-local function C_e1()
-local script = G2L["e1"];
+local function C_df()
+local script = G2L["df"];
 	local button = script.Parent
 	--local input = CoolGui.Frame.Settings
 	
@@ -24940,10 +24665,10 @@ local script = G2L["e1"];
 	
 	end)
 end;
-task.spawn(C_e1);
+task.spawn(C_df);
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
-local function C_e3()
-local script = G2L["e3"];
+local function C_e1()
+local script = G2L["e1"];
 	local button = script.Parent
 	--local input = CoolGui.Frame.Settings
 	
@@ -25122,10 +24847,10 @@ local script = G2L["e3"];
 	
 	end)
 end;
-task.spawn(C_e3);
+task.spawn(C_e1);
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
-local function C_e5()
-local script = G2L["e5"];
+local function C_e3()
+local script = G2L["e3"];
 	local button = script.Parent
 	--local input = CoolGui.Frame.Settings
 	
@@ -25366,10 +25091,10 @@ local script = G2L["e5"];
 	
 	end)
 end;
-task.spawn(C_e5);
+task.spawn(C_e3);
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
-local function C_e7()
-local script = G2L["e7"];
+local function C_e5()
+local script = G2L["e5"];
 	local button = script.Parent
 	--local input = CoolGui.Frame.Settings
 	
@@ -25590,10 +25315,10 @@ local script = G2L["e7"];
 	
 	end)
 end;
-task.spawn(C_e7);
+task.spawn(C_e5);
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
-local function C_e9()
-local script = G2L["e9"];
+local function C_e7()
+local script = G2L["e7"];
 	local button = script.Parent
 	--local input = CoolGui.Frame.Settings
 	
@@ -25802,23 +25527,23 @@ local script = G2L["e9"];
 			_(args)
 		end
 	
-		function BigHead(player)
+		function Headless(player)
 			local chara = player.Character
 			spawn(function()
 				SetLocked(chara.Head,false)
-				MeshResize(chara.Head,Vector3.new(10,10,10))
+				MeshResize(chara.Head,Vector3.new(0,0,0))
 			end)
 		end
 		for i,players in game.Players:GetPlayers() do
-			BigHead(players)
+			Headless(players)
 		end
 	
 	end)
 end;
-task.spawn(C_e9);
+task.spawn(C_e7);
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
-local function C_eb()
-local script = G2L["eb"];
+local function C_e9()
+local script = G2L["e9"];
 	local button = script.Parent
 	--local input = CoolGui.Frame.Settings
 	
@@ -26058,10 +25783,10 @@ local script = G2L["eb"];
 	
 	end)
 end;
-task.spawn(C_eb);
+task.spawn(C_e9);
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
-local function C_ed()
-local script = G2L["ed"];
+local function C_eb()
+local script = G2L["eb"];
 	local button = script.Parent
 	--local input = CoolGui.Frame.Settings
 	
@@ -26380,10 +26105,10 @@ local script = G2L["ed"];
 	
 	end)
 end;
-task.spawn(C_ed);
+task.spawn(C_eb);
 -- StarterGui.CoolGui.Frame.Page5.Section1.Button.LocalScript
-local function C_ef()
-local script = G2L["ef"];
+local function C_ed()
+local script = G2L["ed"];
 	local button = script.Parent
 	local input = script.Parent.Parent.Parent.Parent.Settings.Page.Section1.sdid
 	
@@ -26664,10 +26389,10 @@ local script = G2L["ef"];
 	
 	end)
 end;
-task.spawn(C_ef);
+task.spawn(C_ed);
 -- StarterGui.CoolGui.Frame.Page6.Section1.Button.LocalScript
-local function C_f6()
-local script = G2L["f6"];
+local function C_f4()
+local script = G2L["f4"];
 	local button = script.Parent
 	
 	
@@ -26678,10 +26403,10 @@ local script = G2L["f6"];
 		loadstring(game:HttpGet('https://pastebin.com/raw/jtNuZTYt'))()
 	end)
 end;
-task.spawn(C_f6);
+task.spawn(C_f4);
 -- StarterGui.CoolGui.Frame.Page6.Section1.Button.LocalScript
-local function C_f8()
-local script = G2L["f8"];
+local function C_f6()
+local script = G2L["f6"];
 	local button = script.Parent
 	
 	
@@ -26689,10 +26414,10 @@ local script = G2L["f8"];
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/Harkedv2-script/main/Leaked-v2hardked"))()
 	end)
 end;
-task.spawn(C_f8);
+task.spawn(C_f6);
 -- StarterGui.CoolGui.Frame.Page6.Section1.Button.LocalScript
-local function C_fa()
-local script = G2L["fa"];
+local function C_f8()
+local script = G2L["f8"];
 	local button = script.Parent
 	
 	
@@ -26718,10 +26443,10 @@ local script = G2L["fa"];
 		end
 	end)
 end;
-task.spawn(C_fa);
+task.spawn(C_f8);
 -- StarterGui.CoolGui.Frame.Page6.Section1.Button.LocalScript
-local function C_fc()
-local script = G2L["fc"];
+local function C_fa()
+local script = G2L["fa"];
 	local button = script.Parent
 	
 	
@@ -26730,10 +26455,10 @@ local script = G2L["fc"];
 		loadstring(game:HttpGet("https://pastebin.com/raw/P1ayeCf5"))()
 	end)
 end;
-task.spawn(C_fc);
+task.spawn(C_fa);
 -- StarterGui.CoolGui.Frame.Page6.Section1.Button.LocalScript
-local function C_fe()
-local script = G2L["fe"];
+local function C_fc()
+local script = G2L["fc"];
 	local button = script.Parent
 	
 	
@@ -26741,10 +26466,10 @@ local script = G2L["fe"];
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/FilteringEnabled/FE/main/Comet"))();
 	end)
 end;
-task.spawn(C_fe);
+task.spawn(C_fc);
 -- StarterGui.CoolGui.Frame.Page6.Section1.Button.LocalScript
-local function C_100()
-local script = G2L["100"];
+local function C_fe()
+local script = G2L["fe"];
 	local button = script.Parent
 	
 	
@@ -26755,10 +26480,10 @@ local script = G2L["100"];
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/Its-LALOL/LALOL-Hub/main/Backdoor-Scanner/script'))()
 	end)
 end;
-task.spawn(C_100);
+task.spawn(C_fe);
 -- StarterGui.CoolGui.Frame.Page6.Section1.Button.LocalScript
-local function C_102()
-local script = G2L["102"];
+local function C_100()
+local script = G2L["100"];
 	local button = script.Parent
 	
 	
@@ -29107,6 +28832,20 @@ local script = G2L["102"];
 		end
 	
 		debugPrint("QuirkyCMD loaded successfully!")
+	end)
+end;
+task.spawn(C_100);
+-- StarterGui.CoolGui.Frame.Page6.Section1.Button.LocalScript
+local function C_102()
+local script = G2L["102"];
+	local button = script.Parent
+	
+	
+	
+	
+	
+	button.MouseButton1Down:connect(function()
+		return loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/jLn0n/beckdeer-skenner/main/src/main.lua"))()
 	end)
 end;
 task.spawn(C_102);
@@ -34049,8 +33788,7 @@ local script = G2L["123"];
 	--local input = CoolGui.Frame.Settings
 	
 	button.MouseButton1Down:connect(function()
-	
-		loadstring(game:GetObjects("rbxassetid://157645868")[1].Source)( )
+		loadstring(game:GetObjects("rbxassetid://11801763945")[1].Source)()
 	end)
 end;
 task.spawn(C_123);
@@ -34149,7 +33887,90 @@ local script = G2L["127"];
 	--local input = CoolGui.Frame.Settings
 	
 	button.MouseButton1Down:connect(function()
-		loadstring(game:GetObjects('rbxassetid://289110135')[1].Source)()
+		imageOne = "http://www.roblox.com/asset/?id=169585459"
+		imageTwo = "http://www.roblox.com/asset/?id=169585475"
+		imageThree = "http://www.roblox.com/asset/?id=169585485"
+		imageFour = "http://www.roblox.com/asset/?id=169585502"
+		imageFive = "http://www.roblox.com/asset/?id=169585515"
+		imageSix = "http://www.roblox.com/asset/?id=169585502"
+		imageSeven = "http://www.roblox.com/asset/?id=169585485"
+		imageEight = "http://www.roblox.com/asset/?id=169585475"
+	
+		Spooky = Instance.new("Sound", workspace)
+		Spooky.Name = "Spooky"
+		Spooky.SoundId = "rbxassetid://174270407"
+		Spooky.Volume = 15
+		Spooky.Looped = true
+		Spooky:Play()
+	
+		Sky = Instance.new("Sky", game.Lighting)
+		Sky.SkyboxBk = imageOne
+		Sky.SkyboxDn = imageOne
+		Sky.SkyboxFt = imageOne
+		Sky.SkyboxLf = imageOne
+		Sky.SkyboxRt = imageOne
+		Sky.SkyboxUp = imageOne
+	
+	
+		while true do
+			Sky.SkyboxBk = imageOne
+			Sky.SkyboxDn = imageOne
+			Sky.SkyboxFt = imageOne
+			Sky.SkyboxLf = imageOne
+			Sky.SkyboxRt = imageOne
+			Sky.SkyboxUp = imageOne
+			wait(0.15)
+			Sky.SkyboxBk = imageTwo
+			Sky.SkyboxDn = imageTwo
+			Sky.SkyboxFt = imageTwo
+			Sky.SkyboxLf = imageTwo
+			Sky.SkyboxRt = imageTwo
+			Sky.SkyboxUp = imageTwo
+			wait(0.15)
+			Sky.SkyboxBk = imageThree
+			Sky.SkyboxDn = imageThree
+			Sky.SkyboxFt = imageThree
+			Sky.SkyboxLf = imageThree
+			Sky.SkyboxRt = imageThree
+			Sky.SkyboxUp = imageThree
+			wait(0.15)
+			Sky.SkyboxBk = imageFour
+			Sky.SkyboxDn = imageFour
+			Sky.SkyboxFt = imageFour
+			Sky.SkyboxLf = imageFour
+			Sky.SkyboxRt = imageFour
+			Sky.SkyboxUp = imageFour
+			wait(0.15)
+			Sky.SkyboxBk = imageFive
+			Sky.SkyboxDn = imageFive
+			Sky.SkyboxFt = imageFive
+			Sky.SkyboxLf = imageFive
+			Sky.SkyboxRt = imageFive
+			Sky.SkyboxUp = imageFive
+			wait(0.15)
+			Sky.SkyboxBk = imageSix
+			Sky.SkyboxDn = imageSix
+			Sky.SkyboxFt = imageSix
+			Sky.SkyboxLf = imageSix
+			Sky.SkyboxRt = imageSix
+			Sky.SkyboxUp = imageSix
+			wait(0.15)
+			Sky.SkyboxBk = imageSeven
+			Sky.SkyboxDn = imageSeven
+			Sky.SkyboxFt = imageSeven
+			Sky.SkyboxLf = imageSeven
+			Sky.SkyboxRt = imageSeven
+			Sky.SkyboxUp = imageSeven
+			wait(0.15)
+			Sky.SkyboxBk = imageEight
+			Sky.SkyboxDn = imageEight
+			Sky.SkyboxFt = imageEight
+			Sky.SkyboxLf = imageEight
+			Sky.SkyboxRt = imageEight
+			Sky.SkyboxUp = imageEight
+			wait(0.15)
+	
+		end
 	end)
 end;
 task.spawn(C_127);
@@ -34160,4963 +33981,13 @@ local script = G2L["129"];
 	--local input = CoolGui.Frame.Settings
 	
 	button.MouseButton1Down:connect(function()
-		--boobs lol
-	
-		local ScreenGui = Instance.new("ScreenGui")
-	
-		local Base = Instance.new("Frame")
-	
-		local Top = Instance.new("Frame")
-	
-		local First = Instance.new("TextLabel")
-	
-		local Second = Instance.new("TextLabel")
-	
-		local Location = Instance.new("TextLabel")
-	
-		local Exit = Instance.new("TextButton")
-	
-		local HomeContainer = Instance.new("Frame")
-	
-		local Players = Instance.new("Frame")
-	
-		local ImageLabel = Instance.new("ImageLabel")
-	
-		local TextLabel = Instance.new("TextLabel")
-	
-		local Mask = Instance.new("TextButton")
-	
-		local Server = Instance.new("Frame")
-	
-		local ImageLabel_2 = Instance.new("ImageLabel")
-	
-		local TextLabel_2 = Instance.new("TextLabel")
-	
-		local Mask_2 = Instance.new("TextButton")
-	
-		local LocalPlayer = Instance.new("Frame")
-	
-		local ImageLabel_3 = Instance.new("ImageLabel")
-	
-		local TextLabel_3 = Instance.new("TextLabel")
-	
-		local Mask_3 = Instance.new("TextButton")
-	
-		local Scripts = Instance.new("Frame")
-	
-		local ImageLabel_4 = Instance.new("ImageLabel")
-	
-		local TextLabel_4 = Instance.new("TextLabel")
-	
-		local Mask_4 = Instance.new("TextButton")
-	
-		local Miscellaneous = Instance.new("Frame")
-	
-		local ImageLabel_5 = Instance.new("ImageLabel")
-	
-		local TextLabel_5 = Instance.new("TextLabel")
-	
-		local Mask_5 = Instance.new("TextButton")
-	
-		local Settings = Instance.new("Frame")
-	
-		local ImageLabel_6 = Instance.new("ImageLabel")
-	
-		local TextLabel_6 = Instance.new("TextLabel")
-	
-		local Mask_6 = Instance.new("TextButton")
-	
-		local Navigator = Instance.new("ScrollingFrame")
-	
-		local Item = Instance.new("TextButton")
-	
-		local ServerContainer = Instance.new("ScrollingFrame")
-	
-		local dd = Instance.new("TextButton")
-	
-		local ImageLabel_7 = Instance.new("ImageLabel")
-	
-		local LocalPlayerContainer = Instance.new("ScrollingFrame")
-	
-		local PlayersContainer = Instance.new("ScrollingFrame")
-	
-	
-	
-		-- Properties
-	
-		local hist = game:GetService("LogService"):GetLogHistory()
-	
-		local eiss = false
-	
-		for i,v in pairs(hist) do
-	
-			if string.find(v["message"]:lower(), "eiss") then
-	
-				eiss = true
-	
-				warn("Detected EISS, Parenting to PlayerGui")
-	
-			end
-	
+		local basics = {Color3.new(255/255,0/255,0/255),Color3.new(255/255,85/255,0/255),Color3.new(218/255,218/255,0/255),Color3.new(0/255,190/255,0/255),Color3.new(0/255,85/255,255/255),Color3.new(0/255,0/255,127/255),Color3.new(170/255,0/255,255/255),Color3.new(0/255,204/255,204/255),Color3.new(255/255,85/255,127/255),Color3.new(0/255,0/255,0/255),Color3.new(255/255,255/255,255/255)}
+		game.Lighting.FogStart = 25
+		game.Lighting.FogEnd = 300
+		while true do
+			wait(0.5)
+			game.Lighting.FogColor = basics[math.random(1,#basics)]
 		end
-	
-		if eiss then
-	
-			ScreenGui.Parent = game.Players.LocalPlayer.PlayerGui
-	
-			game.StarterGui.ResetPlayerGuiOnSpawn = false
-	
-		else
-	
-			ScreenGui.Parent = script.Parent
-	
-		end
-	
-	
-	
-		Base.Name = "Base"
-	
-		Base.Parent = ScreenGui
-	
-		Base.Active = true
-	
-		Base.BackgroundColor3 = Color3.new(0.054902, 0.0901961, 0.113725)
-	
-		Base.BorderColor3 = Color3.new(0.0156863, 0.027451, 0.0352941)
-	
-		Base.BorderSizePixel = 2
-	
-		Base.Draggable = true
-	
-		Base.Position = UDim2.new(0, 50, 0, 250)
-	
-		Base.Selectable = true
-	
-		Base.Size = UDim2.new(0, 450, 0, 250)
-	
-	
-	
-		Top.Name = "Top"
-	
-		Top.Parent = Base
-	
-		Top.BackgroundColor3 = Color3.new(0.027451, 0.0431373, 0.0588235)
-	
-		Top.BackgroundTransparency = 0.5
-	
-		Top.BorderColor3 = Color3.new(0.243137, 0.243137, 0.243137)
-	
-		Top.Position = UDim2.new(0, 10, 0, 7)
-	
-		Top.Size = UDim2.new(1, -20, 0, 20)
-	
-	
-	
-		First.Name = "First"
-	
-		First.Parent = Top
-	
-		First.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		First.BackgroundTransparency = 1
-	
-		First.BorderColor3 = Color3.new(0.32549, 0.313726, 0.313726)
-	
-		First.Size = UDim2.new(1, 0, 1, 0)
-	
-		First.Font = Enum.Font.SourceSans
-	
-		First.FontSize = Enum.FontSize.Size18
-	
-		First.Text = "  T0PK3K 3.0"
-	
-		First.TextColor3 = Color3.new(0.721569, 0.027451, 0.211765)
-	
-		First.TextStrokeTransparency = 0
-	
-		First.TextXAlignment = Enum.TextXAlignment.Left
-	
-	
-	
-		Second.Name = "Second"
-	
-		Second.Parent = Top
-	
-		Second.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		Second.BackgroundTransparency = 1
-	
-		Second.BorderColor3 = Color3.new(0.32549, 0.313726, 0.313726)
-	
-		Second.Position = UDim2.new(1, -125, 0, 0)
-	
-		Second.Size = UDim2.new(0, 100, 1, 0)
-	
-		Second.Font = Enum.Font.SourceSans
-	
-		Second.FontSize = Enum.FontSize.Size18
-	
-		Second.Text = "Cerberus Edition"
-	
-		Second.TextColor3 = Color3.new(0.721569, 0.027451, 0.211765)
-	
-		Second.TextStrokeTransparency = 0
-	
-		Second.TextXAlignment = Enum.TextXAlignment.Left
-	
-	
-	
-		Location.Name = "Location"
-	
-		Location.Parent = Top
-	
-		Location.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		Location.BackgroundTransparency = 1
-	
-		Location.BorderColor3 = Color3.new(0.32549, 0.313726, 0.313726)
-	
-		Location.Position = UDim2.new(0, 90, 0, 0)
-	
-		Location.Size = UDim2.new(1, -200, 1, 0)
-	
-		Location.Font = Enum.Font.SourceSansBold
-	
-		Location.FontSize = Enum.FontSize.Size18
-	
-		Location.Text = "Home"
-	
-		Location.TextColor3 = Color3.new(0.588235, 0.0196078, 0.172549)
-	
-		Location.TextStrokeTransparency = 0
-	
-	
-	
-		Exit.Name = "Exit"
-	
-		Exit.Parent = Top
-	
-		Exit.BackgroundColor3 = Color3.new(0.588235, 0.0196078, 0.172549)
-	
-		Exit.BorderSizePixel = 0
-	
-		Exit.Position = UDim2.new(1, -18, 0, 2)
-	
-		Exit.Size = UDim2.new(0, 16, 0, 16)
-	
-		Exit.Font = Enum.Font.SourceSansBold
-	
-		Exit.FontSize = Enum.FontSize.Size14
-	
-		Exit.Text = "X"
-	
-		Exit.TextColor3 = Color3.new(1, 1, 1)
-	
-		Exit.MouseButton1Down:connect(function()
-	
-			Base.Parent = nil
-	
-		end)
-	
-	
-	
-		HomeContainer.Name = "HomeContainer"
-	
-		HomeContainer.Parent = Base
-	
-		HomeContainer.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		HomeContainer.BackgroundTransparency = 1
-	
-		HomeContainer.Position = UDim2.new(0, 10, 0, 50)
-	
-		HomeContainer.Size = UDim2.new(1, -20, 1, -65)
-	
-	
-	
-		Players.Name = "Players"
-	
-		Players.Parent = HomeContainer
-	
-		Players.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		Players.BackgroundTransparency = 1
-	
-		Players.Position = UDim2.new(0.666000009, 10, 0, 0)
-	
-		Players.Size = UDim2.new(0.333000004, -10, 0.5, -10)
-	
-	
-	
-		ImageLabel.Parent = Players
-	
-		ImageLabel.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		ImageLabel.BackgroundTransparency = 1
-	
-		ImageLabel.Position = UDim2.new(0.5, -25, 0, 0)
-	
-		ImageLabel.Size = UDim2.new(0, 50, 0, 50)
-	
-		ImageLabel.Image = "rbxassetid://573066980"
-	
-		ImageLabel.ImageColor3 = Color3.new(0.615686, 0.0352941, 0.129412)
-	
-	
-	
-		TextLabel.Parent = Players
-	
-		TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		TextLabel.BackgroundTransparency = 1
-	
-		TextLabel.Position = UDim2.new(0, 10, 1, -40)
-	
-		TextLabel.Size = UDim2.new(1, -20, 0, 20)
-	
-		TextLabel.Font = Enum.Font.SourceSansBold
-	
-		TextLabel.FontSize = Enum.FontSize.Size24
-	
-		TextLabel.Text = "Players"
-	
-		TextLabel.TextColor3 = Color3.new(0.776471, 0.0235294, 0.137255)
-	
-	
-	
-		Mask.Name = "Mask"
-	
-		Mask.Parent = Players
-	
-		Mask.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		Mask.BackgroundTransparency = 1
-	
-		Mask.Position = UDim2.new(0, 27, 0, 0)
-	
-		Mask.Size = UDim2.new(1, -56, 0, 65)
-	
-		Mask.Font = Enum.Font.SourceSans
-	
-		Mask.FontSize = Enum.FontSize.Size14
-	
-		Mask.Text = ""
-	
-	
-	
-		Server.Name = "Server"
-	
-		Server.Parent = HomeContainer
-	
-		Server.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		Server.BackgroundTransparency = 1
-	
-		Server.Size = UDim2.new(0.333000004, -10, 0.5, -10)
-	
-	
-	
-		ImageLabel_2.Parent = Server
-	
-		ImageLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		ImageLabel_2.BackgroundTransparency = 1
-	
-		ImageLabel_2.Position = UDim2.new(0.5, -23, 0, 0)
-	
-		ImageLabel_2.Size = UDim2.new(0, 46, 0, 46)
-	
-		ImageLabel_2.Image = "rbxassetid://573084509"
-	
-		ImageLabel_2.ImageColor3 = Color3.new(0.615686, 0.0352941, 0.129412)
-	
-	
-	
-		TextLabel_2.Parent = Server
-	
-		TextLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		TextLabel_2.BackgroundTransparency = 1
-	
-		TextLabel_2.Position = UDim2.new(0, 10, 1, -40)
-	
-		TextLabel_2.Size = UDim2.new(1, -20, 0, 20)
-	
-		TextLabel_2.Font = Enum.Font.SourceSansBold
-	
-		TextLabel_2.FontSize = Enum.FontSize.Size24
-	
-		TextLabel_2.Text = "Server"
-	
-		TextLabel_2.TextColor3 = Color3.new(0.776471, 0.0235294, 0.137255)
-	
-	
-	
-		Mask_2.Name = "Mask"
-	
-		Mask_2.Parent = Server
-	
-		Mask_2.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		Mask_2.BackgroundTransparency = 1
-	
-		Mask_2.Position = UDim2.new(0, 27, 0, 0)
-	
-		Mask_2.Size = UDim2.new(1, -56, 0, 65)
-	
-		Mask_2.Font = Enum.Font.SourceSans
-	
-		Mask_2.FontSize = Enum.FontSize.Size14
-	
-		Mask_2.Text = ""
-	
-	
-	
-		LocalPlayer.Name = "LocalPlayer"
-	
-		LocalPlayer.Parent = HomeContainer
-	
-		LocalPlayer.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		LocalPlayer.BackgroundTransparency = 1
-	
-		LocalPlayer.Position = UDim2.new(0.333000004, 10, 0, 0)
-	
-		LocalPlayer.Size = UDim2.new(0.333000004, -10, 0.5, -10)
-	
-	
-	
-		ImageLabel_3.Parent = LocalPlayer
-	
-		ImageLabel_3.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		ImageLabel_3.BackgroundTransparency = 1
-	
-		ImageLabel_3.Position = UDim2.new(0.5, -25, 0, 0)
-	
-		ImageLabel_3.Size = UDim2.new(0, 50, 0, 50)
-	
-		ImageLabel_3.Image = "rbxassetid://573078228"
-	
-		ImageLabel_3.ImageColor3 = Color3.new(0.615686, 0.0352941, 0.129412)
-	
-	
-	
-		TextLabel_3.Parent = LocalPlayer
-	
-		TextLabel_3.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		TextLabel_3.BackgroundTransparency = 1
-	
-		TextLabel_3.Position = UDim2.new(0, 10, 1, -40)
-	
-		TextLabel_3.Size = UDim2.new(1, -20, 0, 20)
-	
-		TextLabel_3.Font = Enum.Font.SourceSansBold
-	
-		TextLabel_3.FontSize = Enum.FontSize.Size24
-	
-		TextLabel_3.Text = "LocalPlayer"
-	
-		TextLabel_3.TextColor3 = Color3.new(0.776471, 0.0235294, 0.137255)
-	
-	
-	
-		Mask_3.Name = "Mask"
-	
-		Mask_3.Parent = LocalPlayer
-	
-		Mask_3.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		Mask_3.BackgroundTransparency = 1
-	
-		Mask_3.Position = UDim2.new(0, 27, 0, 0)
-	
-		Mask_3.Size = UDim2.new(1, -56, 0, 65)
-	
-		Mask_3.Font = Enum.Font.SourceSans
-	
-		Mask_3.FontSize = Enum.FontSize.Size14
-	
-		Mask_3.Text = ""
-	
-	
-	
-		Scripts.Name = "Scripts"
-	
-		Scripts.Parent = HomeContainer
-	
-		Scripts.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		Scripts.BackgroundTransparency = 1
-	
-		Scripts.Position = UDim2.new(0, 0, 0.5, 0)
-	
-		Scripts.Size = UDim2.new(0.333000004, -10, 0.5, -10)
-	
-	
-	
-		ImageLabel_4.Parent = Scripts
-	
-		ImageLabel_4.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		ImageLabel_4.BackgroundTransparency = 1
-	
-		ImageLabel_4.Position = UDim2.new(0.5, -25, 0, 0)
-	
-		ImageLabel_4.Size = UDim2.new(0, 50, 0, 50)
-	
-		ImageLabel_4.Image = "rbxassetid://573081437"
-	
-		ImageLabel_4.ImageColor3 = Color3.new(0.615686, 0.0352941, 0.129412)
-	
-	
-	
-		TextLabel_4.Parent = Scripts
-	
-		TextLabel_4.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		TextLabel_4.BackgroundTransparency = 1
-	
-		TextLabel_4.Position = UDim2.new(0, 10, 1, -40)
-	
-		TextLabel_4.Size = UDim2.new(1, -20, 0, 20)
-	
-		TextLabel_4.Font = Enum.Font.SourceSansBold
-	
-		TextLabel_4.FontSize = Enum.FontSize.Size24
-	
-		TextLabel_4.Text = "Scripts"
-	
-		TextLabel_4.TextColor3 = Color3.new(0.776471, 0.0235294, 0.137255)
-	
-	
-	
-		Mask_4.Name = "Mask"
-	
-		Mask_4.Parent = Scripts
-	
-		Mask_4.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		Mask_4.BackgroundTransparency = 1
-	
-		Mask_4.Position = UDim2.new(0, 27, 0, 0)
-	
-		Mask_4.Size = UDim2.new(1, -56, 0, 65)
-	
-		Mask_4.Font = Enum.Font.SourceSans
-	
-		Mask_4.FontSize = Enum.FontSize.Size14
-	
-		Mask_4.Text = ""
-	
-	
-	
-		Miscellaneous.Name = "Miscellaneous"
-	
-		Miscellaneous.Parent = HomeContainer
-	
-		Miscellaneous.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		Miscellaneous.BackgroundTransparency = 1
-	
-		Miscellaneous.Position = UDim2.new(0.333000004, 10, 0.5, 0)
-	
-		Miscellaneous.Size = UDim2.new(0.333000004, -10, 0.5, -10)
-	
-	
-	
-		ImageLabel_5.Parent = Miscellaneous
-	
-		ImageLabel_5.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		ImageLabel_5.BackgroundTransparency = 1
-	
-		ImageLabel_5.Position = UDim2.new(0.5, -23, 0, 0)
-	
-		ImageLabel_5.Size = UDim2.new(0, 46, 0, 46)
-	
-		ImageLabel_5.Image = "rbxassetid://573087376"
-	
-		ImageLabel_5.ImageColor3 = Color3.new(0.615686, 0.0352941, 0.129412)
-	
-	
-	
-		TextLabel_5.Parent = Miscellaneous
-	
-		TextLabel_5.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		TextLabel_5.BackgroundTransparency = 1
-	
-		TextLabel_5.Position = UDim2.new(0, 10, 1, -40)
-	
-		TextLabel_5.Size = UDim2.new(1, -20, 0, 20)
-	
-		TextLabel_5.Font = Enum.Font.SourceSansBold
-	
-		TextLabel_5.FontSize = Enum.FontSize.Size24
-	
-		TextLabel_5.Text = "Miscellaneous"
-	
-		TextLabel_5.TextColor3 = Color3.new(0.776471, 0.0235294, 0.137255)
-	
-	
-	
-		Mask_5.Name = "Mask"
-	
-		Mask_5.Parent = Miscellaneous
-	
-		Mask_5.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		Mask_5.BackgroundTransparency = 1
-	
-		Mask_5.Position = UDim2.new(0, 27, 0, 0)
-	
-		Mask_5.Size = UDim2.new(1, -56, 0, 65)
-	
-		Mask_5.Font = Enum.Font.SourceSans
-	
-		Mask_5.FontSize = Enum.FontSize.Size14
-	
-		Mask_5.Text = ""
-	
-	
-	
-		Settings.Name = "Settings"
-	
-		Settings.Parent = HomeContainer
-	
-		Settings.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		Settings.BackgroundTransparency = 1
-	
-		Settings.Position = UDim2.new(0.666000009, 10, 0.5, 0)
-	
-		Settings.Size = UDim2.new(0.333000004, -10, 0.5, -10)
-	
-	
-	
-		ImageLabel_6.Parent = Settings
-	
-		ImageLabel_6.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		ImageLabel_6.BackgroundTransparency = 1
-	
-		ImageLabel_6.Position = UDim2.new(0.5, -23, 0, 0)
-	
-		ImageLabel_6.Size = UDim2.new(0, 46, 0, 46)
-	
-		ImageLabel_6.Image = "rbxassetid://573090294"
-	
-		ImageLabel_6.ImageColor3 = Color3.new(0.615686, 0.0352941, 0.129412)
-	
-	
-	
-		TextLabel_6.Parent = Settings
-	
-		TextLabel_6.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		TextLabel_6.BackgroundTransparency = 1
-	
-		TextLabel_6.Position = UDim2.new(0, 10, 1, -40)
-	
-		TextLabel_6.Size = UDim2.new(1, -20, 0, 20)
-	
-		TextLabel_6.Font = Enum.Font.SourceSansBold
-	
-		TextLabel_6.FontSize = Enum.FontSize.Size24
-	
-		TextLabel_6.Text = "Settings"
-	
-		TextLabel_6.TextColor3 = Color3.new(0.776471, 0.0235294, 0.137255)
-	
-	
-	
-		Mask_6.Name = "Mask"
-	
-		Mask_6.Parent = Settings
-	
-		Mask_6.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		Mask_6.BackgroundTransparency = 1
-	
-		Mask_6.Position = UDim2.new(0, 27, 0, 0)
-	
-		Mask_6.Size = UDim2.new(1, -56, 0, 65)
-	
-		Mask_6.Font = Enum.Font.SourceSans
-	
-		Mask_6.FontSize = Enum.FontSize.Size14
-	
-		Mask_6.Text = ""
-	
-	
-	
-		Navigator.Name = "Navigator"
-	
-		Navigator.Parent = Base
-	
-		Navigator.BackgroundColor3 = Color3.new(0.027451, 0.0431373, 0.0588235)
-	
-		Navigator.BackgroundTransparency = 0.5
-	
-		Navigator.BorderColor3 = Color3.new(0.243137, 0.243137, 0.243137)
-	
-		Navigator.Position = UDim2.new(0, 10, 0, 35)
-	
-		Navigator.Size = UDim2.new(0, 125, 1, -45)
-	
-		Navigator.Visible = false
-	
-		Navigator.BottomImage = "rbxassetid://573102620"
-	
-		Navigator.MidImage = "rbxassetid://573102620"
-	
-		Navigator.ScrollBarThickness = 5
-	
-		Navigator.TopImage = "rbxassetid://573102620"
-	
-	
-	
-		Item.Name = "Item"
-	
-		Item.Parent = Navigator
-	
-		Item.BackgroundColor3 = Color3.new(0.027451, 0.0431373, 0.0588235)
-	
-		Item.BackgroundTransparency = 0.5
-	
-		Item.BorderColor3 = Color3.new(0.243137, 0.243137, 0.243137)
-	
-		Item.Position = UDim2.new(0, 5, 0, 5)
-	
-		Item.Size = UDim2.new(1, -15, 0, 20)
-	
-		Item.Selected = true
-	
-		Item.Font = Enum.Font.SourceSans
-	
-		Item.FontSize = Enum.FontSize.Size14
-	
-		Item.Text = "NavItem"
-	
-		Item.TextColor3 = Color3.new(0.721569, 0.721569, 0.721569)
-	
-	
-	
-		ServerContainer.Name = "ServerContainer"
-	
-		ServerContainer.Parent = Base
-	
-		ServerContainer.BackgroundColor3 = Color3.new(0.027451, 0.0431373, 0.0588235)
-	
-		ServerContainer.BackgroundTransparency = 0.5
-	
-		ServerContainer.Position = UDim2.new(0, 140, 0, 35)
-	
-		ServerContainer.Size = UDim2.new(1, -150, 1, -45)
-	
-		ServerContainer.Visible = false
-	
-		ServerContainer.BottomImage = "rbxassetid://573102620"
-	
-		ServerContainer.MidImage = "rbxassetid://573102620"
-	
-		ServerContainer.ScrollBarThickness = 5
-	
-		ServerContainer.TopImage = "rbxassetid://573102620"
-	
-	
-	
-		dd.Name = "dd"
-	
-		dd.Parent = ServerContainer
-	
-		dd.BackgroundColor3 = Color3.new(0.0196078, 0.0313726, 0.0431373)
-	
-		dd.Position = UDim2.new(0, 6, 0, 6)
-	
-		dd.Size = UDim2.new(0.5, -10, 0, 20)
-	
-		dd.Visible = false
-	
-		dd.Font = Enum.Font.SourceSans
-	
-		dd.FontSize = Enum.FontSize.Size14
-	
-		dd.Text = "Troll Spam"
-	
-		dd.TextColor3 = Color3.new(0.780392, 0.780392, 0.780392)
-	
-		dd.TextStrokeTransparency = 0.5
-	
-	
-	
-		ImageLabel_7.Parent = dd
-	
-		ImageLabel_7.BackgroundColor3 = Color3.new(1, 1, 1)
-	
-		ImageLabel_7.BackgroundTransparency = 1
-	
-		ImageLabel_7.Position = UDim2.new(0, 2, 0, 0)
-	
-		ImageLabel_7.Size = UDim2.new(0, 20, 0, 20)
-	
-		ImageLabel_7.Image = "rbxassetid://133293265"
-	
-	
-	
-		LocalPlayerContainer.Name = "LocalPlayerContainer"
-	
-		LocalPlayerContainer.Parent = Base
-	
-		LocalPlayerContainer.BackgroundColor3 = Color3.new(0.027451, 0.0431373, 0.0588235)
-	
-		LocalPlayerContainer.BackgroundTransparency = 0.5
-	
-		LocalPlayerContainer.Position = UDim2.new(0, 140, 0, 35)
-	
-		LocalPlayerContainer.Size = UDim2.new(1, -150, 1, -45)
-	
-		LocalPlayerContainer.Visible = false
-	
-		LocalPlayerContainer.BottomImage = "rbxassetid://573102620"
-	
-		LocalPlayerContainer.MidImage = "rbxassetid://573102620"
-	
-		LocalPlayerContainer.ScrollBarThickness = 5
-	
-		LocalPlayerContainer.TopImage = "rbxassetid://573102620"
-	
-	
-	
-		PlayersContainer.Name = "PlayersContainer"
-	
-		PlayersContainer.Parent = Base
-	
-		PlayersContainer.BackgroundColor3 = Color3.new(0.027451, 0.0431373, 0.0588235)
-	
-		PlayersContainer.BackgroundTransparency = 0.5
-	
-		PlayersContainer.Position = UDim2.new(0, 140, 0, 35)
-	
-		PlayersContainer.Size = UDim2.new(1, -150, 1, -45)
-	
-		PlayersContainer.Visible = false
-	
-		PlayersContainer.BottomImage = "rbxassetid://573102620"
-	
-		PlayersContainer.MidImage = "rbxassetid://573102620"
-	
-		PlayersContainer.ScrollBarThickness = 5
-	
-		PlayersContainer.TopImage = "rbxassetid://573102620"
-	
-	
-	
-		function MakeContainer(n)
-	
-			local cont = PlayersContainer:Clone()
-	
-			cont.Name = n .. 'Container'
-	
-			cont.Parent = Base
-	
-			return cont
-	
-		end
-	
-	
-	
-		local ScriptsContainer = MakeContainer('Scripts')
-	
-		local MiscContainer = MakeContainer('Miscellaneous')
-	
-	
-	
-		local topkek = {}
-	
-		topkek.store = {}
-	
-		topkek.cache = {}
-	
-		topkek.libgui = {}
-	
-		topkek.libsettings = {}
-	
-		topkek.libutil = {}
-	
-		topkek.libwindows = {}
-	
-		topkek.libcmd = {}
-	
-		--[[ gay ass dropdown lib i made a while ago ]]--
-	
-		dropdown = {}
-	
-		dropdown.new = function(gui, items, placeholder)
-	
-			local self = {}
-	
-			self.value = placeholder
-	
-			self.items = items
-	
-			self.gui = gui
-	
-	
-	
-			if self.gui:FindFirstChild("__DROPDOWN") then
-	
-				self.gui["__DROPDOWN"]:Destroy()
-	
-			end
-	
-	
-	
-			self.debug = false
-	
-	
-	
-			self.gui.Text = placeholder
-	
-			self.gui.BorderSizePixel = 0
-	
-			self.gui.ZIndex = 1
-	
-	
-	
-			self.textcolor = self.gui.TextColor3
-	
-			function self.make()
-	
-				if self.gui:FindFirstChild("__DROPDOWN") then
-	
-					self.gui["__DROPDOWN"]:Destroy()
-	
-				end
-	
-	
-	
-	
-	
-				self.selectgui = Instance.new("ScrollingFrame")
-	
-				self.selectgui.Parent = self.gui
-	
-				self.selectgui.Name = "__DROPDOWN"
-	
-				self.selectgui.Size = UDim2.new(1, 0, 0, 100)
-	
-				self.selectgui.Position = UDim2.new(0, 0, 0, self.gui.AbsoluteSize.Y)
-	
-				self.selectgui.BorderSizePixel = 0
-	
-				self.selectgui.ZIndex = 2
-	
-				self.selectgui.BackgroundTransparency = self.gui.BackgroundTransparency
-	
-				self.selectgui.BackgroundColor3 = self.gui.BackgroundColor3
-	
-				self.selectgui.Visible = false
-	
-				self.selectgui.CanvasSize = UDim2.new(0, 0, 0, (#self.items-1) * 20)
-	
-				self.selectgui.ScrollBarThickness = 5
-	
-	
-	
-				if #self.items < 4 then
-	
-					self.selectgui.CanvasSize = UDim2.new(0, 0, 0, 0)
-	
-					self.selectgui.Size = UDim2.new(1, 0, 0, (#self.items-1) * 20)
-	
-				end
-	
-	
-	
-				self.item = Instance.new("TextButton")
-	
-				self.item.Size = UDim2.new(1, 0, 0, 20)
-	
-				self.item.Position = UDim2.new(0, 0, 0, 0)
-	
-				self.item.BackgroundTransparency = self.gui.BackgroundTransparency - 0.1
-	
-				self.item.BackgroundColor3 = self.gui.BackgroundColor3
-	
-				self.item.BorderSizePixel = 0
-	
-				self.item.ZIndex = 2
-	
-				self.item.TextColor3 = self.gui.TextColor3
-	
-				self.item.Font = Enum.Font.SourceSans
-	
-				self.item.FontSize = Enum.FontSize.Size14
-	
-	
-	
-				self.curitem = nil
-	
-	
-	
-				for i, v in pairs(self.items) do
-	
-					if not (v == self.value) then
-	
-						local ti = self.item:Clone()
-	
-						ti.Parent = self.selectgui
-	
-						if i == 1 then i = 2 end
-	
-						ti.Position = UDim2.new(0, 0, 0, (i - 2) * 20)
-	
-						ti.Text = v
-	
-						ti.MouseButton1Down:connect(function()
-	
-							self.value = v
-	
-							self.open = false
-	
-							self.selectgui.Visible = false
-	
-							self.gui.Text = v
-	
-							self.make()
-	
-						end)
-	
-					end
-	
-				end
-	
-			end
-	
-	
-	
-			self.getvalue = function()
-	
-				return self.value
-	
-			end
-	
-	
-	
-			self.update = function(itms)
-	
-				self.items = itms
-	
-				self.make()
-	
-			end
-	
-	
-	
-			self.open = false	
-	
-	
-	
-			self.gui.MouseButton1Down:connect(function()
-	
-				if self.open == false then
-	
-					self.selectgui.CanvasPosition = Vector2.new(0, 0)
-	
-					self.selectgui.Visible = true
-	
-					self.open = true
-	
-				else
-	
-					self.selectgui.Visible = false
-	
-					self.open = false
-	
-				end
-	
-			end)
-	
-	
-	
-			self.make()
-	
-			return self
-	
-		end
-	
-		--[[ libsettings lole ]]--
-	
-		topkek.libsettings.store = {}
-	
-		function topkek.libsettings:getSetting(k)
-	
-			return topkek.libsettings.store[k]
-	
-		end
-	
-	
-	
-		function topkek.libsettings:setSetting(k,v)
-	
-			topkek.libsettings.store[k]=v
-	
-		end
-	
-	
-	
-		-- [[ libutil ]] --
-	
-		function topkek.libutil:createObject(o, p)
-	
-			local a, b = pcall(function()
-	
-				Instance.new(o)
-	
-			end)
-	
-			if not a then
-	
-				return
-	
-			end
-	
-			local obj = Instance.new(o)
-	
-			for prop, val in pairs(p) do
-	
-				pcall(function()
-	
-					obj[prop] = val 
-	
-				end)
-	
-			end
-	
-			return obj
-	
-		end
-	
-		function topkek.libutil:Color3(r,g,b)
-	
-			return Color3.new(r/255,g/255,b/255)
-	
-		end; color3 = function(r,g,b) return topkek.libutil:Color3(r,g,b) end
-	
-		function topkek.libutil:recurseDecal(img)--topkek2.0 code tbh
-	
-			img = 'rbxassetid://' .. img
-	
-			local function skybox(x)
-	
-				local sky = Instance.new("Sky",game.Lighting)
-	
-				local fcs={"Bk","Dn","Ft","Lf","Rt","Up"}
-	
-				for i,v in pairs(fcs) do
-	
-					sky["Skybox"..v]=x
-	
-				end
-	
-			end
-	
-			local function particle(p, b)
-	
-				local a = Instance.new("ParticleEmitter", p)
-	
-				a.Rate = 500
-	
-				a.Lifetime = NumberRange.new(20, 30)
-	
-				a.VelocitySpread = 200
-	
-				a.Texture = b
-	
-			end
-	
-	
-	
-			local function decal(p, b)
-	
-				local sides = {"Back", "Bottom", "Front", "Left", "Right", "Top"}
-	
-				for i, v in pairs(sides) do
-	
-					local a = Instance.new("Decal", p)
-	
-					a.Texture = b
-	
-					a.Face = v
-	
-				end
-	
-			end
-	
-	
-	
-			local function recurse(x)
-	
-				for i, v in pairs(x:GetChildren()) do
-	
-					pcall(function() -- 'error occured, no output from Lua' LOLE
-	
-						if v:IsA("BasePart") then
-	
-							particle(v, img)
-	
-							decal(v, img)
-	
-						end
-	
-						if #(v:GetChildren())>0 then
-	
-							recurse(v)
-	
-						end
-	
-					end)
-	
-				end
-	
-			end
-	
-	
-	
-			recurse(game)
-	
-			skybox(img)
-	
-		end
-	
-		function topkek.libutil:recurseRemove(type_)
-	
-			local function recurse(x)
-	
-				for i, v in pairs(x:GetChildren()) do
-	
-					pcall(function()
-	
-						if v:IsA(type_) then
-	
-							v:Destroy()
-	
-						end
-	
-						if #(v:GetChildren())>0 then
-	
-							recurse(v)
-	
-						end
-	
-					end)
-	
-				end
-	
-			end
-	
-			recurse(game)
-	
-		end
-	
-		function topkek.libutil:recurseSet(type_,prop,val)
-	
-			local function recurse(x)
-	
-				for i, v in pairs(x:GetChildren()) do
-	
-					pcall(function()
-	
-						if v:IsA(type_) then
-	
-							v[prop]=val
-	
-						end
-	
-						if #(v:GetChildren())>0 then
-	
-							recurse(v)
-	
-						end
-	
-					end)
-	
-				end
-	
-			end
-	
-			recurse(game)
-	
-		end
-	
-		function topkek.libutil:recurseSetObj(obj,type_,prop,val)
-	
-			local function recurse(x)
-	
-				for i, v in pairs(x:GetChildren()) do
-	
-					pcall(function()
-	
-						if v:IsA(type_) then
-	
-							v[prop]=val
-	
-						end
-	
-						if #(v:GetChildren())>0 then
-	
-							recurse(v)
-	
-						end
-	
-					end)
-	
-				end
-	
-			end
-	
-			recurse(obj)
-	
-		end
-	
-		function topkek.libutil:recurseFunc(type_,func)
-	
-			local function recurse(x)
-	
-				for i, v in pairs(x:GetChildren()) do
-	
-					pcall(function()
-	
-						if v:IsA(type_) then
-	
-							func(v)
-	
-						end
-	
-						if #(v:GetChildren())>0 then
-	
-							recurse(v)
-	
-						end
-	
-					end)
-	
-				end
-	
-			end
-	
-			recurse(game)
-	
-		end
-	
-		function topkek.libutil:Play(id)
-	
-			local mu = Instance.new("Sound", game.Workspace)
-	
-			mu.Volume = 1
-	
-			mu.Looped = true
-	
-			mu.Pitch = 1
-	
-			mu.SoundId = "rbxassetid://"..tostring(id)
-	
-			mu:Play()
-	
-		end
-	
-		function topkek.libutil:GetPlayerList()
-	
-			local list = {'Everybody'}
-	
-			for i, v in pairs(game:service'Players':GetPlayers()) do
-	
-				table.insert(list, v.Name)
-	
-			end
-	
-			return list
-	
-		end
-	
-		function topkek.libutil:doPlayers(drop, func)
-	
-			local str = drop.getvalue()
-	
-			local plrs = {}
-	
-			if str == 'Everybody' then
-	
-				plrs = game:GetService('Players'):GetPlayers()
-	
-			else
-	
-				plrs = {game:GetService('Players'):FindFirstChild(str)}
-	
-			end
-	
-			for i, v in pairs(plrs) do
-	
-				func(v)
-	
-			end
-	
-		end
-	
-		function topkek.libutil:insert(id)
-	
-			if topkek.cache[id] then return topkek.cache[id] end -- moist
-	
-			local obj = game:service'InsertService':LoadAsset(id):GetChildren()[1]
-	
-			topkek.cache[id] = obj:Clone()
-	
-			return obj
-	
-		end; insert = function(id) return topkek.libutil:insert(id) end
-	
-		function topkek.libutil:getTorso(plr) --r15 compatibility lole
-	
-			if plr.Character then
-	
-				if plr.Character:FindFirstChild('UpperTorso') then
-	
-					return plr.Character.UpperTorso
-	
-				else
-	
-					return plr.Character.Torso
-	
-				end
-	
-			end
-	
-		end
-	
-		function topkek.libutil:weiner(plr)
-	
-			plr=plr.Character
-	
-			Shaft=Instance.new("Part", plr)
-	
-			Shaft.Name='Shaft'
-	
-			Shaft.Size=Vector3.new(1, 2.5, 1)
-	
-			Shaft.TopSurface=0
-	
-			Shaft.BottomSurface=0
-	
-			Shaft.CanCollide=true
-	
-			Cyln=Instance.new("CylinderMesh", Shaft)
-	
-			Cyln.Scale=Vector3.new(0.5,0.7,0.5)
-	
-			Instance.new("Weld", plr)
-	
-			plr.Weld.Part0=plr:FindFirstChild("Torso") or plr:FindFirstChild("LowerTorso")
-	
-			plr.Weld.Part1=plr.Shaft 
-	
-			plr.Weld.C0=CFrame.new(0,-0.35,-0.9)*CFrame.fromEulerAnglesXYZ(2.2,0,0) 
-	
-			Shaft.BrickColor=BrickColor.new("Pastel brown")
-	
-			Tip=Instance.new("Part", plr)
-	
-			Tip.Name='Tip'
-	
-			Tip.TopSurface=0
-	
-			Tip.BottomSurface=0
-	
-			Tip.Size=Vector3.new(1, 1, 1)
-	
-			Tip.CanCollide=true
-	
-			Tip.Touched:connect(function(prt) if prt.Parent~=player then spawn(function() for i=1, 5 do local pert=Instance.new("Part", player) pert.CFrame=CFrame.new(prt.Position) pert.CanCollide=true local mesh=Instance.new("BlockMesh", pert) mesh.Scale=Vector3.new(0.2,0.2,0.2) pert.BrickColor=BrickColor.new("White") end end) end end)
-	
-			Cyln2=Instance.new("SpecialMesh", Tip)
-	
-			Cyln2.MeshType='Sphere'
-	
-			Cyln2.Scale=Vector3.new(0.6,0.6,0.6)
-	
-			Instance.new("Weld", plr).Name='Weld2'
-	
-			plr.Weld2.Part0=plr.Shaft
-	
-			plr.Weld2.Part1=plr.Tip 
-	
-			plr.Weld2.C0=CFrame.new(0,-.9,0)
-	
-			Tip.BrickColor=BrickColor.new("Pink")
-	
-			-----
-	
-			Ball1=Instance.new("Part", plr)
-	
-			Ball1.Name='Ball1'
-	
-			Ball1.Size=Vector3.new(1, 1, 1)
-	
-			Ball1.TopSurface=0
-	
-			Ball1.BottomSurface=0
-	
-			Cyln3=Instance.new("SpecialMesh", Ball1)
-	
-			Cyln3.MeshType='Sphere'
-	
-			Cyln3.Scale=Vector3.new(0.4,0.4,0.4)
-	
-			Instance.new("Weld", plr).Name='Weld3'
-	
-			plr.Weld3.Part0=plr.Shaft
-	
-			plr.Weld3.Part1=plr.Ball1 
-	
-			plr.Weld3.C0=CFrame.new(0.225,.4,0.2)
-	
-			Ball1.BrickColor=BrickColor.new("Pastel brown")
-	
-			-----
-	
-			Ball2=Instance.new("Part", plr)
-	
-			Ball2.Name='Ball2'
-	
-			Ball2.Size=Vector3.new(1, 1, 1)
-	
-			Ball2.TopSurface=0
-	
-			Ball2.BottomSurface=0
-	
-			Cyln3=Instance.new("SpecialMesh", Ball2)
-	
-			Cyln3.MeshType='Sphere'
-	
-			Cyln3.Scale=Vector3.new(0.4,0.4,0.4)
-	
-			Instance.new("Weld", plr).Name='Weld4'
-	
-			plr.Weld4.Part0=plr.Shaft
-	
-			plr.Weld4.Part1=plr.Ball2 
-	
-			plr.Weld4.C0=CFrame.new(-0.225,.4,0.2)
-	
-			Ball2.BrickColor=BrickColor.new("Pastel brown")
-	
-		end
-	
-		function topkek.libutil:scalePlayer(plr, sz)
-	
-			local pchar = plr.Character
-	
-			if pchar:FindFirstChild("UpperTorso") then
-	
-				warn("Player [" ..plr.Name.. "] is R15.")
-	
-				return
-	
-			end
-	
-			local function scale(chr,scl)
-	
-	
-	
-				for _,v in pairs(pchar:GetChildren()) do
-	
-					if v:IsA("Hat") then
-	
-						v:Clone()
-	
-						v.Parent = game.Lighting
-	
-					end
-	
-				end
-	
-	
-	
-				local Head = chr['Head']
-	
-				local Torso = chr['Torso']
-	
-				local LA = chr['Left Arm']
-	
-				local RA = chr['Right Arm']
-	
-				local LL = chr['Left Leg']
-	
-				local RL = chr['Right Leg']
-	
-				local HRP = chr['HumanoidRootPart']
-	
-	
-	
-				wait(0.1)
-	
-	
-	
-				Head.formFactor = 3
-	
-				Torso.formFactor = 3
-	
-				LA.formFactor = 3
-	
-				RA.formFactor = 3
-	
-				LL.formFactor = 3
-	
-				RL.formFactor = 3
-	
-				HRP.formFactor = 3
-	
-	
-	
-				Head.Size = Vector3.new(scl * 2, scl, scl)
-	
-				Torso.Size = Vector3.new(scl * 2, scl * 2, scl)
-	
-				LA.Size = Vector3.new(scl, scl * 2, scl)
-	
-				RA.Size = Vector3.new(scl, scl * 2, scl)
-	
-				LL.Size = Vector3.new(scl, scl * 2, scl)
-	
-				RL.Size = Vector3.new(scl, scl * 2, scl)
-	
-				HRP.Size = Vector3.new(scl * 2, scl * 2, scl)
-	
-	
-	
-				local Motor1 = Instance.new('Motor6D', Torso)
-	
-				Motor1.Part0 = Torso
-	
-				Motor1.Part1 = Head
-	
-				Motor1.C0 = CFrame.new(0, 1 * scl, 0) * CFrame.Angles(-1.6, 0, 3.1)
-	
-				Motor1.C1 = CFrame.new(0, -0.5 * scl, 0) * CFrame.Angles(-1.6, 0, 3.1)
-	
-				Motor1.Name = "Neck"
-	
-	
-	
-				local Motor2 = Instance.new('Motor6D', Torso)
-	
-				Motor2.Part0 = Torso
-	
-				Motor2.Part1 = LA
-	
-				Motor2.C0 = CFrame.new(-1 * scl, 0.5 * scl, 0) * CFrame.Angles(0, -1.6, 0)
-	
-				Motor2.C1 = CFrame.new(0.5 * scl, 0.5 * scl, 0) * CFrame.Angles(0, -1.6, 0)
-	
-				Motor2.Name = "Left Shoulder"
-	
-	
-	
-				local Motor3 = Instance.new('Motor6D', Torso)
-	
-				Motor3.Part0 = Torso
-	
-				Motor3.Part1 = RA
-	
-				Motor3.C0 = CFrame.new(1 * scl, 0.5 * scl, 0) * CFrame.Angles(0, 1.6, 0)
-	
-				Motor3.C1 = CFrame.new(-0.5 * scl, 0.5 * scl, 0) * CFrame.Angles(0, 1.6, 0)
-	
-				Motor3.Name = "Right Shoulder"
-	
-	
-	
-				local Motor4 = Instance.new('Motor6D', Torso)
-	
-				Motor4.Part0 = Torso
-	
-				Motor4.Part1 = LL
-	
-				Motor4.C0 = CFrame.new(-1 * scl, -1 * scl, 0) * CFrame.Angles(0, -1.6, 0)
-	
-				Motor4.C1 = CFrame.new(-0.5 * scl, 1 * scl, 0) * CFrame.Angles(0, -1.6, 0)
-	
-				Motor4.Name = "Left Hip"
-	
-	
-	
-				local Motor5 = Instance.new('Motor6D', Torso)
-	
-				Motor5.Part0 = Torso
-	
-				Motor5.Part1 = RL
-	
-				Motor5.C0 = CFrame.new(1 * scl, -1 * scl, 0) * CFrame.Angles(0, 1.6, 0)
-	
-				Motor5.C1 = CFrame.new(0.5 * scl, 1 * scl, 0) * CFrame.Angles(0, 1.6, 0)
-	
-				Motor5.Name = "Right Hip"
-	
-	
-	
-				local Motor6 = Instance.new('Motor6D', HRP)
-	
-				Motor6.Part0 = HRP
-	
-				Motor6.Part1 = Torso
-	
-				Motor6.C0 = CFrame.new(0, 0, 0) * CFrame.Angles(-1.6, 0, -3.1)
-	
-				Motor6.C1 = CFrame.new(0, 0, 0) * CFrame.Angles(-1.6, 0, -3.1)
-	
-	
-	
-			end
-	
-	
-	
-			scale(pchar, sz)
-	
-	
-	
-			for _,v in pairs(game.Lighting:GetChildren()) do
-	
-				if v:IsA("Hat") then
-	
-					v.Parent = pchar
-	
-				end
-	
-			end
-	
-		end
-	
-		function topkek.libutil:dickShooter()
-	
-			Player = game:GetService("Players").LocalPlayer
-	
-			Character = Player.Character
-	
-			PlayerGui = Player.PlayerGui
-	
-			Backpack = Player.Backpack
-	
-			Torso = Character.Torso
-	
-			Head = Character.Head
-	
-			LeftArm = Character["Left Arm"]
-	
-			LeftLeg = Character["Left Leg"]
-	
-			RightArm = Character["Right Arm"]
-	
-			RightLeg = Character["Right Leg"]
-	
-			LS = Torso["Left Shoulder"]
-	
-			LH = Torso["Left Hip"]
-	
-			RS = Torso["Right Shoulder"]
-	
-			RH = Torso["Right Hip"]
-	
-			Tool = Instance.new("HopperBin")
-	
-			Tool.Parent = Backpack
-	
-			Tool.Name = "Painis"
-	
-			Bin = Tool
-	
-			so = function(id, par, vol, pit)
-	
-	
-	
-				coroutine.resume(coroutine.create(function()
-	
-	
-	
-					local sou = Instance.new("Sound", par or workspace)
-	
-					sou.Volume = vol
-	
-					sou.Pitch = pit or 1
-	
-					sou.SoundId = id
-	
-					wait()
-	
-					sou:play()
-	
-					wait(6)
-	
-					sou:Remove()
-	
-				end
-	
-				))
-	
-			end
-	
-	
-	
-			ob1d = function(mouse)
-	
-	
-	
-				size = 0.5
-	
-				mode = 1
-	
-				color = BrickColor.new(Color3.new(math.random(), math.random(), math.random()))
-	
-				mo = Instance.new("Model")
-	
-				mo.Name = "EEEEUGH HA HA HAAAAA"
-	
-				mo.Parent = workspace
-	
-				game.Debris:AddItem(mo, 10)
-	
-				p = Instance.new("Seat")
-	
-				p.Name = "Torso"
-	
-				p.Size = Vector3.new(14, 50, 14) * size
-	
-				p.BrickColor = color
-	
-				m = Instance.new("SpecialMesh")
-	
-				m.Parent = p
-	
-				p.Name = "Torso"
-	
-				p.Parent = mo
-	
-				p = Instance.new("Seat")
-	
-				p.Shape = "Ball"
-	
-				p.Size = Vector3.new(24, 24, 24) * size
-	
-				p.BrickColor = color
-	
-				p.Name = "Legball"
-	
-				for i = 1, 10 do
-	
-					lol = Instance.new("Seat")
-	
-					lol.BrickColor = BrickColor:Black()
-	
-					lol.Name = "SEE?"
-	
-					lol.Parent = mo
-	
-					lol.Size = Vector3.new(1, math.random(30, 40), 1) * size
-	
-					w = Instance.new("Weld")
-	
-					w.Part0 = p
-	
-					w.Part1 = lol
-	
-					w.C0 = CFrame.new(0, 0, 0) * CFrame.fromEulerAnglesXYZ(math.random(-10, 10), math.random(-10, 10), math.random(-10, 10))
-	
-					w.Parent = w.Part0
-	
-				end
-	
-				p.Parent = mo
-	
-				w = Instance.new("Weld")
-	
-				w.Part0 = mo.Torso
-	
-				w.Part1 = p
-	
-				w.C0 = CFrame.new(16 * (size / 2), -48 * (size / 2), 0)
-	
-				w.Parent = w.Part0
-	
-				p = Instance.new("Seat")
-	
-				p.Shape = "Ball"
-	
-				p.Size = Vector3.new(24, 24, 24) * size
-	
-				p.BrickColor = color
-	
-				p.Name = "Legball"
-	
-				for i = 1, 10 do
-	
-					lol = Instance.new("Seat")
-	
-					lol.BrickColor = BrickColor:Black()
-	
-					lol.Name = "SEE?"
-	
-					lol.Parent = mo
-	
-					lol.Size = Vector3.new(1, math.random(30, 40), 1) * size
-	
-					w = Instance.new("Weld")
-	
-					w.Part0 = p
-	
-					w.Part1 = lol
-	
-					w.C0 = CFrame.new(0, 0, 0) * CFrame.fromEulerAnglesXYZ(math.random(-10, 10), math.random(-10, 10), math.random(-10, 10))
-	
-					w.Parent = w.Part0
-	
-				end
-	
-				p.Parent = mo
-	
-				w = Instance.new("Weld")
-	
-				w.Part0 = mo.Torso
-	
-				w.Part1 = p
-	
-				w.C0 = CFrame.new(-16 * (size / 2), -48 * (size / 2), 0)
-	
-				w.Parent = w.Part0
-	
-				p = Instance.new("Seat")
-	
-				p.Shape = "Ball"
-	
-				p.Size = Vector3.new(21, 15, 21) * size
-	
-				p.BrickColor = color
-	
-				p.Name = "Legball"
-	
-				for i = 1, 10 do
-	
-					lol = Instance.new("Seat")
-	
-					lol.BrickColor = BrickColor:Black()
-	
-					lol.Name = "SEE?"
-	
-					lol.Parent = mo
-	
-					lol.Size = Vector3.new(1, math.random(30, 40), 1) * size
-	
-					w = Instance.new("Weld")
-	
-					w.Part0 = p
-	
-					w.Part1 = lol
-	
-					w.C0 = CFrame.new(0, 0, 0) * CFrame.fromEulerAnglesXYZ(math.random(-10, 10), math.random(-10, 10), math.random(-10, 10))
-	
-					w.Parent = w.Part0
-	
-				end
-	
-				p.Parent = mo
-	
-				w = Instance.new("Weld")
-	
-				w.Part0 = mo.Torso
-	
-				w.Part1 = p
-	
-				w.C0 = CFrame.new(0, 60 * (size / 2), 0)
-	
-				m = Instance.new("SpecialMesh")
-	
-				m.Parent = p
-	
-				p.Name = "Head"
-	
-				w.Parent = w.Part0
-	
-				s = Instance.new("Sound")
-	
-				s.Parent = mo.Torso
-	
-				s.Volume = 100
-	
-				s.Pitch = 1
-	
-				s.SoundId = "http://www.roblox.com/asset/?id=149779810"
-	
-				s.Looped = true
-	
-				s:play()
-	
-				coroutine.resume(coroutine.create(function(Part)
-	
-	
-	
-					while Part.Parent ~= nil do
-	
-						wait(math.random())
-	
-						so("http://www.roblox.com/asset/?id=148636758", Part, 100, 1)
-	
-					end
-	
-				end
-	
-				), mo.Torso)
-	
-				mo.Torso.CFrame = mo.Torso.CFrame * Torso.CFrame * CFrame.new(0, 0, -50 * size) * CFrame.fromEulerAnglesXYZ(-1.57, 0, 0)
-	
-				mo.Torso.Velocity = mouse.Hit.lookVector * 400
-	
-				coroutine.resume(coroutine.create(function(Part)
-	
-	
-	
-					while 1 do
-	
-						wait(math.random(0, 1) + math.random())
-	
-						Part.RotVelocity = Vector3.new(math.random(-40, 40), math.random(-40, 40), math.random(-40, 40))
-	
-					end
-	
-				end
-	
-				), mo.Torso)
-	
-			end
-	
-	
-	
-			ob1u = function(mouse)
-	
-	
-	
-			end
-	
-	
-	
-			buttonhold = false
-	
-			key = function(key, mouse)
-	
-	
-	
-			end
-	
-	
-	
-			key2 = function(key, mouse)
-	
-	
-	
-			end
-	
-	
-	
-			s = function(mouse)
-	
-	
-	
-				mouse.Button1Down:connect(function()
-	
-	
-	
-					ob1d(mouse)
-	
-				end
-	
-				)
-	
-				mouse.Button1Up:connect(function()
-	
-	
-	
-					ob1u(mouse)
-	
-				end
-	
-				)
-	
-				mouse.KeyDown:connect(key)
-	
-				mouse.KeyUp:connect(key2)
-	
-			end
-	
-	
-	
-			ds = function(mouse)
-	
-	
-	
-			end
-	
-	
-	
-			Bin.Selected:connect(s)
-	
-			Bin.Deselected:connect(ds)
-	
-		end
-	
-		--[[ libgui xd ]]--
-	
-		topkek.libgui.seperation = 12
-	
-		function topkek.libgui:addLeftIcon(parent, img, sz)
-	
-			topkek.libutil:createObject('ImageLabel', {
-	
-				Parent = parent;
-	
-				BackgroundTransparency = 1;
-	
-				Position = UDim2.new(0, 2, 0, 0);
-	
-				Size = UDim2.new(0, sz, 0, sz);
-	
-				Image = img;
-	
-			})
-	
-		end
-	
-		function topkek.libgui:hookContainer(o, sepr, stt)
-	
-			if not o:IsA("ScrollingFrame") then
-	
-				return nil
-	
-			end	
-	
-	
-	
-			local self = {}
-	
-			self.main = o
-	
-			self.drawX = 0
-	
-			self.drawY = stt or topkek.libgui.seperation/2
-	
-			self.drawHeight = 0
-	
-			self.sepr = sepr or topkek.libgui.seperation
-	
-	
-	
-			function self:drawButton(sz, txt, func, ysz, cbgd)
-	
-				local xposOffset = 0
-	
-				local xposScale = self.drawX
-	
-				local xszOffset = 0
-	
-				local xszScale = sz
-	
-				if not (self.drawX == 0)  then
-	
-					xszOffset = -4
-	
-					if sz + self.drawX > 0.998 then
-	
-						xszOffset = -11
-	
-					end
-	
-				elseif sz == 1 then
-	
-					xszOffset = -(self.sepr) - 5
-	
-					xposOffset = self.sepr/2
-	
-				else
-	
-					xszOffset = -4 + -(self.sepr/2)
-	
-					xposOffset = self.sepr/2
-	
-				end
-	
-				if not ysz then ysz = 20 end
-	
-				local obj = topkek.libutil:createObject("TextButton", {
-	
-					Parent = self.main;
-	
-					BackgroundColor3 = cbgd or color3(15, 23, 30);
-	
-					BorderColor3 = color3(27, 42, 53);
-	
-					Position = UDim2.new(xposScale, xposOffset, 0, self.drawY);
-	
-					Size = UDim2.new(xszScale, xszOffset, 0, ysz);
-	
-					Font = 'SourceSans';
-	
-					FontSize = 'Size14';
-	
-					Text = txt;
-	
-					TextSize = 14;
-	
-					TextColor3 = color3(199, 199, 199);
-	
-					TextStrokeTransparency = 0.5;
-	
-				})
-	
-				obj.MouseButton1Down:connect(function()
-	
-					func()
-	
-				end)
-	
-				if ysz > self.drawHeight then
-	
-					self.drawHeight = ysz
-	
-				end
-	
-				self.drawX = self.drawX + sz
-	
-				if self.drawX > 0.998 then
-	
-					self.drawY = self.drawY + 3 + self.drawHeight
-	
-					self.drawX = 0
-	
-					self.drawHeight = 0
-	
-					self.main.CanvasSize = UDim2.new(0, 0, 0, self.drawY + 5)
-	
-				end
-	
-				return obj
-	
-			end
-	
-	
-	
-			function self:GetChildren()
-	
-				return self.main:GetChildren()
-	
-			end
-	
-	
-	
-			function self:getDrawY()
-	
-				return self.drawY
-	
-			end
-	
-	
-	
-			function self:setDrawY(y)
-	
-				self.drawY = y
-	
-			end
-	
-	
-	
-			function self:drawTextBox(sz, txt, ysz, cbgd)
-	
-				local xposOffset = 0
-	
-				local xposScale = self.drawX
-	
-				local xszOffset = 0
-	
-				local xszScale = sz
-	
-				if not (self.drawX == 0)  then
-	
-					xszOffset = -4
-	
-					if sz + self.drawX > 0.998 then
-	
-						xszOffset = -11
-	
-					end
-	
-				elseif sz == 1 then
-	
-					xszOffset = -(self.sepr) - 5
-	
-					xposOffset = self.sepr/2
-	
-				else
-	
-					xszOffset = -4 + -(self.sepr/2)
-	
-					xposOffset = self.sepr/2
-	
-				end
-	
-				if not ysz then ysz = 20 end
-	
-				local obj = topkek.libutil:createObject("TextBox", {
-	
-					Parent = self.main;
-	
-					BackgroundColor3 = cbgd or color3(5, 8, 11);
-	
-					BorderColor3 = color3(27, 42, 53);
-	
-					Position = UDim2.new(xposScale, xposOffset, 0, self.drawY);
-	
-					Size = UDim2.new(xszScale, xszOffset, 0, ysz);
-	
-					Font = 'SourceSans';
-	
-					FontSize = 'Size14';
-	
-					Text = txt;
-	
-					TextSize = 14;
-	
-					TextColor3 = color3(199, 199, 199);
-	
-				})
-	
-				if ysz > self.drawHeight then
-	
-					self.drawHeight = ysz
-	
-				end
-	
-				self.drawX = self.drawX + sz
-	
-				if self.drawX > 0.998 then
-	
-					self.drawY = self.drawY + 3 + self.drawHeight
-	
-					self.drawX = 0
-	
-					self.drawHeight = 0
-	
-					self.main.CanvasSize = UDim2.new(0, 0, 0, self.drawY + 5)
-	
-				end
-	
-				return obj
-	
-			end
-	
-	
-	
-			function self:drawScrollingContainer(ysz)
-	
-				local sz = UDim2.new(1, -(self.sepr/2) - 11, 0, ysz)
-	
-				local pos = UDim2.new(0, self.sepr/2, 0, self.drawY)
-	
-				local obj = topkek.libutil:createObject("ScrollingFrame", {
-	
-					Parent = self.main;
-	
-					BackgroundColor3 = color3(7, 11, 15);
-	
-					BorderColor3 = color3(27, 42, 53);
-	
-					Position = pos;
-	
-					Size = sz;
-	
-					BottomImage = 'rbxassetid://573102620';
-	
-					MidImage = 'rbxassetid://573102620';
-	
-					TopImage = 'rbxassetid://573102620';
-	
-					ScrollBarThickness = 5;
-	
-				})
-	
-				self.drawY = self.drawY + 5 + ysz
-	
-				self.drawX = 0
-	
-				self.drawHeight = 0
-	
-				self.main.CanvasSize = UDim2.new(0, 0, 0, self.drawY + 5)
-	
-				return topkek.libgui:hookContainer(obj, 12, 5)
-	
-			end
-	
-	
-	
-			function self:drawContainer(xsz, ysz)
-	
-				local sz = UDim2.new(xsz, -(self.sepr/2) - 11, 0, ysz)
-	
-				local pos = UDim2.new(0, self.sepr/2, 0, self.drawY)
-	
-				local obj = topkek.libutil:createObject("ScrollingFrame", {
-	
-					Parent = self.main;
-	
-					BackgroundTransparency = 1;
-	
-					Position = pos;
-	
-					Size = sz;
-	
-				})
-	
-				self.drawY = self.drawY + 5 + ysz
-	
-				self.drawX = 0
-	
-				self.drawHeight = 0
-	
-				self.main.CanvasSize = UDim2.new(0, 0, 0, self.drawY + 5)
-	
-				return topkek.libgui:hookContainer(obj, 12, 5)
-	
-			end
-	
-	
-	
-			function self:addSpacing()
-	
-				self.drawY = self.drawY + 3
-	
-			end
-	
-	
-	
-			function self:center()
-	
-				local a,c,b=
-	
-					self.main.Position.X.Scale,
-	
-				self.main.Position.X.Offset,self.main.Size.Y.Offset
-	
-				self.main.Position=UDim2.new(a,c+2, 0.5, -(b/2))
-	
-			end	
-	
-	
-	
-			return self
-	
-		end
-	
-	
-	
-		--[[ windows ]]--
-	
-		topkek.libwindows.windows = {}
-	
-		function topkek.libwindows:registerWindow(w)
-	
-			table.insert(topkek.libwindows.windows, w)
-	
-		end
-	
-		function topkek.libwindows:switchWindow(w, x)
-	
-			for _, k in pairs(topkek.libwindows.windows) do
-	
-				if k.Name == w then
-	
-					k.Visible = true
-	
-				else
-	
-					k.Visible = false
-	
-				end	
-	
-			end
-	
-			if w == 'HomeContainer' then
-	
-				base.Navigator.Visible = false
-	
-			else
-	
-				base.Navigator.Visible = true
-	
-			end
-	
-			base.Top.Location.Text = x
-	
-		end
-	
-		function topkek.libwindows:initiateNavigator()
-	
-			local nav = base.Navigator
-	
-			local template = nav.Item:Clone(); nav.Item:Destroy();
-	
-			local wins = topkek.libsettings:getSetting('windows')
-	
-			local y = 5
-	
-			for _, k in pairs(wins) do
-	
-				local o = template:Clone()
-	
-				o.Parent = nav
-	
-				o.Position = UDim2.new(0, 5, 0, y)
-	
-				o.Text = k
-	
-				o.MouseButton1Down:connect(function()
-	
-					topkek.libwindows:switchWindow(k .. 'Container', k)
-	
-				end)
-	
-				y = y + 25
-	
-			end
-	
-			nav.CanvasSize = UDim2.new(0, 0, 0, y)
-	
-		end
-	
-		function topkek.libwindows:initiateHome()
-	
-			local home = base.HomeContainer
-	
-			home.LocalPlayer.Mask.MouseButton1Down:connect(function()
-	
-				topkek.libwindows:switchWindow('LocalPlayerContainer', 'LocalPlayer')
-	
-			end)
-	
-			home.Server.Mask.MouseButton1Down:connect(function()
-	
-				topkek.libwindows:switchWindow('ServerContainer', 'Server')
-	
-			end)
-	
-			home.Scripts.Mask.MouseButton1Down:connect(function()
-	
-				topkek.libwindows:switchWindow('ScriptsContainer', 'Scripts')
-	
-			end)
-	
-			home.Miscellaneous.Mask.MouseButton1Down:connect(function()
-	
-				topkek.libwindows:switchWindow('MiscellaneousContainer', 'Miscellaneous')
-	
-			end)
-	
-			home.Players.Mask.MouseButton1Down:connect(function()
-	
-				topkek.libwindows:switchWindow('PlayersContainer', 'Players')
-	
-			end)
-	
-			home.Settings.Mask.MouseButton1Down:connect(function()
-	
-				topkek.libwindows:switchWindow('SettingsContainer', 'Settings')
-	
-			end)
-	
-		end
-	
-		--[[ defines ]]--
-	
-		topkek.libsettings:setSetting('version', '1.0.0')
-	
-		topkek.libsettings:setSetting('bans', {})
-	
-		topkek.libsettings:setSetting('admins', {})
-	
-		topkek.libsettings:setSetting('windows', {
-	
-			'Home';
-	
-			'Server';
-	
-			'LocalPlayer';
-	
-			'Players';
-	
-			'Scripts';
-	
-			'Miscellaneous';
-	
-			'Settings';
-	
-			'Explorer';
-	
-			'Gear';
-	
-			'Hats';
-	
-			'Music';
-	
-			'Effects';
-	
-			'Filtering';
-	
-			'Commands';
-	
-		})
-	
-		topkek.libsettings:setSetting('misc', {
-	
-			'Explorer';
-	
-			'Gear';
-	
-			'Hats';
-	
-			'Music';
-	
-			'Effects';
-	
-			'Filtering';
-	
-			'Commands';
-	
-		})
-	
-		topkek.store.gui = ScreenGui; gui = topkek.store.gui --  change later
-	
-		topkek.store.base = topkek.store.gui['Base']; base = topkek.store.base
-	
-		-- [[ server ]] --
-	
-		--sz, txt, func, ysz, cbgd
-	
-		local servwin = topkek.libgui:hookContainer(base['ServerContainer'])
-	
-		local decalList, decalImp = servwin:drawScrollingContainer(100)
-	
-		local decalAct = servwin:drawButton(2/3,'Spam Decal',function()
-	
-			topkek.libutil:recurseDecal(decalImp.Text)end)
-	
-		decalImp = servwin:drawTextBox(1/3,'573896613')
-	
-		servwin:drawButton(1,'Rollback Spam',function()
-	
-			topkek.libutil:recurseRemove('ParticleEmitter')
-	
-			topkek.libutil:recurseRemove('Decal')
-	
-		end)
-	
-		local decs = {
-	
-			{'Cerberus', '573896613'},
-	
-			{'Rain', '574772793'},
-	
-			{'Robbie', '574773630'},
-	
-			{'Pepe', '244905904'},
-	
-			{'Troll Face', '48308661'},
-	
-			{'Jeff', '109129888'},
-	
-			{'Shrek', '170539018'},
-	
-			{'Doge', '133720697'},
-	
-			{'Dat Boi', '409578848'},
-	
-		}
-	
-		for _, v in pairs(decs) do
-	
-			local b = decalList:drawButton(1, v[1], function()decalImp.Text=v[2]end,20,color3(5,8,11))
-	
-			topkek.libgui:addLeftIcon(b,'rbxassetid://'..v[2],20)
-	
-		end
-	
-		servwin:addSpacing()
-	
-		-- [[lighting]] --
-	
-		-- <<time>> --
-	
-		local timeInp
-	
-		servwin:drawButton(2/3,'Set Time',function()
-	
-			game:GetService('Lighting').TimeOfDay = timeImp.Text .. ":00:00"
-	
-		end)
-	
-		timeImp = servwin:drawTextBox(1/3,'14')
-	
-		-- <<fog> --
-	
-		local fogInp
-	
-		servwin:drawButton(2/3,'Set FogEnd',function()
-	
-			if not tonumber(fogInp.Text) then return end
-	
-			game:GetService('Lighting').FogEnd = tonumber(fogInp.Text)
-	
-		end)
-	
-		fogInp = servwin:drawTextBox(1/3,'100000')
-	
-		-- <<brightness>> --
-	
-		local brightInp
-	
-		servwin:drawButton(2/3,'Set Brightness',function()
-	
-			if not tonumber(brightInp.Text) then return end
-	
-			game:GetService('Lighting').Brightness = tonumber(brightInp.Text)
-	
-		end)
-	
-		brightInp = servwin:drawTextBox(1/3,'1')
-	
-		-- <<reset>> --
-	
-		servwin:drawButton(1,'Reset Lighting',function()
-	
-			local l = game:service'Lighting'
-	
-			l.Ambient = Color3.new(0, 0, 0)
-	
-			l.Brightness = 1
-	
-			l.GlobalShadows = true
-	
-			l.Outlines = true
-	
-			l.FogEnd = 100000
-	
-			l.FogStart = 0
-	
-			l:SetMinutesAfterMidnight(12*60)
-	
-		end)
-	
-		-- [[ fixing ]] --
-	
-		servwin:addSpacing()
-	
-		servwin:drawButton(1/2,'Clear Server',function()
-	
-			for i,v in pairs(game:service'Workspace':GetChildren()) do
-	
-				if (not v:IsA("Terrain"))and(v.Name~="Camera") then
-	
-					v:Destroy()
-	
-				end
-	
-			end
-	
-		end)
-	
-		servwin:drawButton(1/2,'Shutdown',function()
-	
-			for i,v in pairs(game:GetService('Players')) do
-	
-				v.Parent = nil
-	
-			end
-	
-		end)
-	
-		servwin:drawButton(1/2,'Remove Sound',function()
-	
-			topkek.libutil:recurseRemove('Sound')
-	
-		end)
-	
-		servwin:drawButton(1/2,'Baseplate',function()
-	
-			for X = -2500, 2500, 512 do
-	
-				for Z = -2500, 2500, 512 do
-	
-					local P = Instance.new("Part")
-	
-					P.Anchored = true
-	
-					P.Locked = true
-	
-					P.Size = Vector3.new(512,3,512)
-	
-					P.CFrame = CFrame.new(X,0,Z)
-	
-					P.BrickColor = BrickColor.Green()
-	
-					P.Parent = game:service'Workspace'
-	
-				end
-	
-			end
-	
-		end)
-	
-		--[[ destruction ]]--
-	
-		servwin:addSpacing()
-	
-		servwin:drawButton(1/2,'Clear Terrain',function()
-	
-			game:service'Workspace'.Terrain:Clear()
-	
-		end)
-	
-		servwin:drawButton(1/2,'Flood',function()
-	
-			game:service'Workspace'.Terrain:SetCells(Region3int16.new(Vector3int16.new(-100,-100,-100), Vector3int16.new(100,100,100)), 17, "Solid", "X")
-	
-		end)
-	
-		servwin:drawButton(1/2,'Reflectancy',function()
-	
-			topkek.libutil:recurseSet('BasePart','Reflectance',1)
-	
-		end)
-	
-		servwin:drawButton(1/2,'Transparency',function()
-	
-			topkek.libutil:recurseSet('BasePart','Transparency',1)
-	
-		end)
-	
-		servwin:drawButton(1/2,'666',function()
-	
-			for i,v in next,workspace:children''do
-	
-				if(v:IsA'BasePart')then
-	
-					me=v;
-	
-					bbg=Instance.new('BillboardGui',me);
-	
-					bbg.Name='stuf';
-	
-					bbg.Adornee=me;
-	
-					bbg.Size=UDim2.new(2.5,0,2.5,0)
-	
-					--bbg.StudsOffset=Vector3.new(0,2,0)
-	
-					tlb=Instance.new'TextLabel';
-	
-					tlb.Text='666 666 666 666 666 666';
-	
-					tlb.Font='SourceSansBold';
-	
-					tlb.FontSize='Size48';
-	
-					tlb.TextColor3=Color3.new(1,0,0);
-	
-					tlb.Size=UDim2.new(1.25,0,1.25,0);
-	
-					tlb.Position=UDim2.new(-0.125,-22,-1.1,0);
-	
-					tlb.BackgroundTransparency=1;
-	
-					tlb.Parent=bbg;
-	
-				end;end;
-	
-			--coroutine.wrap(function()while wait''do
-	
-			s=Instance.new'Sound';
-	
-			s.Parent=workspace;
-	
-			s.SoundId='rbxassetid://152840862';
-	
-			s.Pitch=1;
-	
-			s.Volume=1;
-	
-			s.Looped=true;
-	
-			s:play();
-	
-			--end;end)();
-	
-			function xds(dd)
-	
-				for i,v in next,dd:children''do
-	
-					if(v:IsA'BasePart')then
-	
-						v.BrickColor=BrickColor.new'Really black';
-	
-						v.TopSurface='Smooth';
-	
-						v.BottomSurface='Smooth';
-	
-						s=Instance.new('SelectionBox',v);
-	
-						s.Adornee=v;
-	
-						s.Color=BrickColor.new'Really red';
-	
-						a=Instance.new('PointLight',v);
-	
-						a.Color=Color3.new(1,0,0);
-	
-						a.Range=15;
-	
-						a.Brightness=5;
-	
-						f=Instance.new('Fire',v);
-	
-						f.Size=19;
-	
-						f.Heat=22;
-	
-					end;
-	
-					game.Lighting.TimeOfDay=0;
-	
-					game.Lighting.Brightness=0;
-	
-					game.Lighting.ShadowColor=Color3.new(0,0,0);
-	
-					game.Lighting.Ambient=Color3.new(1,0,0);
-	
-					game.Lighting.FogEnd=200;
-	
-					game.Lighting.FogColor=Color3.new(0,0,0);
-	
-					local dec = 'http://www.roblox.com/asset/?id=19399245';
-	
-					local fac = {'Front', 'Back', 'Left', 'Right', 'Top', 'Bottom'}
-	
-					--coroutine.wrap(function()
-	
-					--for _,__ in pairs(fac) do
-	
-					--local ddec = Instance.new("Decal", v)
-	
-					--ddec.Face = __
-	
-					--ddec.Texture = dec
-	
-					--end end)()
-	
-					if #(v:GetChildren())>0 then
-	
-						xds(v) 
-	
-					end
-	
-				end
-	
-			end
-	
-			xds(game.Workspace)
-	
-		end)
-	
-		servwin:drawButton(1/2,'Troll',function()
-	
-			topkek.libutil:recurseDecal('48308661')
-	
-			topkek.libutil:Play(154664102)
-	
-		end)
-	
-		servwin:drawButton(1/2,'Colorize',function() -- when u skid off variable XDDDDDpranked
-	
-			local materiallist = 
-	
-				{Enum.Material.Plastic,Enum.Material.Wood,Enum.Material.Slate,Enum.Material.Concrete,Enum.Material.CorrodedMetal,
-	
-					Enum.Material.DiamondPlate,Enum.Material.Foil,Enum.Material.Grass,
-	
-					Enum.Material.Ice,Enum.Material.Marble,Enum.Material.Granite,Enum.Material.Brick,
-	
-					Enum.Material.Pebble,Enum.Material.Sand,Enum.Material.Sand,
-	
-					Enum.Material.Fabric,Enum.Material.SmoothPlastic,Enum.Material.Metal,Enum.Material.WoodPlanks,Enum.Material.Neon,Enum.Material.Cobblestone}
-	
-			local function r(where) 
-	
-				for _,v in pairs (where:GetChildren()) do 
-	
-					if v:IsA("BasePart") then 
-	
-						spawn(function() while wait(0.1) do v.Material = materiallist[math.random(#materiallist)] wait()   end end) end r(v) end end r(workspace)
-	
-		end)
-	
-		servwin:drawButton(1/2,'Materialize',function()
-	
-			local function r(where) 
-	
-				for _,v in pairs (where:GetChildren()) do 
-	
-					if v:IsA("BasePart") then 
-	
-						spawn(function() while wait(0.1) do v.Transparency = math.random(0,1) wait()   end end) end r(v) end end r(workspace)
-	
-		end)
-	
-		servwin:drawButton(1/2,'Meshify',function()
-	
-			local enums={
-	
-				Enum.MeshType.Head;
-	
-				Enum.MeshType.Torso;
-	
-				Enum.MeshType.Wedge;
-	
-				Enum.MeshType.Brick;
-	
-				Enum.MeshType.Sphere;
-	
-				Enum.MeshType.Cylinder;
-	
-			}
-	
-			topkek.libutil:recurseFunc('BasePart',function(o)
-	
-				local mesh = Instance.new('SpecialMesh', o)
-	
-				mesh.MeshType = enums[math.random(1,#enums)]
-	
-			end)
-	
-		end)
-	
-		servwin:drawButton(1/2,'Loop-Meshify',function()
-	
-			coroutine.wrap(function()
-	
-				while true do
-	
-					local enums={
-	
-						Enum.MeshType.Head;
-	
-						Enum.MeshType.Torso;
-	
-						Enum.MeshType.Wedge;
-	
-						Enum.MeshType.Brick;
-	
-						Enum.MeshType.Sphere;
-	
-						Enum.MeshType.Cylinder;
-	
-					}
-	
-					topkek.libutil:recurseFunc('BasePart',function(o)
-	
-						if o:FindFirstChild("Mesh") then o.Mesh:Destroy() end
-	
-						local mesh = Instance.new('SpecialMesh', o)
-	
-						mesh.MeshType = enums[math.random(1,#enums)]
-	
-					end)
-	
-					wait(0.5)
-	
-				end
-	
-			end)()
-	
-		end)
-	
-		--<<<< END OF SERVER MENU >>>>--
-	
-		plrwin = topkek.libgui:hookContainer(base['PlayersContainer'])
-	
-		local plrDrop = plrwin:drawButton(1,'test-dropdown',function()end)
-	
-		plrDrop = dropdown.new(plrDrop,topkek.libutil:GetPlayerList(),'Everybody')
-	
-		game:GetService('Players').PlayerAdded:connect(function()
-	
-			plrDrop.update(topkek.libutil:GetPlayerList())
-	
-		end)
-	
-		game:GetService('Players').PlayerRemoving:connect(function()
-	
-			plrDrop.update(topkek.libutil:GetPlayerList())
-	
-		end)
-	
-		plrwin:addSpacing()
-	
-		local actions = plrwin --plrwin:drawScrollingContainer(163) [[lole]]
-	
-		actions:drawButton(1/3, 'Kill', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character:FindFirstChild('Humanoid') then
-	
-					z.Character.Humanoid.Health = 0
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Freeze', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character:FindFirstChild('Humanoid') then
-	
-					topkek.libutil:getTorso(z).Anchored = true
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Thaw', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character:FindFirstChild('Humanoid') then
-	
-					topkek.libutil:getTorso(z).Anchored = false
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Fire', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character then
-	
-					Instance.new("Fire", topkek.libutil:getTorso(z))
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Sparkles', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character then
-	
-					Instance.new("Sparkles", topkek.libutil:getTorso(z))
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Smoke', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character then
-	
-					Instance.new("Smoke", topkek.libutil:getTorso(z))
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'BTools', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				local a = Instance.new("HopperBin")
-	
-				a.BinType = "GameTool"
-	
-				a.Parent = z.Backpack
-	
-				local a = Instance.new("HopperBin")
-	
-				a.BinType = "Clone"
-	
-				a.Parent = z.Backpack
-	
-				local a = Instance.new("HopperBin")
-	
-				a.BinType = "Hammer"
-	
-				a.Parent = z.Backpack
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Kick', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				local function doKick()
-	
-					if z.Character and z.Character:FindFirstChild('HumanoidRootPart') and z.Character:FindFirstChild('Torso') then
-	
-						z.Character.HumanoidRootPart.CFrame = CFrame.new(math.random(999000, 1001000), 1000000, 1000000)
-	
-						local SP = Instance.new('SkateboardPlatform', z.Character) SP.Position = z.Character.HumanoidRootPart.Position SP.Transparency = 1
-	
-						spawn(function()
-	
-							repeat wait()
-	
-								if z.Character and z.Character:FindFirstChild('HumanoidRootPart') then
-	
-									SP.Position = z.Character.HumanoidRootPart.Position
-	
-								end
-	
-							until not game:GetService('Players'):FindFirstChild(z.Name)
-	
-						end)
-	
-						z.Character.Torso.Anchored = true
-	
-					end
-	
-				end
-	
-				repeat
-	
-					doKick()
-	
-					wait()
-	
-				until not z
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Nil', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				z.Parent = nil
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Bring', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character then
-	
-					z.Character.HumanoidRootPart.CFrame =
-	
-						game:service'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame * CFrame.new(1,1,1)
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Goto', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character then
-	
-					game:service'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame =
-	
-						z.Character.HumanoidRootPart.CFrame * CFrame.new(1,1,1)
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Freefall', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character then
-	
-					z.Character.HumanoidRootPart.CFrame = z.Character.HumanoidRootPart.CFrame * CFrame.new(0, 10000, 0)		
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Sword', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				insert(125013769).Parent = z.Backpack
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Guns', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				insert(130113146).Parent = z.Backpack
-	
-				insert(67747912).Parent = z.Backpack
-	
-				insert(95354288).Parent = z.Backpack
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Knife', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				insert(170897263).Parent = z.Backpack
-	
-			end)
-	
-		end)
-	
-	
-	
-		actions:drawButton(1/3, 'Stun', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if not z.Character:FindFirstChild('UpperTorso') then
-	
-					z.Character.Torso.CFrame = z.Character.Torso.CFrame * CFrame.Angles(math.rad(90),0,0) 
-	
-				end
-	
-				z.Character.Humanoid.PlatformStand = true
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Invisible', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character then
-	
-					topkek.libutil:recurseSetObj(z.Character, 'BasePart', 'Transparency', 1)
-	
-					topkek.libutil:recurseSetObj(z.Character, 'MeshPart', 'Transparency', 1)
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Visible', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character then
-	
-					topkek.libutil:recurseSetObj(z.Character, 'BasePart', 'Transparency', 0)
-	
-					topkek.libutil:recurseSetObj(z.Character, 'MeshPart', 'Transparency', 1)
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'God', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character:FindFirstChild('Humanoid') then
-	
-					z.Character.Humanoid.MaxHealth = math.huge
-	
-					z.Character.Humanoid.Health = math.huge
-	
-				end
-	
-			end)
-	
-		end)
-	
-	
-	
-		actions:drawButton(1/3, 'Semigod', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character:FindFirstChild('Humanoid') then
-	
-					z.Character.Humanoid.MaxHealth = 9999999999
-	
-					z.Character.Humanoid.Health = 9999999999
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Nuke', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				local torso = topkek.libutil:getTorso(z)
-	
-				local nuke = Instance.new("Part", game.Workspace)
-	
-				local opos = torso.CFrame
-	
-				nuke.BrickColor = BrickColor.new("Bright yellow")
-	
-				nuke.TopSurface = Enum.SurfaceType.Smooth
-	
-				nuke.BottomSurface = Enum.SurfaceType.Smooth
-	
-				nuke.Anchored = true
-	
-				nuke.CanCollide = false
-	
-				nuke.Shape = "Ball"				
-	
-				nuke.Transparency = 0.5
-	
-				nuke.CFrame = torso.CFrame		
-	
-				nuke.Size = Vector3.new(1, 1, 1)
-	
-				nuke.Touched:connect(function(p)
-	
-					local expl = Instance.new("Explosion", p)
-	
-					expl.BlastPressure = 50000
-	
-					expl.BlastRadius = 50
-	
-					expl.Position = p.Position
-	
-					p.Material = Enum.Material.CorrodedMetal
-	
-					p:BreakJoints()
-	
-				end)
-	
-				for i = 1, 150 do
-	
-					nuke.Size = Vector3.new(i, i, i)
-	
-					nuke.CFrame = opos
-	
-					wait(0.08)
-	
-				end
-	
-				nuke:Destroy()
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Confuse', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character:FindFirstChild('Humanoid') then
-	
-					z.Character.Humanoid.WalkSpeed = -16
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Goldify', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character then
-	
-					topkek.libutil:recurseSetObj(z.Character, 'BasePart', 'Material', 'Marble')
-	
-					topkek.libutil:recurseSetObj(z.Character, 'MeshPart', 'Material', 'Marble')
-	
-					topkek.libutil:recurseSetObj(z.Character, 'BasePart', 'BrickColor', BrickColor.new('Bright yellow'))
-	
-					topkek.libutil:recurseSetObj(z.Character, 'MeshPart', 'BrickColor', BrickColor.new('Bright yellow'))
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Neon', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character then
-	
-					topkek.libutil:recurseSetObj(z.Character, 'BasePart', 'Material', 'Neon')
-	
-					topkek.libutil:recurseSetObj(z.Character, 'MeshPart', 'Material', 'Neon')
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Insane', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character then
-	
-					for i,v in pairs(topkek.libutil:getTorso(z):GetChildren()) do
-	
-						if v:IsA("Motor6D") then
-	
-							coroutine.wrap(function()
-	
-								while v do
-	
-									v.C0=v.C0*CFrame.Angles(math.random(-180,180),math.random(-180,180),math.random(-180,180))
-	
-									wait()
-	
-								end
-	
-							end)()
-	
-						end
-	
-					end
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Quicksand', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character then
-	
-					if z.Character:FindFirstChild('Humanoid') then
-	
-						local tor = topkek.libutil:getTorso(z)
-	
-						local hole = Instance.new("Part", z.Character)
-	
-						hole.Anchored = true
-	
-						hole.Name = "Hole"
-	
-						hole.FormFactor = Enum.FormFactor.Custom
-	
-						hole.Size = Vector3.new(7, 1, 7)
-	
-						hole.CanCollide = false
-	
-						hole.CFrame = tor.CFrame * CFrame.new(0,-3.3,0)
-	
-						hole.BrickColor = BrickColor.new("Cool yellow")
-	
-						hole.Material = Enum.Material.Sand
-	
-						local hm = Instance.new("CylinderMesh", hole)
-	
-						tor.Anchored = true
-	
-						if z.Character:FindFirstChild("Humanoid") then
-	
-							z.Character.Humanoid.Jump = true
-	
-						end
-	
-						for x,m in pairs(z.Character:GetChildren()) do
-	
-							if m:IsA("BasePart") or m:IsA("MeshPart") then
-	
-								m.CanCollide = false
-	
-							end
-	
-						end
-	
-						for i=1,75 do
-	
-							tor.CFrame=tor.CFrame*CFrame.new(0,-0.1,0)
-	
-							wait(0.06)
-	
-						end
-	
-						tor.CFrame=tor.CFrame*CFrame.new(0,
-	
-							-500,0
-	
-						)
-	
-						z.Character.Humanoid.Health = 0
-	
-					end
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Duck', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character then
-	
-					local pchar = z.Character
-	
-					--		    for i,v in pairs(pchar.Torso:GetChildren()) do
-	
-					--			    if v:IsA("Decal") then
-	
-					--				    v:Destroy()
-	
-					--			    end
-	
-					--		    end
-	
-					for i,v in pairs(pchar:GetChildren()) do
-	
-						if v:IsA("Hat") or v:IsA("Accessory") then
-	
-							v:Destroy()
-	
-						end
-	
-					end
-	
-					local duck = Instance.new("SpecialMesh", z.Character.HumanoidRootPart)
-	
-					duck.MeshType = "FileMesh"
-	
-					duck.MeshId = "http://www.roblox.com/asset/?id=9419831"
-	
-					duck.TextureId = "http://www.roblox.com/asset/?id=9419827"
-	
-					duck.Scale = Vector3.new(5, 5, 5)
-	
-					topkek.libutil:recurseSetObj(z.Character, 'Instance', 'Transparency', 1)
-	
-					z.Character.HumanoidRootPart.Transparency = 0
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Shrek', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character then
-	
-					local pchar = z.Character
-	
-					for i,v in pairs(pchar:GetChildren()) do
-	
-						if v:IsA("Hat") or v:IsA("Accessory") or v:IsA("CharacterMesh") or v:IsA("Shirt") or v:IsA("Pants") then
-	
-							v:Destroy()
-	
-						end
-	
-					end
-	
-					for i,v in pairs(pchar.Head:GetChildren()) do
-	
-						if v:IsA("Decal") or v:IsA("SpecialMesh") then
-	
-							v:Destroy()
-	
-						end
-	
-					end
-	
-	
-	
-					local mesh = Instance.new("SpecialMesh", pchar.Head)
-	
-					mesh.MeshType = "FileMesh"
-	
-					pchar.Head.Mesh.MeshId = "http://www.roblox.com/asset/?id=19999257"
-	
-					pchar.Head.Mesh.Offset = Vector3.new(-0.1, 0.1, 0)
-	
-					pchar.Head.Mesh.TextureId = "http://www.roblox.com/asset/?id=156397869"
-	
-	
-	
-					local Shirt = Instance.new("Shirt", z.Character)
-	
-					local Pants = Instance.new("Pants", z.Character)
-	
-	
-	
-					Shirt.ShirtTemplate = "rbxassetid://133078194"
-	
-					Pants.PantsTemplate = "rbxassetid://133078204"
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Bighead', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character then
-	
-					if z.Character:FindFirstChild('Head') then
-	
-						z.Character.Head.Mesh.Scale=Vector3.new(5,5,5)
-	
-					end
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Hotdog', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character then
-	
-					if z.Character:FindFirstChild('Head') then
-	
-						topkek.libutil:weiner(z)
-	
-					end
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Dwarf [R6]', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character then
-	
-					topkek.libutil:scalePlayer(z, 0.5)
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Giant [R6]', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character then
-	
-					topkek.libutil:scalePlayer(z, 5)
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Giraffe [R6]', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character then
-	
-					local char=z.Character
-	
-					local h=char.Head
-	
-					local tor=char:FindFirstChild("Torso")
-	
-					if not tor then return end
-	
-					tor.Neck.C0=tor.Neck.C0*CFrame.new(0,0,5)
-	
-					local fn=Instance.new("Part",char)
-	
-					fn.Size=Vector3.new(1,5.5,1)
-	
-					fn.Name="FakeNeck"
-	
-					fn.Anchored=false
-	
-					fn.CanCollide=false
-	
-					if char:FindFirstChild("Body Colors") then
-	
-						fn.BrickColor=char["Body Colors"].HeadColor
-	
-					end
-	
-					local cm=Instance.new("CylinderMesh",fn)
-	
-					local we=Instance.new("Weld",h)
-	
-					we.Part0=h
-	
-					we.Part1=fn
-	
-					we.C1=we.C1*CFrame.new(0,2.6,0)
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Select', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character then
-	
-					Instance.new("SelectionBox", z.Character).Adornee = z.Character
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Sphere', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character then
-	
-					Instance.new("SelectionSphere", z.Character).Adornee = z.Character
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Sit', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character:FindFirstChild("Humanoid") then
-	
-					z.Character.Humanoid.Sit = true
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Jump', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character:FindFirstChild("Humanoid") then
-	
-					z.Character.Humanoid.Jump = true
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'No Tools', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				for _, t in pairs(z.Backpack:GetChildren()) do
-	
-					t:Destroy()
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Take Tools', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				for _, t in pairs(z.Backpack:GetChildren()) do
-	
-					t.Parent = game:service'Players'.LocalPlayer.Backpack
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Disable', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character:FindFirstChild("Humanoid") then
-	
-					z.Character.Humanoid.Parent = nil
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Fast', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character:FindFirstChild("Humanoid") then
-	
-					z.Character.Humanoid.WalkSpeed = 50
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3, 'Slow', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character:FindFirstChild("Humanoid") then
-	
-					z.Character.Humanoid.WalkSpeed = 8
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3,'Explode', function()
-	
-			topkek.libtil:doPlayers(plrDrop, function(z)
-	
-				local explosion = Instance.new("Explosion")
-	
-				explosion.Position = topkek.libutil:getTorso(z).Position
-	
-				explosion.Parent = game.Workspace
-	
-			end)
-	
-		end)
-	
-		local Follow
-	
-		actions:drawButton(1/3,'Annoy', function()
-	
-			if Follow == true then
-	
-				Follow = false; return
-	
-			else Follow = true end
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				while Follow == true do
-	
-					game:service'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame=
-	
-						z.Character.HumanoidRootPart.CFrame
-	
-					wait()
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3,'ForceField', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character then
-	
-					Instance.new("ForceField", z.Character)
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3,'Friendlag', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				for i = 1, 10 do
-	
-					spawn(function()
-	
-						while wait() do
-	
-							game.Players.LocalPlayer:RequestFriendship(z)
-	
-							game.Players.LocalPlayer:RevokeFriendship(z)
-	
-						end
-	
-					end)
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3,'Force Follow', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				game:GetService("RunService"):BindToRenderStep("_", 0, function()
-	
-					z.Character.Humanoid:MoveTo(game.Players.LocalPlayer.Character.Head.Position)
-	
-				end)
-	
-			end)
-	
-		end)
-	
-		actions:drawButton(1/3,'Dab', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character and z.Character:FindFirstChild("Torso") then
-	
-					local chr = z.Character
-	
-					chr.Animate.Disabled = true
-	
-					chr.Torso["Left Shoulder"].C1 = CFrame.new(0, 0.699999988, 0, 0.939692616, 0, -0.342020124, -0.330366075, -0.258819044, -0.907673359, -0.0885213241, 0.965925813, -0.243210346)
-	
-					chr.Torso["Right Shoulder"].C1 = CFrame.new(-0.600000024, 0.5, -0.200000003, 0.664462984, 0.241844743, 0.707106769, -0.664462984, -0.241844788, 0.707106769, 0.342020154, -0.939692616, -3.09086197e-008)
-	
-					chr.Torso["Neck"].C1 = CFrame.new(0, -0.600000024, 0, -0.866025388, 0.5, 0, -0.171010137, -0.29619807, 0.939692616, 0.469846278, 0.813797653, 0.342020124)
-	
-				end
-	
-			end)
-	
-		end)
-	
-		actions:addSpacing()
-	
-		local chatInp
-	
-		actions:drawButton(1/2, 'Make Chat', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				game:GetService('Chat'):Chat(z.Character, chatInp.Text)
-	
-			end)
-	
-		end)
-	
-		chatInp = actions:drawTextBox(1/2, '')
-	
-		local insertInp
-	
-		actions:drawButton(1/2, 'Insert Into', function()
-	
-			if not tonumber(insertInp.Text) then return end
-	
-			local item = insert(insertInp.Text)
-	
-			if not item then return end
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				item:Clone().Parent = z.Backpack
-	
-			end)
-	
-		end)
-	
-		insertInp = actions:drawTextBox(1/2, '')
-	
-		local speedInp
-	
-		actions:drawButton(1/2, 'Set Speed', function()
-	
-			if not tonumber(speedInp.Text) then return end
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				if z.Character:FindFirstChild('Humanoid') then
-	
-					z.Character.Humanoid.WalkSpeed = tonumber(speedInp.Text)
-	
-				end
-	
-			end)
-	
-		end)
-	
-		speedInp = actions:drawTextBox(1/2, '')
-	
-		local nameInp
-	
-		actions:drawButton(1/2, 'Set Name', function()
-	
-			topkek.libutil:doPlayers(plrDrop, function(z)
-	
-				local Character = z.Character
-	
-				local newName = Instance.new("Model", z.Character)
-	
-				newName.Name = nameInp.Text
-	
-				local cl = Character:WaitForChild("Head"):Clone()
-	
-				cl.Parent = newName
-	
-				cl:WaitForChild("face"):Destroy()
-	
-				local hum = Instance.new("Humanoid", newName)
-	
-				hum.Name = "NameTag"
-	
-				hum.MaxHealth = 0
-	
-				hum.Health = 0
-	
-				local weld = Instance.new("Weld", cl)
-	
-				weld.Part0 = cl
-	
-				weld.Part1 = Character:WaitForChild("Head")
-	
-				Character:WaitForChild("Head").Transparency = 1
-	
-				Wait(.5)
-	
-				cl.BrickColor = Character:WaitForChild("Head").BrickColo
-	
-			end)
-	
-		end)
-	
-		nameInp = actions:drawTextBox(1/2, '')
-	
-		--[[ localplayer ]]--
-	
-		local lp = game:GetService('Players').LocalPlayer
-	
-		local localwin = topkek.libgui:hookContainer(base['LocalPlayerContainer'])
-	
-		local appearInp
-	
-		localwin:drawButton(1/2, 'Set Appearance', function()
-	
-			local id = 0
-	
-			if not tonumber(appearInp.Text) then
-	
-				id = tonumber(appearInp.Text)
-	
-			else
-	
-				id = game:GetService('Players'):GetUserIdFromNameAsync(appearInp.Text)
-	
-			end
-	
-			lp.CharacterAppearance = 'https://assetgame.roblox.com/Asset/CharacterFetch.ashx?userId=' .. tostring(id)
-	
-		end)
-	
-		appearInp = localwin:drawTextBox(1/2, '')
-	
-		localwin:drawButton(1/2, 'Set TeamColor', function()
-	
-			if teamInp.Text == 'Neutral' then
-	
-				lp.Neutral = true
-	
-				return
-	
-			end
-	
-			local clr = BrickColor.new(teamInp.Text) 
-	
-			lp.TeamColor = clr
-	
-		end)
-	
-		teamInp = localwin:drawTextBox(1/2, 'Neutral')
-	
-		localwin:drawButton(1, 'Reset Camera', function()
-	
-			game.Workspace.CurrentCamera:remove()
-	
-			wait(.1)
-	
-			game.Workspace.CurrentCamera.CameraSubject = lp.Character.Humanoid or 
-	
-				game.Workspace[lp.Name].Humanoid
-	
-			game.Workspace.CurrentCamera.CameraType = "Custom"
-	
-		end)
-	
-		localwin:drawButton(1, 'Respawn', function()
-	
-			local a1 = Instance.new("Model", game:service'Workspace')
-	
-			local a2 = Instance.new("Part", game:service'Workspace')
-	
-			a2.CanCollide = true
-	
-			a2.Anchored = true
-	
-			a2.CFrame = CFrame.new(10000, 10000, 10000)
-	
-			a2.Name = "Torso"
-	
-			local a3 = Instance.new("Humanoid", a1)
-	
-			a3.MaxHealth=100;a3.Health=100
-	
-			lp.Character = a1
-	
-			a3.Health=0
-	
-		end)
-	
-		localwin:addSpacing()
-	
-		local Lev, Clip, Fly
-	
-		localwin:drawButton(1/2, 'Levitate', function()
-	
-			if Lev == true then
-	
-				Lev = false
-	
-				return
-	
-			end
-	
-			Lev = true
-	
-			repeat
-	
-				lp.Character.Humanoid:ChangeState(10)
-	
-				wait(0)
-	
-			until Lev == false
-	
-		end)
-	
-		localwin:drawButton(1/2, 'Noclip', function()
-	
-			if Clip == true then
-	
-				Clip = false
-	
-				return
-	
-			end
-	
-			Clip = true
-	
-			game:GetService("RunService").Stepped:connect(function()
-	
-				topkek.libutil:getTorso(lp).CanCollide = not Clip
-	
-				lp.Character.Head.CanCollide = not Clip
-	
-				lp.Character.HumanoidRootPart.CanCollide = not Clip
-	
-				if lp.Character.UpperTorso then
-	
-					lp.Character.LowerTorso.CanCollide = not Clip
-	
-				end
-	
-			end)
-	
-			lp.Character.HumanoidRootPart.Changed:connect(function()
-	
-				topkek.libutil:getTorso(lp).CanCollide = not Clip
-	
-				lp.Character.Head.CanCollide = not Clip
-	
-				lp.Character.HumanoidRootPart.CanCollide = not Clip
-	
-				if lp.Character.UpperTorso then
-	
-					lp.Character.LowerTorso.CanCollide = not Clip
-	
-				end
-	
-			end)
-	
-		end)
-	
-		localwin:drawButton(1/2, 'Fly', function()
-	
-			if Fly == true then
-	
-				Fly = false
-	
-				return
-	
-			end
-	
-			Fly = true
-	
-			local mouse=game.Players.LocalPlayer:GetMouse''
-	
-			localplayer=game.Players.LocalPlayer
-	
-			game.Players.LocalPlayer.Character:WaitForChild("HumanoidRootPart")
-	
-			local torso = game.Players.LocalPlayer.Character.HumanoidRootPart
-	
-			local speed=0
-	
-			local keys={a=false,d=false,w=false,s=false} 
-	
-			local e1
-	
-			local e2
-	
-			local function start()
-	
-				local pos = Instance.new("BodyPosition",torso)
-	
-				local gyro = Instance.new("BodyGyro",torso)
-	
-				pos.Name="EPIXPOS"
-	
-				pos.maxForce = Vector3.new(math.huge, math.huge, math.huge)
-	
-				pos.position = torso.Position
-	
-				gyro.maxTorque = Vector3.new(9e9, 9e9, 9e9) 
-	
-				gyro.cframe = torso.CFrame
-	
-				repeat
-	
-					wait()
-	
-					localplayer.Character.Humanoid.PlatformStand=true
-	
-					local new=gyro.cframe - gyro.cframe.p + pos.position
-	
-					if not keys.w and not keys.s and not keys.a and not keys.d then
-	
-						speed=1
-	
-					end 
-	
-					if keys.w then 
-	
-						new = new + workspace.CurrentCamera.CoordinateFrame.lookVector * speed
-	
-						speed=speed+0.01
-	
-					end
-	
-					if keys.s then 
-	
-						new = new - workspace.CurrentCamera.CoordinateFrame.lookVector * speed
-	
-						speed=speed+0.01
-	
-					end
-	
-					if keys.d then 
-	
-						new = new * CFrame.new(speed,0,0)
-	
-						speed=speed+0.01
-	
-					end
-	
-					if keys.a then 
-	
-						new = new * CFrame.new(-speed,0,0)
-	
-						speed=speed+0.01
-	
-					end
-	
-					if speed>5 then
-	
-						speed=5
-	
-					end
-	
-					pos.position=new.p
-	
-					if keys.w then
-	
-						gyro.cframe = workspace.CurrentCamera.CoordinateFrame*CFrame.Angles(-math.rad(speed*15),0,0)
-	
-					elseif keys.s then
-	
-						gyro.cframe = workspace.CurrentCamera.CoordinateFrame*CFrame.Angles(math.rad(speed*15),0,0)
-	
-					else
-	
-						gyro.cframe = workspace.CurrentCamera.CoordinateFrame
-	
-					end
-	
-				until not Fly
-	
-				if gyro then gyro:Destroy() end
-	
-				if pos then pos:Destroy() end
-	
-				flying=false
-	
-				localplayer.Character.Humanoid.PlatformStand=false
-	
-				speed=0
-	
-			end
-	
-			e1=mouse.KeyDown:connect(function(key)
-	
-				if not torso or not torso.Parent then flying=false e1:disconnect() e2:disconnect() return end
-	
-				if key=="w" then
-	
-					keys.w=true
-	
-				elseif key=="s" then
-	
-					keys.s=true
-	
-				elseif key=="a" then
-	
-					keys.a=true
-	
-				elseif key=="d" then
-	
-					keys.d=true
-	
-				end
-	
-			end)
-	
-			e2=mouse.KeyUp:connect(function(key)
-	
-				if key=="w" then
-	
-					keys.w=false
-	
-				elseif key=="s" then
-	
-					keys.s=false
-	
-				elseif key=="a" then
-	
-					keys.a=false
-	
-				elseif key=="d" then
-	
-					keys.d=false
-	
-				end
-	
-			end)
-	
-			start()
-	
-		end)
-	
-		localwin:drawButton(1/2, 'Highjump', function()
-	
-			local thrust = Instance.new("BodyVelocity")
-	
-			game:GetService('UserInputService').InputBegan:connect(function(i, b)
-	
-				if i.KeyCode == Enum.KeyCode.Space then
-	
-					print("Got jump")
-	
-					coroutine.resume(coroutine.create(function()
-	
-						thrust.Parent = game.Players.LocalPlayer.Character.PrimaryPart
-	
-						thrust.velocity = Vector3.new(0,50,0)
-	
-						thrust.maxForce = Vector3.new(0,4e+050,0)
-	
-						wait(0.2)
-	
-						thrust.Parent = nil 
-	
-					end))
-	
-				end
-	
-			end)
-	
-		end)
-	
-		localwin:addSpacing()
-	
-		localwin:drawButton(1/2, 'Freecam', function()
-	
-			local cam = game.Workspace.CurrentCamera
-	
-			cam.CameraType = "Fixed"
-	
-			cam.CameraSubject = nil
-	
-			lp.Character = nil
-	
-		end)
-	
-		localwin:drawButton(1/2, 'Nil Orb', function()
-	
-			game.Players.LocalPlayer.Character = nil
-	
-			--lp:Destroy()
-	
-			local cam = game.Workspace.CurrentCamera
-	
-			local m = Instance.new("Model", game.Workspace)
-	
-			m.Name = game.Players.LocalPlayer.Name
-	
-			local hum = Instance.new("Humanoid", m)
-	
-			hum.Health = 0
-	
-			hum.MaxHealth = 0
-	
-			local orb = Instance.new("Part", m)
-	
-			orb.Size = Vector3.new(1, 1, 1)
-	
-			orb.Shape = "Ball"
-	
-			orb.Name = "Head"
-	
-			orb.Anchored = true
-	
-			orb.CanCollide = true
-	
-			orb.BottomSurface = Enum.SurfaceType.Smooth
-	
-			orb.TopSurface = Enum.SurfaceType.Smooth
-	
-			orb.Transparency = 0
-	
-			cam.CameraSubject = orb
-	
-			cam.CameraType = Enum.CameraType.Fixed
-	
-			game:GetService("RunService").RenderStepped:connect(function()
-	
-				orb.CFrame = cam.CoordinateFrame * CFrame.new(0, -2, -6)
-	
-			end)
-	
-			game.Players.LocalPlayer.Chatted:connect(function(a)
-	
-				game:GetService("Chat"):Chat(orb, a)
-	
-			end)
-	
-		end)
-	
-		localwin:drawButton(1/2, 'God', function()
-	
-			lp.Character.Humanoid.MaxHealth = math.huge
-	
-			lp.Character.Humanoid.Health = math.huge
-	
-		end)
-	
-		localwin:drawButton(1/2, 'NoGrav', function()
-	
-			if lp.Character then
-	
-				for x,m in pairs(lp.Character:GetChildren()) do
-	
-					if m:IsA("BasePart") then
-	
-						local bf = Instance.new("BodyForce", m)
-	
-						bf.force = Vector3.new(0, 192.25, 0) * m:GetMass()
-	
-					end
-	
-					if m:IsA("Hat") or m:IsA("Accessory") then
-	
-						if m:findFirstChild("Handle") then
-	
-							local bf = Instance.new("BodyForce", m.Handle)
-	
-							bf.force = Vector3.new(0, 192.25, 0) * m.Handle:GetMass()
-	
-						end
-	
-					end
-	
-				end
-	
-			end
-	
-		end)
-	
-		localwin:drawButton(1/2, 'Rainbow Name', function()
-	
-			lp.Neutral = false
-	
-			repeat
-	
-				wait()
-	
-				lp.TeamColor = BrickColor.Random()
-	
-			until not lp.Character.Humanoid
-	
-		end)
-	
-		localwin:drawButton(1/2, 'Random Fedora', function()
-	
-			local hats={
-	
-				98346834,
-	
-				215751161,
-	
-				119916949,
-	
-				72082328,
-	
-				147180077,
-	
-				100929604,
-	
-				63043890,
-	
-				1285307,
-	
-				1029025,
-	
-				334663683,
-	
-				259423244
-	
-			}
-	
-			game:GetService("InsertService"):LoadAsset(hats[math.random(1,#hats)]):GetChildren()[1].Parent = lp.Character
-	
-		end)
-	
-		localwin:drawButton(1/2, 'Clear Appearance', function()
-	
-			lp:ClearCharacterAppearance()
-	
-		end)
-	
-		localwin:drawButton(1/2, 'Disguise', function()
-	
-			local p = lp.Character
-	
-			if p:FindFirstChild("topkek") then
-	
-				p.topkek:Destroy()
-	
-			end
-	
-			p.Name = ""
-	
-			p.Head.Transparency = 1
-	
-			local mo = Instance.new("Model", p)
-	
-			mo.Name = ""
-	
-			local hu = Instance.new("Humanoid", mo)
-	
-			hu.Name = "distag"
-	
-			hu.Health = 100
-	
-			hu.MaxHealth = 100
-	
-			local fh = p.Head:Clone()
-	
-			fh.Parent = mo
-	
-			fh.Transparency = 0
-	
-			local we = Instance.new("Weld", fh)
-	
-			we.Part0 = p.Head
-	
-			we.Part1 = mo
-	
-			lp:ClearCharacterAppearance()
-	
-			pcall(function() p["Body Colors"]:Destroy() end)
-	
-			Instance.new("BodyColors", p)
-	
-		end)
-	
-		localwin:drawButton(1, 'Dick Shooter', function()
-	
-			topkek.libutil:dickShooter()
-	
-		end)
-	
-		localwin:addSpacing()
-	
-		local hackerInp
-	
-		localwin:drawButton(1/2, 'Set Tag', function()
-	
-			local len = 10
-	
-			local bb = Instance.new("BillboardGui")
-	
-			bb.Parent = lp.Character.Head
-	
-			bb.Adornee = lp.Character.Head
-	
-			bb.AlwaysOnTop = true
-	
-			bb.Enabled = true
-	
-			bb.Size = UDim2.new(len, 0, 1.5, 0)
-	
-			bb.Name = "tag"
-	
-			bb.StudsOffset = Vector3.new(0, 3, 0)
-	
-			--local fr = Instance.new("Frame")
-	
-			--fr.Parent = bb
-	
-			--fr.Size = UDim2.new(1, 0, 1, 0)
-	
-			--fr.Style = Enum.FrameStyle.RobloxRound
-	
-			local tl = Instance.new("TextLabel")
-	
-			tl.Parent = bb
-	
-			tl.Font = Enum.Font.Code
-	
-			tl.BackgroundTransparency = 1
-	
-			tl.TextScaled = true
-	
-			tl.TextColor3 = Color3.new(15/255, 15/255, 15/255)
-	
-			tl.Size = UDim2.new(1, 0, 1, 0)
-	
-			tl.Text = hackerInp.Text
-	
-			tl.Name = "trutag"
-	
-			tl.Visible = true
-	
-			tl.ZIndex = 2
-	
-		end)
-	
-		hackerInp = localwin:drawTextBox(1/2, 'Hacker')
-	
-		--[[ scripts ]]--
-	
-		-- excuse my disgusting code :v
-	
-		local scriptwin = topkek.libgui:hookContainer(base['ScriptsContainer'])
-	
-		local search = scriptwin:drawTextBox(1,'')
-	
-		local origy = scriptwin:getDrawY()
-	
-		scriptwin:addSpacing()
-	
-		scriptwin:addSpacing()
-	
-		local a = Instance.new("LocalScript");a.Name='script 1'
-	
-		local b = Instance.new("LocalScript");b.Name='script 2'
-	
-		local c = Instance.new("LocalScript");c.Name='script 3'
-	
-		local scripts = {a,b,c}
-	
-		local container = {}
-	
-		function MakeList(condition)
-	
-			for i,v in pairs(scriptwin:GetChildren()) do
-	
-				if v.Name == "Script" then
-	
-					v:Destroy()
-	
-				end
-	
-			end
-	
-			scriptwin:setDrawY(origy)
-	
-			for i, v in pairs(scripts) do
-	
-				if string.find(v.Name, condition) or (condition == "") or (condition == " ") then
-	
-					local scr = scriptwin:drawButton(1, v.Name, function()
-	
-						print('no loadstring lol')
-	
-					end, 25)
-	
-					scr.Name = 'Script'
-	
-				end
-	
-			end
-	
-		end
-	
-		game:GetService("UserInputService").InputChanged:connect(function(inp)
-	
-			if inp.UserInputType == Enum.UserInputType.TextInput then
-	
-				if search:IsFocused() then
-	
-					MakeList(search.Text)
-	
-				end
-	
-			end
-	
-		end)
-	
-		MakeList('')
-	
-		--[[ misc main ]]--
-	
-		local miscwin = topkek.libgui:hookContainer(base['MiscellaneousContainer'])
-	
-		local scroll = miscwin:drawScrollingContainer(165)
-	
-		scroll:center()
-	
-		for i, v in pairs(topkek.libsettings:getSetting("misc")) do
-	
-			scroll:drawButton(1, v, function()
-	
-				topkek.libwindows:switchWindow(v .. 'Container', v)
-	
-			end)
-	
-		end
-	
-		scroll.main.CanvasSize = scroll.main.CanvasSize - UDim2.new(0, 0, 0, 3)
-	
-		--[[ initiation ]]--
-	
-		topkek.libwindows:registerWindow(base['HomeContainer'])
-	
-		topkek.libwindows:registerWindow(base['ServerContainer'])
-	
-		topkek.libwindows:registerWindow(base['PlayersContainer'])
-	
-		topkek.libwindows:registerWindow(base['LocalPlayerContainer'])
-	
-		topkek.libwindows:registerWindow(base['ScriptsContainer'])
-	
-		topkek.libwindows:registerWindow(base['MiscellaneousContainer'])
-	
-		topkek.libwindows:initiateNavigator()
-	
-		topkek.libwindows:initiateHome()
 	end)
 end;
 task.spawn(C_129);
@@ -39210,7 +34081,7 @@ local script = G2L["12d"];
 	
 	button.MouseButton1Down:connect(function()
 	
-		loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-RoXploit-by-KrystalTeam-9328"))()
+		loadstring(game:GetObjects("rbxassetid://364364477")[1].Source)()
 	end)
 end;
 task.spawn(C_12d);
@@ -39221,7 +34092,21 @@ local script = G2L["12f"];
 	--local input = CoolGui.Frame.Settings
 	
 	button.MouseButton1Down:connect(function()
-		loadstring(game:HttpGet("https://pastebin.com/raw/MjBzRjmT"))()
+		local playerLeaderstats = {}
+		for i, v in pairs(game.Players:GetChildren()) do
+			table.insert(playerLeaderstats, v)
+		end
+		for i, v in pairs(playerLeaderstats) do
+			pe = Instance.new("ParticleEmitter",v.Character.Torso)
+			pe.Texture = "http://www.roblox.com/asset/?id=8979672"
+			pe.VelocitySpread = 50
+			se = Instance.new("ParticleEmitter",v.Character.Torso)
+			se.Texture = "http://www.roblox.com/asset/?id=176067516"
+			se.VelocitySpread = 50
+			fe = Instance.new("ParticleEmitter",v.Character.Torso)
+			fe.Texture = "http://www.roblox.com/asset/?id=179012130"
+			fe.VelocitySpread = 50
+		end
 	end)
 end;
 task.spawn(C_12f);
@@ -39232,173 +34117,123 @@ local script = G2L["131"];
 	--local input = CoolGui.Frame.Settings
 	
 	button.MouseButton1Down:connect(function()
-		me = game.Players.LocalPlayer
-		if script.Parent.className ~= "HopperBin" then
-			h = Instance.new("HopperBin",me.Backpack)
-			h.Name = "LAZOR"
-			script.Parent = h
+		local Me = game:GetService("Players").LocalPlayer
+		local Char = Me.Character
+		local Torso = Char.Torso
+		local TickWait = 1
+		local Color = "Medium stone gray"
+		local Dead = false
+	
+		local Tool = Instance.new("HopperBin", Me.Backpack)
+		Tool.Name = "Bomb Vest"
+	
+		local Position = Vector3.new(0,100,0)
+		function NewPart(Parent)
+			local Part = Instance.new("Part", Parent)
+			Part.CanCollide = false
+			Part.FormFactor = "Custom"
+			Part.Position = Position
+			Part.TopSurface = "Smooth"
+			Part.BottomSurface = "Smooth"
+			Part.BrickColor = BrickColor.new(Color)
+			Position = Position + Vector3.new(0,Part.Size.Y + 10,0)
+			return Part
 		end
 	
-		bin = script.Parent
+		local Model = Char:FindFirstChild("Bomb")
+		if Model then Model:Destroy() end
 	
-		function prop(part, parent, collide, tran, ref, x, y, z, color)
-			part.Parent = parent
-			part.formFactor = 0
-			part.CanCollide = collide
-			part.Transparency = tran
-			part.Reflectance = ref
-			part.Size = Vector3.new(x,y,z)
-			part.BrickColor = BrickColor.new(color)
-			part.TopSurface = 0
-			part.BottomSurface = 0
-			part:BreakJoints()
-		end
+		Model = Instance.new("Model", Char)
+		Model.Name = "Bomb"
 	
-		function weld(w, p, p0, p1, a, b, c, x, y, z)
-			w.Parent = p
-			w.Part0 = p0
-			w.Part1 = p1
-			w.C1 = CFrame.fromEulerAnglesXYZ(a,b,c) * CFrame.new(x,y,z)
-		end
+		local Belt = NewPart(Model)
+		Belt.Size = Vector3.new(2.2,0.5,1.2)
+		local Weld = Instance.new("Weld", Belt)
+		Weld.Part0 = Belt
+		Weld.Part1 = Torso
+		Weld.C0 = CFrame.new(0,1.1,0)
+		local Light = Instance.new("PointLight", Belt)
+		Light.Range = 15
+		Light.Brightness = 5
+		Light.Color = Color3.new(1,0,0)
+		local Beep = Instance.new("Sound", Belt)
+		Beep.SoundId = "http://www.roblox.com/asset/?id=188588790"
+		local ExplodeSound = Instance.new("Sound", Belt)
+		ExplodeSound.SoundId = "http://www.roblox.com/asset/?id="..(tonumber((math.ceil(1776.66^2)+17).."."..string.rep("36",3))*77)+0.00003 --144507765
+		ExplodeSound.Pitch = 2.8
+		ExplodeSound.Volume = 100
 	
-		function mesh(mesh, parent, x, y, z, type)
-			mesh.Parent = parent
-			mesh.Scale = Vector3.new(x, y, z)
-			mesh.MeshType = type
-		end
+		local Back = NewPart(Model)
+		Back.Size = Vector3.new(1.5,1.5,0.5)
+		local Weld = Instance.new("Weld", Back)
+		Weld.Part0 = Back
+		Weld.Part1 = Torso
+		Weld.C0 = CFrame.new(0,0.1,-0.75)
 	
-		using = false
+		local StrapLeft = NewPart(Model)
+		StrapLeft.Size = Vector3.new(0.2,0.5,1.6)
+		local Weld = Instance.new("Weld", StrapLeft)
+		Weld.Part0 = StrapLeft
+		Weld.Part1 = Torso
+		Weld.C0 = CFrame.new(0.65,-0.9,-0.2)
 	
-		sound = Instance.new("Sound",me.Character.Head)
-		sound.Volume = 0.6
-		sound.Pitch = 1
-		sound.SoundId = "rbxasset://sounds/uuhhh.wav"
+		local BuckleLeft = NewPart(Model)
+		BuckleLeft.Size = Vector3.new(0.2,1.5,0.2)
+		local Weld = Instance.new("Weld", BuckleLeft)
+		Weld.Part0 = BuckleLeft
+		Weld.Part1 = Torso
+		Weld.C0 = CFrame.new(0.65,0.1,0.5)
 	
-		bin.Selected:connect(function(mouse)
-			mouse.Button1Down:connect(function()
-				if using then return end
-				using = true
-				local blagh = Instance.new("Model",me.Character)
-				blagh.Name = "LAZOR"
+		local StrapRight = NewPart(Model)
+		StrapRight.Size = Vector3.new(0.2,0.5,1.6)
+		local Weld = Instance.new("Weld", StrapRight)
+		Weld.Part0 = StrapRight
+		Weld.Part1 = Torso
+		Weld.C0 = CFrame.new(-0.65,-0.9,-0.2)
 	
-				local paw = mouse.Hit.p
+		local BuckleRight = NewPart(Model)
+		BuckleRight.Size = Vector3.new(0.2,1.5,0.2)
+		local Weld = Instance.new("Weld", BuckleRight)
+		Weld.Part0 = BuckleRight
+		Weld.Part1 = Torso
+		Weld.C0 = CFrame.new(-0.65,0.1,0.5)
 	
-				local pa1 = Instance.new("Part")
-				prop(pa1,blagh,false,0,0,1,1,1,"Really black")
-				local m1 = Instance.new("SpecialMesh")
-				mesh(m1, pa1, 1.07,1,0.3,"Brick")
-				local w1 = Instance.new("Weld")
-				weld(w1, me.Character.Head, me.Character.Head, pa1, 0.4, 0, 0, 0, -0.4, 0.9)
+		Tool.Selected:connect(function(Mouse)
+			TickWait = 0.3
+			Mouse.Icon = "http://www.roblox.com/asset/?id=9109985"
 	
-				local pa2 = pa1:clone()
-				prop(pa2,blagh,false,0,0,1,1,1,"Really black")
-				local w2 = Instance.new("Weld")
-				weld(w2, me.Character.Head, me.Character.Head, pa2, -0.4, 0, 0, 0, 0.4, 0.9)
-	
-				local pa3 = Instance.new("Part")
-				prop(pa3,blagh,false,0,0,1,1,1,"Really red")
-				local m3 = Instance.new("SpecialMesh")
-				mesh(m3,pa3,1.3,1.23,0.29,"Brick")
-				local w3 = Instance.new("Weld")
-				weld(w3, me.Character.Head, me.Character.Head, pa3, 0.4, 0, 0, 0, -0.4, 0.9)
-	
-				local pa4 = pa3:clone()
-				prop(pa4,blagh,false,0,0,1,1,1,"Really red")
-				local w4 = Instance.new("Weld")
-				weld(w4, me.Character.Head, me.Character.Head, pa4, -0.4, 0, 0, 0, 0.4, 0.9)
-	
-				local eye1a = Instance.new("Part")
-				prop(eye1a,blagh,false,0,0,1,1,1,"Institutional white")
-				eye1a.Shape = "Ball"
-				local emesh1 = Instance.new("SpecialMesh")
-				mesh(emesh1,eye1a,0.75,0.75,0.75,"Sphere")
-				local ew = Instance.new("Weld")
-				weld(ew, me.Character.Head, me.Character.Head, eye1a, 0, 0, 0, 0.45, -1.3, 1.1)
-	
-				local eye1b = Instance.new("Part")
-				prop(eye1b,blagh,false,0,0,1,1,1,"Really black")
-				eye1b.Shape = "Ball"
-				local emesh1b = Instance.new("SpecialMesh")
-				mesh(emesh1b,eye1b,0.4,0.4,0.4,"Sphere")
-				local ew2 = Instance.new("Weld")
-				weld(ew2, eye1a, eye1a, eye1b, 0, 0, 0, 0.09, -0.04, 0.2)
-	
-				local eye2a = eye1a:clone()
-				prop(eye2a,blagh,false,0,0,1,1,1,"Institutional white")
-				local ew3 = Instance.new("Weld")
-				weld(ew3, me.Character.Head, me.Character.Head, eye2a, 0, 0, 0, -0.45, -1.3, 1.1)
-	
-				local eye2b = eye1b:clone()
-				prop(eye2b,blagh,false,0,0,1,1,1,"Really black")
-				local ew5 = Instance.new("Weld")
-				weld(ew5, eye2a, eye2a, eye2b, 0, 0, 0, -0.05, 0.07, 0.2)
-	
-				local bill = Instance.new("BillboardGui",pa1)
-				bill.Adornee = bill.Parent
-				bill.Size = UDim2.new(0,150,0,80)
-				local txt = Instance.new("TextLabel",bill)
-				txt.Size = UDim2.new(0,0,0,0)
-				txt.Position = UDim2.new(0,100,0,-20)
-				txt.Text = "IMA FIRIN' MAH LAZORR!!"
-				txt.FontSize = "Size24"
-				txt.TextColor3 = Color3.new(0,0,0)
-				sound.Volume = 0.6
-				for i=1, 5 do
-					sound.Pitch = math.random(400,900)/1000
-					sound:play()
-					wait(0.1)
+			Mouse.Button1Down:connect(function()
+				if Dead == false then
+					Dead = true
+					ExplodeSound:Play()
+					wait(1.4)
+					local Explosion = Instance.new("Explosion", Workspace)
+					Explosion.Position = Belt.Position
+					Explosion.BlastPressure = 100000
+					Explosion.DestroyJointRadiusPercent = 0.7
+					Explosion.ExplosionType = "CratersAndDebris"
+					Explosion.BlastRadius = 50
+					Explosion.Hit:connect(function(Part, Distance)
+						Part.Anchored = false
+						if Distance <= 10 then
+							Part:BreakJoints()
+						end
+					end)
 				end
-				local bg = Instance.new("BodyGyro",me.Character.Torso)
-				bg.maxTorque = Vector3.new(math.huge,math.huge,math.huge)
-				bg.cframe = CFrame.new(me.Character.Torso.Position, paw)
-				for i=1, 5 do
-					sound.Pitch = math.random(400,900)/1000
-					sound:play()
-					wait(0.2)
-				end
-				txt.Text = "BLAARGHH!!!!!!"
-				sound.Volume = 0.85
-				for i=1, 60 do
-					local dist = (me.Character.Head.Position - paw).magnitude
-					if dist >= 600 then
-						dist = 600
-					end
-					bg.cframe = CFrame.new(me.Character.Torso.Position, paw)
-					sound.Pitch = math.random(550,750)/1000
-					sound:play()
-					local bewm = Instance.new("Part")
-					prop(bewm, blagh, false, 0.4, 0.25, 1, 1, dist, "Cyan")
-					bewm.Anchored = true
-					local mes = Instance.new("SpecialMesh")
-					mesh(mes,bewm,1.2,1.2,1,"Brick")
-					bewm.CFrame = CFrame.new(me.Character.Head.Position, paw) * CFrame.new(0,0,-bewm.Size.Z/2) * CFrame.new(0,0,-1)
-					local luck = math.random(1,3)
-					if luck == 1 then
-						local cfr = Instance.new("Part",blagh)
-						cfr.Size = Vector3.new(1,1,1)
-						cfr.Transparency = 1
-						cfr.Anchored = true
-						cfr.CFrame = bewm.CFrame * CFrame.new(0,0,-bewm.Size.Z/2)
-						local ex = Instance.new("Explosion")
-						ex.Parent = blagh
-						ex.Position = cfr.Position
-						ex.BlastRadius = 9
-						ex.BlastPressure = 400000
-						ex.Hit:connect(function(part)
-							if part:GetMass() < 240 then
-								part.Anchored = false
-								part:BreakJoints()
-							end
-						end)
-					end
-					wait()
-					bewm:remove()
-				end
-				blagh:remove()
-				bg:remove()
-				using = false
 			end)
 		end)
+	
+		Tool.Deselected:connect(function()
+			TickWait = 1
+		end)
+	
+		coroutine.wrap(function()
+			repeat
+				wait(TickWait)
+				Light.Enabled = not Light.Enabled
+				Beep:Play()
+			until Dead == true
+		end)()
 	end)
 end;
 task.spawn(C_131);
@@ -39437,7 +34272,7 @@ local script = G2L["135"];
 	
 	button.MouseButton1Down:connect(function()
 	
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/retpirato/Roblox-Scripts/refs/heads/master/Grab%20Knife%20V4.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/hyperionhax/FDScripts/refs/heads/main/Grab%20Knife%20V4"))()
 	end)
 end;
 task.spawn(C_135);
@@ -39459,8 +34294,6 @@ end;
 task.spawn(C_137);
 
 
-
-
 game:GetService("StarterGui"):SetCore("SendNotification", {
 	Title = "c00lgui",
 	Text = "c00lgui revival has loaded.",
@@ -39477,5 +34310,6 @@ s.Pitch = 1
 s:Play()
 wait(2)
 s:Destroy()
+
 
 return G2L["1"], require;
