@@ -2063,7 +2063,7 @@ G2L["bc"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["bc"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["bc"]["Name"] = [[Button]];
 G2L["bc"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["bc"]["Text"] = [[Sound Glitcher]];
+G2L["bc"]["Text"] = [[Glitch Sound]];
 G2L["bc"]["Position"] = UDim2.new(0, 0, 0, 33);
 
 
@@ -22436,40 +22436,56 @@ task.spawn(C_b7);
 local function C_bd()
 local script = G2L["bd"];
     local button = script.Parent
-    --local input = CoolGui.Frame.Settings
+    local RunService = game:GetService("RunService")
     
     button.MouseButton1Down:connect(function()
-        local duration = 99999999999999999999 -- integer only, no decimals
-        if game:GetService("SoundService").RespectFilteringEnabled then return end
     
-        local sounds = {}
+        local function glitchSound(sound)
+            if not sound:IsA("Sound") then return end
+            if sound:GetAttribute("IsGlitching") then return end
     
-        for i,v in pairs(Game:GetDescendants()) do
-            if v:IsA("Sound")  then
-                table.insert(sounds,v)
+            sound:SetAttribute("IsGlitching", true)
+            sound:Play()
+    
+            coroutine.wrap(function()
+                while sound and sound.Parent and sound:IsDescendantOf(game) do
+                    if sound.IsPlaying then
+                        local duration = sound.TimeLength
+                        if duration > 0 then
+                            local glitchType = math.random(1, 5)
+                            local newPos
+    
+                            if glitchType == 1 then
+                                newPos = math.random() * duration
+                            elseif glitchType == 2 then
+                                newPos = math.clamp(sound.TimePosition - math.random(150, 500) / 1000, 0, duration)
+                            elseif glitchType == 3 then
+                                newPos = math.clamp(sound.TimePosition + math.random(200, 700) / 1000, 0, duration)
+                            elseif glitchType == 4 then
+                                newPos = math.random() * duration
+                            else
+                                newPos = 0
+                            end
+    
+                            sound.TimePosition = newPos
+                        end
+                    end
+                    task.wait(0.01 + math.random() * 0.02)
+                end
+            end)()
+        end
+    
+        for _, descendant in ipairs(game:GetDescendants()) do
+            if descendant:IsA("Sound") then
+                glitchSound(descendant)
             end
         end
     
-    
-        local con = Game.DescendantAdded:Connect(function(v)
-            if v:IsA("Sound") then
-                table.insert(sounds,v)
+        game.DescendantAdded:Connect(function(descendant)
+            if descendant:IsA("Sound") then
+                glitchSound(descendant)
             end
         end)
-        wait(.1)
-        local start = math.floor(tick())
-        repeat
-            for i,v in pairs(sounds) do
-                v:Play()
-                v.TimePosition = math.random(0,v.TimeLength * 1000)/1000
-                task.wait()
-            end
-        until math.floor(tick()) == start + duration
-        con:Disconnect()
-    
-        for i,v in pairs(sounds) do
-            v:Stop()
-        end
     
     end)
 end;
@@ -32584,6 +32600,7 @@ local script = G2L["135"];
     --local input = CoolGui.Frame.Settings
     
     button.MouseButton1Down:connect(function()
+        game.CoreGui.CoolGui:Destroy()
         loadstring(game:GetObjects("rbxassetid://11801763945")[1].Source)()
     end)
 end;
@@ -32605,13 +32622,11 @@ local script = G2L["137"];
 end;
 task.spawn(C_137);
 
-
 game:GetService("StarterGui"):SetCore("SendNotification", {
     Title = "c00lgui",
     Text = "c00lgui revival has loaded.",
     Icon = "http://www.roblox.com/asset/?id=89243526849526",
     Duration = 3,
 })
-
 
 return G2L["1"], require;
