@@ -1329,7 +1329,7 @@ G2L["74"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["74"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["74"]["Name"] = [[Button]];
 G2L["74"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["74"]["Text"] = [[Grab Tools]];
+G2L["74"]["Text"] = [[Get All Tools]];
 G2L["74"]["Position"] = UDim2.new(0, 0, 0, 33);
 
 
@@ -1643,7 +1643,7 @@ G2L["94"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["94"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["94"]["Name"] = [[Button]];
 G2L["94"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["94"]["Text"] = [[Head Shake]];
+G2L["94"]["Text"] = [[Block Head]];
 G2L["94"]["Position"] = UDim2.new(0, 73, 0, 132);
 
 
@@ -2082,7 +2082,7 @@ G2L["be"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["be"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["be"]["Name"] = [[Button]];
 G2L["be"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["be"]["Text"] = [[Blackhole]];
+G2L["be"]["Text"] = [[Stop Sounds]];
 G2L["be"]["Position"] = UDim2.new(0, 0, 0, 66);
 
 
@@ -2101,7 +2101,7 @@ G2L["c0"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["c0"]["Size"] = UDim2.new(0.5, 0, 0, 30);
 G2L["c0"]["Name"] = [[Button]];
 G2L["c0"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["c0"]["Text"] = [[FE Flip]];
+G2L["c0"]["Text"] = [[Backflip]];
 G2L["c0"]["Position"] = UDim2.new(0, 0, 0, 99);
 
 
@@ -2275,7 +2275,7 @@ G2L["d2"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["d2"]["Size"] = UDim2.new(0.5, 1, 0, 30);
 G2L["d2"]["Name"] = [[Button]];
 G2L["d2"]["BorderColor3"] = Color3.fromRGB(255, 0, 5);
-G2L["d2"]["Text"] = [[FE Car]];
+G2L["d2"]["Text"] = [[Car]];
 G2L["d2"]["Position"] = UDim2.new(0, 73, 0, 33);
 
 
@@ -21781,15 +21781,12 @@ local script = G2L["75"];
 	--local input = CoolGui.Frame.Settings
 	
 	button.MouseButton1Down:connect(function()
-		local p = game:GetService("Players").LocalPlayer
-		local c = p.Character
-		if c and c:FindFirstChild("Humanoid") then
-			for i,v in pairs(game:GetService("Workspace"):GetDescendants()) do
-				if v:IsA("Tool") then
-					c:FindFirstChild("Humanoid"):EquipTool(v)
-				end
+		for _,v in pairs(game:GetDescendants()) do
+			if v:IsA("Tool") then
+				v:Clone().Parent = game.Players.LocalPlayer.Backpack
 			end
 		end
+	
 	end)
 end;
 task.spawn(C_75);
@@ -22035,14 +22032,14 @@ local script = G2L["7f"];
 	local input = script.Parent.Parent.Parent.Parent.Settings.Page.Section2.vicid
 	
 	button.MouseButton1Down:connect(function()
-		 local bringc = game:GetService("RunService").RenderStepped:Connect(function()
-            for i, target in pairs(game:GetService("Players"):GetChildren()) do
-                if target.Name == game.Players.LocalPlayer.Name then
-                else
-                    target.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * 5
-                end
-            end
-        end)
+		local bringc = game:GetService("RunService").RenderStepped:Connect(function()
+			for i, target in pairs(game:GetService("Players"):GetChildren()) do
+				if target.Name == game.Players.LocalPlayer.Name then
+				else
+					target.Character.HumanoidRootPart.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame + game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame.lookVector * 5
+				end
+			end
+		end)
 	end)
 end;
 task.spawn(C_7f);
@@ -22111,22 +22108,16 @@ local script = G2L["87"];
 		local player = Players.LocalPlayer
 		local character = player.Character or player.CharacterAdded:Wait()
 		local torso = character:WaitForChild("Torso") 
-	
 		local p = Instance.new("Part")
 		p.Parent = workspace
 		p.Locked = true
 		p.BrickColor = BrickColor.new(104)
 		p.Size = Vector3.new(8, 1.2, 8)
 		p.Anchored = true
-		p.Transparency = 0.5
-	
 		local m = Instance.new("CylinderMesh")
 		m.Scale = Vector3.new(1, 0.5, 1)
 		m.Parent = p
-	
 		local tweenInfo = TweenInfo.new(0.1, Enum.EasingStyle.Linear, Enum.EasingDirection.Out) 
-	
-	
 		while character and character.Parent do
 			local targetCFrame = CFrame.new(torso.Position.X, torso.Position.Y - 4, torso.Position.Z)
 			local tween = TweenService:Create(p, tweenInfo, {CFrame = targetCFrame})
@@ -22187,11 +22178,13 @@ local script = G2L["8d"];
 	--local input = CoolGui.Frame.Settings
 	
 	button.MouseButton1Down:connect(function()
-		local Chicken = game.Players.LocalPlayer.Name
-		game.Workspace[Chicken].Torso["Left Shoulder"].C0 = CFrame.new(-1.5, 0.5, 0) * CFrame.fromEulerAnglesXYZ(0,math.pi/2,0) * CFrame.fromEulerAnglesXYZ(math.pi/2, 0, 0) * CFrame.fromEulerAnglesXYZ(0,-math.pi/2,0)
-		game.Workspace[Chicken].Torso["Left Shoulder"].C1 = CFrame.new(0, 0.5, 0)
-		game.Workspace[Chicken].Torso["Right Shoulder"].C0 = CFrame.new(1.5, 0.5, 0) * CFrame.fromEulerAnglesXYZ(0,-math.pi/2,0) * CFrame.fromEulerAnglesXYZ(math.pi/2, 0, 0) * CFrame.fromEulerAnglesXYZ(0,-math.pi/2,0)
-		game.Workspace[Chicken].Torso["Right Shoulder"].C1 = CFrame.new(0, 0.5, 0)
+		local a = Instance.new("Animation")
+		a.AnimationId = "rbxassetid://243999792"
+		local k = game:GetService("Players").LocalPlayer.Character.Humanoid:LoadAnimation(a)
+		k:Play()
+		k:AdjustSpeed(2)
+		wait(0.5)
+		k:AdjustSpeed(0)
 	end)
 end;
 task.spawn(C_8d);
@@ -22235,7 +22228,7 @@ local script = G2L["93"];
 				game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(input.Text, "All")
 			end
 	
-			wait(1.5)
+			wait(2.5)
 		end
 	end)
 	
@@ -22248,23 +22241,7 @@ local script = G2L["95"];
 	
 	
 	button.MouseButton1Down:connect(function()
-		for X = 1, math.huge, 0.2 do 
-			wait() 
-			game.Workspace[game.Players.LocalPlayer.Name].Torso.Neck.C0 = CFrame.new(math.sin(X) / 1,1.5,0) 
-			game.Workspace[game.Players.LocalPlayer.Name].Torso.Neck.C1 = CFrame.new(0,0,0) 
-		end 
-		for X = 1, math.huge, 0.1 do 
-			wait() 
-			game.Workspace[game.Players.LocalPlayer.Name].Torso.Neck.C0 = CFrame.new(0,1.5,0) * CFrame.fromAxisAngle(Vector3.new(0,1,0), X) 
-			game.Workspace[game.Players.LocalPlayer.Name].Torso.Neck.C1 = CFrame.new(0,0,0) 
-		end 
-		for _,c in pairs(game.Players:GetChildren()) do
-			c.Character.Head.Mesh.Scale = Vector3.new(100, 100, 100)
-		end
-		for _,c in pairs(game.Players:GetChildren()) do
-			c.Character.Head.Mesh.Scale = Vector3.new(1.25, 1.25, 1.25)
-		end
-	
+		game:GetService("Players").LocalPlayer.Character.Head:FindFirstChildOfClass("SpecialMesh"):Destroy()
 	end)
 end;
 task.spawn(C_95);
@@ -22465,53 +22442,58 @@ local script = G2L["bd"];
 	
 	button.MouseButton1Down:connect(function()
 	
+		local RunService = game:GetService("RunService")
+	
 		local function glitchSound(sound)
-			if not sound:IsA("Sound") then return end
-			if sound:GetAttribute("IsGlitching") then return end
+			if not sound:IsA("Sound") or sound:GetAttribute("IsGlitching") then return end
 	
 			sound:SetAttribute("IsGlitching", true)
 			sound:Play()
 	
-			coroutine.wrap(function()
-				while sound and sound.Parent and sound:IsDescendantOf(game) do
-					if sound.IsPlaying then
-						local duration = sound.TimeLength
-						if duration > 0 then
-							local glitchType = math.random(1, 5)
-							local newPos
-	
-							if glitchType == 1 then
-								newPos = math.random() * duration
-							elseif glitchType == 2 then
-								newPos = math.clamp(sound.TimePosition - math.random(150, 500) / 1000, 0, duration)
-							elseif glitchType == 3 then
-								newPos = math.clamp(sound.TimePosition + math.random(200, 700) / 1000, 0, duration)
-							elseif glitchType == 4 then
-								newPos = math.random() * duration
-							else
-								newPos = 0
-							end
-	
-							sound.TimePosition = newPos
-						end
-					end
-					task.wait(0.01 + math.random() * 0.02)
+			local conn
+			conn = RunService.Heartbeat:Connect(function()
+				if not sound or not sound:IsDescendantOf(game) then
+					conn:Disconnect()
+					return
 				end
-			end)()
+	
+				if sound.IsPlaying then
+					local d = sound.TimeLength
+					if d > 0 then
+						local t = math.random(1,5)
+						local p
+						if t == 1 then
+							p = math.random() * d
+						elseif t == 2 then
+							p = math.clamp(sound.TimePosition - math.random(150,500)/1000, 0, d)
+						elseif t == 3 then
+							p = math.clamp(sound.TimePosition + math.random(200,700)/1000, 0, d)
+						elseif t == 4 then
+							p = math.random() * d
+						else
+							p = 0
+						end
+						sound.TimePosition = p
+					end
+				end
+			end)
 		end
 	
-		for _, descendant in ipairs(game:GetDescendants()) do
-			if descendant:IsA("Sound") then
-				glitchSound(descendant)
-			end
-		end
-	
-		game.DescendantAdded:Connect(function(descendant)
-			if descendant:IsA("Sound") then
-				glitchSound(descendant)
+		task.defer(function()
+			for _,v in ipairs(game:GetDescendants()) do
+				if v:IsA("Sound") then
+					glitchSound(v)
+				end
 			end
 		end)
 	
+		game.DescendantAdded:Connect(function(d)
+			if d:IsA("Sound") then
+				glitchSound(d)
+			end
+		end)
+	
+		
 	end)
 end;
 task.spawn(C_bd);
@@ -22522,76 +22504,21 @@ local script = G2L["bf"];
 	--local input = CoolGui.Frame.Settings
 	
 	button.MouseButton1Down:connect(function()
-		local UserInputService = game:GetService("UserInputService")
-		local Mouse = game:GetService("Players").LocalPlayer:GetMouse()
-		local Folder = Instance.new("Folder", game:GetService("Workspace"))
-		local Part = Instance.new("Part", Folder)
-		local Attachment1 = Instance.new("Attachment", Part)
-		Part.Anchored = true
-		Part.CanCollide = false
-		Part.Transparency = 1
-		local Updated = Mouse.Hit + Vector3.new(0, 5, 0)
-		local NetworkAccess = coroutine.create(function()
-			settings().Physics.AllowSleep = false
-			while game:GetService("RunService").RenderStepped:Wait() do
-				for _, Players in next, game:GetService("Players"):GetPlayers() do
-					if Players ~= game:GetService("Players").LocalPlayer then
-						Players.MaximumSimulationRadius = 0 
-						sethiddenproperty(Players, "SimulationRadius", 0) 
-					end 
-				end
-				game:GetService("Players").LocalPlayer.MaximumSimulationRadius = math.pow(math.huge,math.huge)
-			end 
-		end) 
-		coroutine.resume(NetworkAccess)
-		local function ForcePart(v)
-			if v:IsA("Part") and v.Anchored == false and v.Parent:FindFirstChild("Humanoid") == nil and v.Parent:FindFirstChild("Head") == nil and v.Name ~= "Handle" then
-				Mouse.TargetFilter = v
-				for _, x in next, v:GetChildren() do
-					if x:IsA("BodyAngularVelocity") or x:IsA("BodyForce") or x:IsA("BodyGyro") or x:IsA("BodyPosition") or x:IsA("BodyThrust") or x:IsA("BodyVelocity") or x:IsA("RocketPropulsion") then
-						x:Destroy()
-					end
-				end
-				if v:FindFirstChild("Attachment") then
-					v:FindFirstChild("Attachment"):Destroy()
-				end
-				if v:FindFirstChild("AlignPosition") then
-					v:FindFirstChild("AlignPosition"):Destroy()
-				end
-				if v:FindFirstChild("Torque") then
-					v:FindFirstChild("Torque"):Destroy()
-				end
-				v.CanCollide = false
-				local Torque = Instance.new("Torque", v)
-				Torque.Torque = Vector3.new(100000, 100000, 100000)
-				local AlignPosition = Instance.new("AlignPosition", v)
-				local Attachment2 = Instance.new("Attachment", v)
-				Torque.Attachment0 = Attachment2
-				AlignPosition.MaxForce = 9999999999999999
-				AlignPosition.MaxVelocity = math.huge
-				AlignPosition.Responsiveness = 200
-				AlignPosition.Attachment0 = Attachment2 
-				AlignPosition.Attachment1 = Attachment1
+		for _,v in pairs(game:GetDescendants()) do
+			if v:IsA("Sound") then
+				pcall(function()
+					v:Stop()
+				end)
 			end
 		end
-		for _, v in next, game:GetService("Workspace"):GetDescendants() do
-			ForcePart(v)
-		end
-		game:GetService("Workspace").DescendantAdded:Connect(function(v)
-			ForcePart(v)
-		end)
-		UserInputService.InputBegan:Connect(function(Key, Chat)
-			if Key.KeyCode == Enum.KeyCode.E and not Chat then
-				Updated = Mouse.Hit + Vector3.new(0, 5, 0)
+	
+		game.DescendantAdded:connect(function(obj)
+			if obj:IsA("Sound") then
+				pcall(function()
+					obj:Stop()
+				end)
 			end
 		end)
-		spawn(function()
-			while game:GetService("RunService").RenderStepped:Wait() do
-				Attachment1.WorldCFrame = Updated
-			end
-		end)
-	
-	
 	end)
 end;
 task.spawn(C_bf);
