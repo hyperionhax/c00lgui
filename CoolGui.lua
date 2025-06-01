@@ -28975,7 +28975,7 @@ local script = G2L["11b"];
 	--local input = CoolGui.Frame.Settings
 	
 	button.MouseButton1Down:connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Malrous/NA-Revamped/refs/heads/main/Source.lua"))();
+		loadstring(game:HttpGet("https://github.com/ltseverydayyou/Nameless-Admin/blob/main/Source.lua?raw=NEWLOADSTRINGYAYAYA"))();
 	end)
 end;
 task.spawn(C_11b);
