@@ -3459,7 +3459,7 @@ local script = G2L["d"];
 			pge2.Visible = true
 		elseif pge2.Visible == true then
 			pge2.Visible = false
-			pge1.Visible = false
+			pge1.Visible = true
 		end	
 	end)
 end;
@@ -3474,7 +3474,7 @@ local script = G2L["f"];
 	button.MouseButton1Down:connect(function()
 		if pge1.Visible == true then
 			pge1.Visible = false
-			pge2.Visible = false
+			pge2.Visible = true
 		elseif pge2.Visible == true then
 			pge2.Visible = false
 			pge1.Visible = true
@@ -28969,7 +28969,7 @@ local script = G2L["11b"];
 	--local input = CoolGui.Frame.Settings
 	
 	button.MouseButton1Down:connect(function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/Malrous/NA-Revamped/refs/heads/main/Source.lua"))();
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/ltseverydayyou/Nameless-Admin/main/Source.lua"))();
 	end)
 end;
 task.spawn(C_11b);
