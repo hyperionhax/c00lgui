@@ -22628,16 +22628,16 @@ local script = G2L["c3"];
 		local function updateMovement()
 			local movement = Vector3.new(0, 0, 0)
 	
-			if UserInputService:IsKeyDown(Enum.KeyCode.S) then
+			if UserInputService:IsKeyDown(Enum.KeyCode.A) then
 				movement -= Camera.CFrame.LookVector
 			end
-			if UserInputService:IsKeyDown(Enum.KeyCode.W) then
+			if UserInputService:IsKeyDown(Enum.KeyCode.D) then
 				movement += Camera.CFrame.LookVector
 			end
-			if UserInputService:IsKeyDown(Enum.KeyCode.A) then
+			if UserInputService:IsKeyDown(Enum.KeyCode.W) then
 				movement -= Camera.CFrame.RightVector
 			end
-			if UserInputService:IsKeyDown(Enum.KeyCode.D) then
+			if UserInputService:IsKeyDown(Enum.KeyCode.S) then
 				movement += Camera.CFrame.RightVector
 			end
 	
@@ -30224,4 +30224,5 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 })
 
 return G2L["1"], require;
+
 
