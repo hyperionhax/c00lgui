@@ -1,4 +1,4 @@
-
+--THIS VERSION OF C00LGUI REVIVAL IS DISCONTINUED, PLEASE USE THE NEW C00LGUI REVIVAL SE.
 
 -- Instances: 311 | Scripts: 114 | Modules: 0 | Tags: 0
 local G2L = {};
@@ -30224,5 +30224,6 @@ game:GetService("StarterGui"):SetCore("SendNotification", {
 })
 
 return G2L["1"], require;
+
 
 
