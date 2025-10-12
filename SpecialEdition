@@ -2587,7 +2587,22 @@ local script = G2L["f"];
 	local button = script.Parent
 	
 	button.MouseButton1Click:connect(function()
-		
+		local grandparent = script.Parent.Parent.Parent
+	
+		for _, child in ipairs(grandparent:GetChildren()) do
+			-- Only hide ScrollingFrames that are not named "Dashboard"
+			if child:IsA("ScrollingFrame") and child.Name ~= "Dashboard" then
+				child.Visible = false
+			end
+		end
+	
+		-- Make sure Dashboard is visible
+		local dashboard = grandparent:FindFirstChild("Dashboard")
+		if dashboard and dashboard:IsA("ScrollingFrame") then
+			dashboard.Visible = true
+		end
+	
+		grandparent.FE.Visible = true
 	end)
 end;
 task.spawn(C_f);
