@@ -16,7 +16,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/hyperionhax/c00lgui/r
 ```
 Legacy Edition (DISCONTINUED):
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hyperionhax/c00lgui/refs/heads/main/CoolGui.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hyperionhax/c00lgui/refs/heads/main/LegacyEdition"))()
 ```
 
 check out <strong><em>youtube.com/@team.c00lkidd</em></strong> for some videos with it.
