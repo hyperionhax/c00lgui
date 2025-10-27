@@ -1,0 +1,465 @@
+--[=[
+ d888b  db    db d888888b      .d888b.      db      db    db  .d8b.  
+88' Y8b 88    88   `88'        VP  `8D      88      88    88 d8' `8b 
+88      88    88    88            odD'      88      88    88 88ooo88 
+88  ooo 88    88    88          .88'        88      88    88 88~~~88 
+88. ~8~ 88b  d88   .88.        j88.         88booo. 88b  d88 88   88    @uniquadev
+ Y888P  ~Y8888P' Y888888P      888888D      Y88888P ~Y8888P' YP   YP  CONVERTER 
+]=]
+
+-- Instances: 26 | Scripts: 9 | Modules: 0 | Tags: 0
+local G2L = {};
+
+-- StarterGui.AudioPlayer
+G2L["1"] = Instance.new("ScreenGui", game:GetService("Players").LocalPlayer:WaitForChild("PlayerGui"));
+G2L["1"]["Name"] = [[AudioPlayer]];
+G2L["1"]["ZIndexBehavior"] = Enum.ZIndexBehavior.Sibling;
+G2L["1"]["ResetOnSpawn"] = false;
+
+
+-- StarterGui.AudioPlayer.ClickSound
+G2L["2"] = Instance.new("Sound", G2L["1"]);
+G2L["2"]["Volume"] = 0.3;
+G2L["2"]["RollOffMode"] = Enum.RollOffMode.InverseTapered;
+G2L["2"]["Name"] = [[ClickSound]];
+G2L["2"]["SoundId"] = [[rbxassetid://17767078912]];
+
+
+-- StarterGui.AudioPlayer.SoundFeedback
+G2L["3"] = Instance.new("LocalScript", G2L["1"]);
+G2L["3"]["Name"] = [[SoundFeedback]];
+
+
+-- StarterGui.AudioPlayer.FrameShadow
+G2L["4"] = Instance.new("LocalScript", G2L["1"]);
+G2L["4"]["Name"] = [[FrameShadow]];
+
+
+-- StarterGui.AudioPlayer.Frame
+G2L["5"] = Instance.new("Frame", G2L["1"]);
+G2L["5"]["Active"] = true;
+G2L["5"]["BorderSizePixel"] = 0;
+G2L["5"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["5"]["BorderMode"] = Enum.BorderMode.Inset;
+G2L["5"]["Size"] = UDim2.new(0, 362, 0, 178);
+G2L["5"]["Position"] = UDim2.new(0.11345, 312, 0.15356, 68);
+G2L["5"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- StarterGui.AudioPlayer.Frame.UICorner
+G2L["6"] = Instance.new("UICorner", G2L["5"]);
+G2L["6"]["CornerRadius"] = UDim.new(0, 10);
+
+
+-- StarterGui.AudioPlayer.Frame.Title
+G2L["7"] = Instance.new("TextLabel", G2L["5"]);
+G2L["7"]["BorderSizePixel"] = 0;
+G2L["7"]["TextSize"] = 14;
+G2L["7"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["7"]["FontFace"] = Font.new([[rbxasset://fonts/families/Nunito.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["7"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7"]["BackgroundTransparency"] = 1;
+G2L["7"]["Size"] = UDim2.new(0, 339, 0, 19);
+G2L["7"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["7"]["Text"] = [[Audio Player]];
+G2L["7"]["Name"] = [[Title]];
+G2L["7"]["Position"] = UDim2.new(0.03039, 0, 0.00562, 0);
+
+
+-- StarterGui.AudioPlayer.Frame.Title.Close
+G2L["8"] = Instance.new("TextButton", G2L["7"]);
+G2L["8"]["BorderSizePixel"] = 0;
+G2L["8"]["TextSize"] = 14;
+G2L["8"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8"]["BackgroundColor3"] = Color3.fromRGB(255, 0, 0);
+G2L["8"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["8"]["Size"] = UDim2.new(0, 10, 0, 10);
+G2L["8"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["8"]["Text"] = [[]];
+G2L["8"]["Name"] = [[Close]];
+G2L["8"]["Position"] = UDim2.new(1, 0, 0.211, 0);
+
+
+-- StarterGui.AudioPlayer.Frame.Title.Close.LocalScript
+G2L["9"] = Instance.new("LocalScript", G2L["8"]);
+
+
+
+-- StarterGui.AudioPlayer.Frame.Title.Close.UICorner
+G2L["a"] = Instance.new("UICorner", G2L["8"]);
+G2L["a"]["CornerRadius"] = UDim.new(0, 100);
+
+
+-- StarterGui.AudioPlayer.Frame.Title.Close.UIGradient
+G2L["b"] = Instance.new("UIGradient", G2L["8"]);
+G2L["b"]["Rotation"] = 90;
+G2L["b"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(0.500, Color3.fromRGB(255, 0, 0)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(204, 0, 0))};
+
+
+-- StarterGui.AudioPlayer.Frame.Frame
+G2L["c"] = Instance.new("Frame", G2L["5"]);
+G2L["c"]["BorderSizePixel"] = 0;
+G2L["c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["c"]["Size"] = UDim2.new(0, 362, 0, 151);
+G2L["c"]["Position"] = UDim2.new(0, 0, 0.11236, 0);
+G2L["c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+
+
+-- StarterGui.AudioPlayer.Frame.Frame.UIGradient
+G2L["d"] = Instance.new("UIGradient", G2L["c"]);
+G2L["d"]["Rotation"] = 90;
+G2L["d"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.500, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(214, 214, 214))};
+
+
+-- StarterGui.AudioPlayer.Frame.Frame.ID
+G2L["e"] = Instance.new("TextBox", G2L["c"]);
+G2L["e"]["Name"] = [[ID]];
+G2L["e"]["PlaceholderColor3"] = Color3.fromRGB(179, 179, 179);
+G2L["e"]["BorderSizePixel"] = 0;
+G2L["e"]["TextSize"] = 14;
+G2L["e"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e"]["BackgroundColor3"] = Color3.fromRGB(241, 241, 241);
+G2L["e"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["e"]["PlaceholderText"] = [[Music ID]];
+G2L["e"]["Size"] = UDim2.new(0, 338, 0, 21);
+G2L["e"]["Position"] = UDim2.new(0.03039, 0, 0.62252, 0);
+G2L["e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["e"]["Text"] = [[]];
+
+
+-- StarterGui.AudioPlayer.Frame.Frame.NowPlaying
+G2L["f"] = Instance.new("TextLabel", G2L["c"]);
+G2L["f"]["TextWrapped"] = true;
+G2L["f"]["BorderSizePixel"] = 0;
+G2L["f"]["TextSize"] = 18;
+G2L["f"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["f"]["FontFace"] = Font.new([[rbxasset://fonts/families/Roboto.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["f"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f"]["Size"] = UDim2.new(0, 337, 0, 33);
+G2L["f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["f"]["Text"] = [[Now Playing:]];
+G2L["f"]["Name"] = [[NowPlaying]];
+G2L["f"]["Position"] = UDim2.new(0, 12, 0, 0);
+
+
+-- StarterGui.AudioPlayer.Frame.Frame.NowPlaying.LocalScript
+G2L["10"] = Instance.new("LocalScript", G2L["f"]);
+
+
+
+-- StarterGui.AudioPlayer.Frame.Frame.VOL
+G2L["11"] = Instance.new("TextBox", G2L["c"]);
+G2L["11"]["Name"] = [[VOL]];
+G2L["11"]["PlaceholderColor3"] = Color3.fromRGB(179, 179, 179);
+G2L["11"]["BorderSizePixel"] = 0;
+G2L["11"]["TextWrapped"] = true;
+G2L["11"]["TextSize"] = 14;
+G2L["11"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11"]["BackgroundColor3"] = Color3.fromRGB(241, 241, 241);
+G2L["11"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["11"]["PlaceholderText"] = [[Volume]];
+G2L["11"]["Size"] = UDim2.new(0, 59, 0, 21);
+G2L["11"]["Position"] = UDim2.new(0.03315, 0, 0.7947, 0);
+G2L["11"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["11"]["Text"] = [[]];
+
+
+-- StarterGui.AudioPlayer.Frame.Frame.VOL.LocalScript
+G2L["12"] = Instance.new("LocalScript", G2L["11"]);
+
+
+
+-- StarterGui.AudioPlayer.Frame.Frame.PIT
+G2L["13"] = Instance.new("TextBox", G2L["c"]);
+G2L["13"]["CursorPosition"] = -1;
+G2L["13"]["Name"] = [[PIT]];
+G2L["13"]["PlaceholderColor3"] = Color3.fromRGB(179, 179, 179);
+G2L["13"]["BorderSizePixel"] = 0;
+G2L["13"]["TextWrapped"] = true;
+G2L["13"]["TextSize"] = 14;
+G2L["13"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["13"]["BackgroundColor3"] = Color3.fromRGB(241, 241, 241);
+G2L["13"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["13"]["PlaceholderText"] = [[Speed]];
+G2L["13"]["Size"] = UDim2.new(0, 59, 0, 21);
+G2L["13"]["Position"] = UDim2.new(0.22652, 0, 0.7947, 0);
+G2L["13"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["13"]["Text"] = [[]];
+
+
+-- StarterGui.AudioPlayer.Frame.Frame.PIT.LocalScript
+G2L["14"] = Instance.new("LocalScript", G2L["13"]);
+
+
+
+-- StarterGui.AudioPlayer.Frame.Frame.PLAY
+G2L["15"] = Instance.new("TextButton", G2L["c"]);
+G2L["15"]["BorderSizePixel"] = 0;
+G2L["15"]["TextSize"] = 14;
+G2L["15"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["15"]["BackgroundColor3"] = Color3.fromRGB(241, 241, 241);
+G2L["15"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["15"]["Size"] = UDim2.new(0, 90, 0, 21);
+G2L["15"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["15"]["Text"] = [[Play]];
+G2L["15"]["Name"] = [[PLAY]];
+G2L["15"]["Position"] = UDim2.new(0.41713, 0, 0.7947, 0);
+
+
+-- StarterGui.AudioPlayer.Frame.Frame.PLAY.LocalScript
+G2L["16"] = Instance.new("LocalScript", G2L["15"]);
+
+
+
+-- StarterGui.AudioPlayer.Frame.Frame.STOP
+G2L["17"] = Instance.new("TextButton", G2L["c"]);
+G2L["17"]["BorderSizePixel"] = 0;
+G2L["17"]["TextSize"] = 14;
+G2L["17"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["17"]["BackgroundColor3"] = Color3.fromRGB(241, 241, 241);
+G2L["17"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["17"]["Size"] = UDim2.new(0, 90, 0, 21);
+G2L["17"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["17"]["Text"] = [[Stop]];
+G2L["17"]["Name"] = [[STOP]];
+G2L["17"]["Position"] = UDim2.new(0.71823, 0, 0.7947, 0);
+
+
+-- StarterGui.AudioPlayer.Frame.Frame.STOP.LocalScript
+G2L["18"] = Instance.new("LocalScript", G2L["17"]);
+
+
+
+-- StarterGui.AudioPlayer.Frame.UIGradient
+G2L["19"] = Instance.new("UIGradient", G2L["5"]);
+G2L["19"]["Rotation"] = 90;
+G2L["19"]["Color"] = ColorSequence.new{ColorSequenceKeypoint.new(0.000, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(0.500, Color3.fromRGB(255, 255, 255)),ColorSequenceKeypoint.new(1.000, Color3.fromRGB(214, 214, 214))};
+
+
+-- StarterGui.AudioPlayer.Load
+G2L["1a"] = Instance.new("LocalScript", G2L["1"]);
+G2L["1a"]["Name"] = [[Load]];
+
+
+-- StarterGui.AudioPlayer.SoundFeedback
+local function C_3()
+local script = G2L["3"];
+	local screenGui = script.Parent
+	local sound = screenGui:WaitForChild("ClickSound")
+	
+	-- Function to connect click event to buttons
+	local function connectButtonClick(button)
+		if button:IsA("TextButton") or button:IsA("ImageButton") then
+			button.MouseButton1Click:Connect(function()
+				sound:Play()
+			end)
+		end
+	end
+	
+	-- Connect all current buttons
+	for _, descendant in ipairs(screenGui:GetDescendants()) do
+		connectButtonClick(descendant)
+	end
+	
+	-- Also connect to future buttons that might be added dynamically
+	screenGui.DescendantAdded:Connect(function(descendant)
+		connectButtonClick(descendant)
+	end)
+	
+end;
+task.spawn(C_3);
+-- StarterGui.AudioPlayer.FrameShadow
+local function C_4()
+local script = G2L["4"];
+	-- Function to add a shadow to a Frame
+	local function addShadowToFrame(frame: Frame)
+		-- Check if shadow already exists
+		if frame:FindFirstChild("Shadow") then return end
+	
+		-- Create shadow frame
+		local shadow = Instance.new("Frame")
+		shadow.Name = "Shadow"
+		shadow.Size = frame.Size
+		shadow.Position = frame.Position + UDim2.new(0, 4, 0, 4) -- Offset for shadow look
+		shadow.BackgroundColor3 = Color3.new(0, 0, 0)
+		shadow.BackgroundTransparency = 0.7
+		shadow.BorderSizePixel = 0
+		shadow.ZIndex = frame.ZIndex - 1
+		shadow.AnchorPoint = frame.AnchorPoint
+		shadow.Visible = frame.Visible
+		shadow.ClipsDescendants = false
+		shadow.Parent = frame.Parent
+	
+		-- Optional: Copy UICorner if it exists (for rounded corners)
+		local corner = frame:FindFirstChildOfClass("UICorner")
+		if corner then
+			local newCorner = corner:Clone()
+			newCorner.Parent = shadow
+		end
+	
+		-- Update shadow if frame size/position changes
+		frame:GetPropertyChangedSignal("Position"):Connect(function()
+			shadow.Position = frame.Position + UDim2.new(0, 4, 0, 4)
+		end)
+	
+		frame:GetPropertyChangedSignal("Size"):Connect(function()
+			shadow.Size = frame.Size
+		end)
+	
+		frame:GetPropertyChangedSignal("Visible"):Connect(function()
+			shadow.Visible = frame.Visible
+		end)
+	end
+	
+	-- Example usage: Add shadow to a specific frame
+	local frame = script.Parent:WaitForChild("Frame") -- Replace with your Frame's name
+	addShadowToFrame(frame)
+	
+end;
+task.spawn(C_4);
+-- StarterGui.AudioPlayer.Frame.Title.Close.LocalScript
+local function C_9()
+local script = G2L["9"];
+	local TweenService = game:GetService("TweenService")
+	
+	local button = script.Parent
+	local gui = button:FindFirstAncestorOfClass("ScreenGui") -- Assumes button is inside GUI
+	local frame = gui and gui:FindFirstChildWhichIsA("Frame") -- Finds first Frame to tween (can customize)
+	
+	if not gui or not frame then
+		warn("GUI or Frame not found!")
+		return
+	end
+	
+	button.MouseButton1Click:Connect(function()
+		-- Bounce out to bottom
+		local tweenOut = TweenService:Create(frame, TweenInfo.new(
+			0.6, Enum.EasingStyle.Bounce, Enum.EasingDirection.Out
+			), {
+				Position = UDim2.new(0.5, -frame.Size.X.Offset/2, 2, 0) -- Off-screen bottom
+			})
+		tweenOut:Play()
+	
+		tweenOut.Completed:Connect(function()
+			gui:Destroy()
+		end)
+	end)
+	
+end;
+task.spawn(C_9);
+-- StarterGui.AudioPlayer.Frame.Frame.NowPlaying.LocalScript
+local function C_10()
+local script = G2L["10"];
+	local marketplace = game:GetService("MarketplaceService")
+	local parent = game.Workspace
+	local label = script.Parent
+	
+	
+	local function updateLabel()
+		local sound = parent:FindFirstChild("Sound")
+		if sound and sound.SoundId ~= "" then
+			local id = tonumber(sound.SoundId:match("%d+"))
+			if id then
+				local data = marketplace:GetProductInfo(id, Enum.InfoType.Asset)
+				label.Text = "Now Playing: " .. data.Name
+				return
+			end
+		end
+		label.Text = "Now Playing: None"
+	end
+	
+	
+	updateLabel()
+	
+	parent.ChildAdded:Connect(function(child)
+		if child:IsA("Sound") then
+			updateLabel()
+		end
+	end)
+	
+	parent.ChildRemoved:Connect(function(child)
+		if child:IsA("Sound") then
+			updateLabel()
+		end
+	end)
+	
+end;
+task.spawn(C_10);
+-- StarterGui.AudioPlayer.Frame.Frame.VOL.LocalScript
+local function C_12()
+local script = G2L["12"];
+	if script.Parent.Text > 10 then
+		script.Parent.Text = "10"
+	elseif script.Parent.Text < 0 then
+		script.Parent.Text = "0"
+	end
+	
+end;
+task.spawn(C_12);
+-- StarterGui.AudioPlayer.Frame.Frame.PIT.LocalScript
+local function C_14()
+local script = G2L["14"];
+	if script.Parent.Text > 20 then
+		script.Parent.Text = "20"
+	elseif script.Parent.Text < 0 then
+		script.Parent.Text = "0"
+	end
+	
+end;
+task.spawn(C_14);
+-- StarterGui.AudioPlayer.Frame.Frame.PLAY.LocalScript
+local function C_16()
+local script = G2L["16"];
+	local button = script.Parent
+	
+	button.MouseButton1Click:connect(function()
+	for i,v in pairs(game.Workspace:GetChildren()) do
+	if v.className == "Sound" then
+	v:Stop()
+	v:Remove()	
+	end	
+	end
+	local sound = Instance.new("Sound")
+	sound.Name = "Sound"
+	sound.Parent = Workspace
+	sound.SoundId = "rbxassetid://"..script.Parent.Parent.ID.Text
+	sound.Volume = script.Parent.Parent.VOL.Text
+	sound.Pitch = script.Parent.Parent.PIT.Text
+	sound.Looped = true
+	sound:Play()
+	end)
+end;
+task.spawn(C_16);
+-- StarterGui.AudioPlayer.Frame.Frame.STOP.LocalScript
+local function C_18()
+local script = G2L["18"];
+	local button = script.Parent
+	
+	button.MouseButton1Click:connect(function()
+		for i,v in pairs(game.Workspace:GetChildren()) do
+			if v.className == "Sound" then
+				v:Stop()
+				v:Remove()	
+			end	
+		end
+	end)
+end;
+task.spawn(C_18);
+-- StarterGui.AudioPlayer.Load
+local function C_1a()
+local script = G2L["1a"];
+	
+	
+	game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "c00lgui",
+		Text = "Audio Player has loaded.",
+		Icon = "http://www.roblox.com/asset/?id=89243526849526",
+		Duration = 2,
+	})
+	
+	wait(5.5)
+	startup:Destroy()
+end;
+task.spawn(C_1a);
+
+return G2L["1"], require;
