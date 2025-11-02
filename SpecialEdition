@@ -12,4 +12,4 @@ _/ ___\/  /_\  \/  /_\  \|  |   / ___\|  |  \  | \_  __ \_/ __ \  \/ /  \  \/ /\
      Youtube: https://www.youtube.com/@team.c00lkidd
      ]]
 
-loadstring(game:HttpGet("https://raw.githubusercontent.com/hyperionhax/c00lgui/refs/heads/main/Source.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/hyperionhax/c00lgui/main/Source.lua"))()
