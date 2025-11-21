@@ -1,6 +1,6 @@
 # <span style="font-size:18px;">c00lgui revival</span>
 
-## What is c00lgui revival?
+ What is c00lgui revival?
 
 c00lgui revival is an exploiting tool for Roblox that brings back the 2014 exploiting experience in full force.
 
