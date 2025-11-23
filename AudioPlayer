@@ -453,7 +453,7 @@ local script = G2L["1a"];
 	game:GetService("StarterGui"):SetCore("SendNotification", {
 		Title = "c00lgui",
 		Text = "Audio Player has loaded.",
-		Icon = "http://www.roblox.com/asset/?id=89243526849526",
+		Icon = "http://www.roblox.com/asset/?id=117945919346512",
 		Duration = 2,
 	})
 	
