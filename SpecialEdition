@@ -12,4 +12,16 @@ _/ ___\/  /_\  \/  /_\  \|  |   / ___\|  |  \  | \_  __ \_/ __ \  \/ /  \  \/ /\
      Youtube: https://www.youtube.com/@team.c00lkidd
      ]]
 
+local CoreGui = game:GetService("CoreGui")
+local gui = CoreGui:FindFirstChild("c00lguiSE")
+
+if gui then
+game:GetService("StarterGui"):SetCore("SendNotification", {
+		Title = "c00lgui",
+		Text = "c00lgui revival is already loaded!",
+		Icon = "http://www.roblox.com/asset/?id=117945919346512",
+		Duration = 1.5,
+	})
+else
 loadstring(game:HttpGet("https://raw.githubusercontent.com/hyperionhax/c00lgui/main/Source.lua"))()
+end
