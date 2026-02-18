@@ -11,6 +11,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/hyperionhax/c00lgui/m
 # Credits
 
 - <a href="https://discord.com/users/hyperionhax">hyperionhax</a> (UI Design and Functions)<br>
+- Rouge#3813 (<a href="https://www.youtube.com/watch?v=2r2nXKprGC0">Original UI Concept</a>)<br>
 - <a href="https://github.com/ltseverydayyou/">Itseverydayyou</a> (Nameless Admin)<br>
 - <a href="https://github.com/pepfre12/">pepfre12</a> (Reanimation Script)<br>
 
