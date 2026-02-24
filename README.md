@@ -1,5 +1,7 @@
 # c00lgui revival
 
+<img src="c00lgui.png">
+
 an admin gui with clean ui, fe scripts, and features undetected to the client
 
 # Script 
@@ -13,7 +15,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/hyperionhax/c00lgui/m
 - <a href="https://discord.com/users/hyperionhax">hyperionhax</a> (UI Design and Functions)<br>
 - Rouge#3813 (<a href="https://www.youtube.com/watch?v=2r2nXKprGC0">Original UI Concept</a>)<br>
 - <a href="https://github.com/ltseverydayyou/">Itseverydayyou</a> (Nameless Admin)<br>
-- <a href="https://github.com/pepfre12/">pepfre12</a> (Reanimation Script)<br>
+- <a href="https://github.com/somethingsimade">MrY7zz</a> (CurrentAngle Reanimation)<br>
 
 <strong>SCRIPT CREDITS GO TO THEIR CREATORS</strong><br>
 
