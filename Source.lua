@@ -438,6 +438,7 @@ G2L["2a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
 G2L["2a"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Bold, Enum.FontStyle.Normal);
 G2L["2a"]["TextColor3"] = Color3.fromRGB(255, 51, 0);
 G2L["2a"]["BackgroundTransparency"] = 1;
+G2L["2a"]["RichText"] = true;
 G2L["2a"]["Size"] = UDim2.new(0, 178, 0, 32);
 G2L["2a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
 G2L["2a"]["Text"] = [[Hello, {name}!]];
@@ -1366,7 +1367,6 @@ G2L["82"]["BackgroundTransparency"] = 0.5;
 
 -- StarterGui.c00lguiSE.Main.Pages.Music.MusicControl.MusicInput
 G2L["83"] = Instance.new("TextBox", G2L["82"]);
-G2L["83"]["CursorPosition"] = -1;
 G2L["83"]["Name"] = [[MusicInput]];
 G2L["83"]["PlaceholderColor3"] = Color3.fromRGB(156, 0, 0);
 G2L["83"]["BorderSizePixel"] = 2;
@@ -1871,7 +1871,6 @@ G2L["b0"]["ScrollBarThickness"] = 7;
 
 -- StarterGui.c00lguiSE.Main.Pages.Executor.InputArea.Input
 G2L["b1"] = Instance.new("TextBox", G2L["b0"]);
-G2L["b1"]["CursorPosition"] = -1;
 G2L["b1"]["Name"] = [[Input]];
 G2L["b1"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["b1"]["BorderSizePixel"] = 0;
@@ -6044,8 +6043,11 @@ local script = G2L["4c"];
 	
 	local Players = game:GetService("Players")
 	local LocalPlayer = Players.LocalPlayer
+	local RunService = game:GetService("RunService")
 	
 	local input = button.Parent.Parent.PlayerControl.PlayerInput
+	
+	local steppedConnection
 	
 	
 	local function getChar(player)
@@ -6094,18 +6096,39 @@ local script = G2L["4c"];
 	
 	
 	local function click()
-		_G.MagnetizeToTarget = getPlr(input.Text)
+		local targets = getPlr(input.Text)
+		local targetPlayer = targets[1]
+		if not targetPlayer then return end
 	
-		game:GetService('RunService').Stepped:connect(function()
-			for i,v in pairs (game:GetService("Players").LocalPlayer.Character:GetChildren()) do
-				if v:IsA("BasePart") then 
+		local targetChar = getChar(targetPlayer)
+		local targetRoot = getRoot(targetChar)
+		local myChar = getChar(LocalPlayer)
+		local myRoot = getRoot(myChar)
+	
+		if not targetRoot or not myRoot then return end
+	
+		_G.MagnetizeToTarget = targetPlayer
+	
+		if steppedConnection then
+			steppedConnection:Disconnect()
+		end
+	
+		steppedConnection = RunService.Stepped:Connect(function()
+			for _, v in pairs(myChar:GetChildren()) do
+				if v:IsA("BasePart") then
 					v.CanCollide = false
 				end
 			end
 		end)
-		b = Instance.new("RocketPropulsion")
-		b.Parent = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
-		b.Target = game:GetService("Players"):FindFirstChild(_G.MagnetizeToTarget).Character.HumanoidRootPart
+	
+		local old = myRoot:FindFirstChildOfClass("RocketPropulsion")
+		if old then
+			old:Destroy()
+		end
+	
+		local b = Instance.new("RocketPropulsion")
+		b.Parent = myRoot
+		b.Target = targetRoot
 		b.TurnP = 20000
 		b.MaxThrust = 20000
 		b.MaxSpeed = 1000
@@ -6115,7 +6138,6 @@ local script = G2L["4c"];
 	
 	
 	button.MouseButton1Click:Connect(click)
-	
 end;
 task.spawn(C_4c);
 -- StarterGui.c00lguiSE.Main.Pages.Players.PlayerControl.SelectButton.LocalScript
@@ -13216,7 +13238,7 @@ local script = G2L["116"];
 	
 	
 	function click()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/mizu-dump/Krystal-DanceV4/refs/heads/main/source.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/hyperionhax/Scripts/refs/heads/main/KrystalDance%20V3"))()
 	end
 	
 	button.MouseButton1Click:Connect(click)
@@ -14693,6 +14715,8 @@ local script = G2L["169"];
 	
 	
 	function click()
+		wait(.1)
+		
 		if button.Text == "Show Hitboxes: OFF" then
 			button.Text = "Show Hitboxes: ON"
 			settings():GetService("RenderSettings").ShowBoundingBoxes=true
@@ -14701,9 +14725,6 @@ local script = G2L["169"];
 			settings():GetService("RenderSettings").ShowBoundingBoxes=false
 		end
 		
-		if settings():GetService("RenderSettings").ShowBoundingBoxes==true then
-			settings():GetService("RenderSettings").ShowBoundingBoxes=false
-		end
 	end
 	
 	button.MouseButton1Click:Connect(click)
@@ -14749,22 +14770,12 @@ local script = G2L["16f"];
 	local Lighting = game.Lighting
 	
 	function click()
-		Lighting:ClearAllChildren()
-		Lighting.Ambient = Color3.fromRGB(0, 0, 0)
-		Lighting.Brightness = 1.981
-		Lighting.ColorShift_Top = Color3.fromRGB(0, 0, 0)
-		Lighting.ColorShift_Bottom = Color3.fromRGB(0, 0, 0)
-		Lighting.EnvironmentDiffuseScale = 1
-		Lighting.EnvironmentSpecularScale = 1
+		Lighting.Ambient = Color3.new(0,0,0)
+		Lighting.Brightness = 1
 		Lighting.GlobalShadows = true
-		Lighting.OutdoorAmbient = Color3.fromRGB(127, 127, 127)
-		Lighting.LightingStyle = Enum.LightingStyle.Soft
-		Lighting.PrioritizeLightingQuality = false
-		Lighting.ClockTime = 14
-		Lighting.GeographicLatitude = 0
-		Lighting.FogColor = Color3.fromRGB(191, 191, 191)
 		Lighting.FogEnd = 100000
 		Lighting.FogStart = 0
+		Lighting:SetMinutesAfterMidnight(12*60)
 	end
 	
 	button.MouseButton1Click:Connect(click)
@@ -14778,17 +14789,13 @@ local script = G2L["171"];
 	
 	
 	function click()
+		wait(.1)
 		if button.Text == "Show Ownership: OFF" then
 			button.Text = "Show Ownership: ON"
 			settings().Physics.AreOwnersShown = true
 			settings().Physics.AreRegionsShown = true
 		else
 			button.Text = "Show Ownership: OFF"
-			settings().Physics.AreOwnersShown = false
-			settings().Physics.AreRegionsShown = false
-		end
-	
-		if settings().Physics.AreOwnersShown==true and settings().Physics.AreRegionsShown==true then
 			settings().Physics.AreOwnersShown = false
 			settings().Physics.AreRegionsShown = false
 		end
@@ -14805,21 +14812,10 @@ local script = G2L["173"];
 	local plrgui = game:GetService("Players").LocalPlayer.PlayerGui
 	
 	function click()
-		for i,v in pairs(workspace:GetDescendants(plrgui:GetChildren())) do
-			if v:IsA("ScreenGui") then
-				v.Enabled = not v.Enabled
-				if v.Enabled == true then
-					button.Text = "Hide GUIs: OFF"
-				else
-					button.Text = "Hide GUIs: ON"
-				end
-			end
-			
-		end
+		
 	end
 	
 	button.MouseButton1Click:Connect(click)
-	
 end;
 task.spawn(C_173);
 -- StarterGui.c00lguiSE.Main.Pages.Asset Viewer.Asset.LocalScript
