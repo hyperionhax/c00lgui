@@ -4714,7 +4714,7 @@ G2L["1ae"]["Name"] = [[UIDrag]];
 -- StarterGui.c00lguiSE.Version
 G2L["1af"] = Instance.new("StringValue", G2L["1"]);
 G2L["1af"]["Name"] = [[Version]];
-G2L["1af"]["Value"] = [[1.2]];
+G2L["1af"]["Value"] = [[1.3]];
 
 
 -- StarterGui.c00lguiSE.Maximize
