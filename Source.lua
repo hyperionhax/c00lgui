@@ -643,7 +643,7 @@ G2L["3f"] = Instance.new("LocalScript", G2L["3e"]);
 
 
 
--- StarterGui.c00lguiSE.Main.Pages.Home.HomeInfo.UserID
+-- StarterGui.c00lguiSE.Main.Pages.Home.HomeInfo.AccountAge
 G2L["40"] = Instance.new("TextLabel", G2L["2e"]);
 G2L["40"]["TextWrapped"] = true;
 G2L["40"]["BorderSizePixel"] = 2;
@@ -653,10 +653,10 @@ G2L["40"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]
 G2L["40"]["TextColor3"] = Color3.fromRGB(255, 51, 0);
 G2L["40"]["Size"] = UDim2.new(0, 114, 0, 25);
 G2L["40"]["BorderColor3"] = Color3.fromRGB(21, 21, 21);
-G2L["40"]["Name"] = [[UserID]];
+G2L["40"]["Name"] = [[AccountAge]];
 
 
--- StarterGui.c00lguiSE.Main.Pages.Home.HomeInfo.UserID.LocalScript
+-- StarterGui.c00lguiSE.Main.Pages.Home.HomeInfo.AccountAge.LocalScript
 G2L["41"] = Instance.new("LocalScript", G2L["40"]);
 
 
@@ -1986,7 +1986,6 @@ G2L["bb"]["ScrollBarThickness"] = 7;
 
 -- StarterGui.c00lguiSE.Main.Pages.Executor.InputArea.Input
 G2L["bc"] = Instance.new("TextBox", G2L["bb"]);
-G2L["bc"]["CursorPosition"] = -1;
 G2L["bc"]["Name"] = [[Input]];
 G2L["bc"]["TextXAlignment"] = Enum.TextXAlignment.Left;
 G2L["bc"]["BorderSizePixel"] = 0;
@@ -4714,7 +4713,7 @@ G2L["1ae"]["Name"] = [[UIDrag]];
 -- StarterGui.c00lguiSE.Version
 G2L["1af"] = Instance.new("StringValue", G2L["1"]);
 G2L["1af"]["Name"] = [[Version]];
-G2L["1af"]["Value"] = [[1.3]];
+G2L["1af"]["Value"] = [[1.2]];
 
 
 -- StarterGui.c00lguiSE.Maximize
@@ -5540,10 +5539,10 @@ local script = G2L["3f"];
 	script.Parent.Text = "Executor: " .. execName
 end;
 task.spawn(C_3f);
--- StarterGui.c00lguiSE.Main.Pages.Home.HomeInfo.UserID.LocalScript
+-- StarterGui.c00lguiSE.Main.Pages.Home.HomeInfo.AccountAge.LocalScript
 local function C_41()
 local script = G2L["41"];
-	script.Parent.Text = "User ID: " .. game.Players.LocalPlayer.UserId
+	script.Parent.Text = "Account Age: " .. game.Players.LocalPlayer.AccountAge
 	
 end;
 task.spawn(C_41);
@@ -6424,40 +6423,15 @@ local script = G2L["5b"];
 	
 		setHeadshot(newButton, player.UserId)
 	
-		-- CONNECT CLICK HERE
 		newButton.MouseButton1Click:Connect(function()
 			print("Selected player:", player.Name)
 			input.Text = newButton.Name
-		newButton.Parent.Visible = false
+			scrollingFrame.Visible = false -- FIXED
 		end)
 	
 		buttons[player.Name] = newButton
 		updateCanvas()
 	end
-	
-	
-	local function addPlayer(player)
-		if buttons[player.Name] then return end
-	
-		local button = template:Clone()
-		button.Name = player.Name
-		button.Text = player.Name
-		button.Visible = true
-		button.Parent = scrollingFrame
-	
-		setHeadshot(button, player.UserId)
-	
-		for _, obj in ipairs(button:GetDescendants()) do
-			if obj:IsA("LocalScript") then
-				obj.Enabled = false
-				obj.Enabled = true
-			end
-		end
-	
-		buttons[player.Name] = button
-		updateCanvas()
-	end
-	
 	
 	local function removePlayer(player)
 		local button = buttons[player.Name]
@@ -7726,7 +7700,7 @@ local script = G2L["b4"];
 		local RemoteList = {}
 	
 		for _, v in pairs(game:GetDescendants()) do
-			if v:IsA("RemoteEvent") or v:IsA("RemoteFunction") then
+			if (v:IsA("RemoteEvent") or v:IsA("RemoteFunction")) and v.Name ~= "UpdateCurrentCall" then
 				table.insert(RemoteList, v)
 			end
 		end
@@ -7735,8 +7709,7 @@ local script = G2L["b4"];
 			if not AcquiredRemote then
 				output.Text = "Checking: " .. remote.Name
 	
-				local testname = "TEST_" .. tostring(math.random(100000,999999))
-				local code = 'Instance.new("Part",workspace).Name="'..testname..'"'
+				local code = 'print("scanned with c00lgui revival // dsc.gg/teamc00lkidd"); Instance.new("Hint", workspace).Text = "team c00lkidd revival | dsc.gg/teamc00lkidd | TEAM C00LKIDD JOIN TODAY!"'
 	
 				if remote:IsA("RemoteEvent") then
 					pcall(function()
@@ -7748,15 +7721,23 @@ local script = G2L["b4"];
 					end)
 				end
 	
-				task.wait(1)
+				task.wait(.1)
 	
-				local created = workspace:FindFirstChild(testname)
-				if created then
+				local foundHint = nil
+				for _, obj in pairs(workspace:GetChildren()) do
+					if obj:IsA("Hint") and obj.Text == "team c00lkidd revival | dsc.gg/teamc00lkidd | TEAM C00LKIDD JOIN TODAY!" then
+						foundHint = obj
+						break
+					end
+				end
+	
+				if foundHint then
+					attachbutton.Interactable = false
 					AcquiredRemote = remote
-					created:Destroy()
 					remoteornah.Value = true
 					output.Text = "Attached to " .. remote.Name .. "!"
 					wait(3)
+					foundHint:Destroy()
 					output.Text = ""
 					break
 				end
@@ -7837,14 +7818,21 @@ local script = G2L["b9"];
 	
 	button.MouseButton1Click:Connect(function()
 	
-		local filename = "c00lgui/c00lgui" .. randomString(10) .. ".lua"
+		if typeof(writefile) ~= "function" then
+			output.Text = "Executor does not support writefile."
+			task.wait(2)
+			output.Text = ""
+			return
+		end
+	
+		local filename = "c00lgui/c00lgui_" .. randomString(10) .. ".lua"
 	
 		local success, result = pcall(function()
 			writefile(filename, input.Text)
 		end)
 	
 		if success then
-			output.Text = "Saved to c00lgui as: " .. filename .."!"
+			output.Text = "Saved to file as: " .. filename .. "!"
 		else
 			output.Text = result
 		end
@@ -15396,7 +15384,7 @@ local script = G2L["1b2"];
 	gui.IgnoreGuiInset = true
 	gui.Parent = player:WaitForChild("PlayerGui")
 	
-	local minimize = script.Parent.Maximize --whoops, accidentally put in minimize
+	local minimize = script.Parent.Maximize
 	
 	local targetPosition = UDim2.new(-0, 0, 0.661, 0)
 	
