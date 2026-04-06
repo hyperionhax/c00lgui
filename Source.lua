@@ -7748,7 +7748,7 @@ local script = G2L["b4"];
 					end)
 				end
 	
-				task.wait(.1)
+				task.wait(1)
 	
 				local created = workspace:FindFirstChild(testname)
 				if created then
