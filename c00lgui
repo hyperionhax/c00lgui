@@ -13,7 +13,7 @@ _/ ___\/  /_\  \/  /_\  \|  |   / ___\|  |  \  | \_  __ \_/ __ \  \/ /  \  \/ /\
      ]]
 
 local CoreGui = game:GetService("CoreGui")
-local gui = CoreGui:FindFirstChild("c00lguiSE")
+local gui = CoreGui:FindFirstChild("CrimsonUI")
 
 if gui then
 game:GetService("StarterGui"):SetCore("SendNotification", {
